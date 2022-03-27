@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LED_ARGB
+D RGB LED, anode/red/green/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP SL2.1a
+D USB 2.0 HIGH SPEED 4-PORT HUB CONTROLLER
+K connector
+F ~
+$ENDCMP
+#
+#End Doc Library

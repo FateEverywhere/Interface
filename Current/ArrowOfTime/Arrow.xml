@@ -1,0 +1,1590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>A:\Documents\GitHub\hardlight\Arrow\Arrow.sch</source>
+    <date>2021-11-12 12:51:52</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Hard Light</title>
+        <company>Everywhere Defense Industries</company>
+        <rev>Mark 2 F</rev>
+        <date>2021-07-23</date>
+        <source>Arrow.sch</source>
+        <comment number="1" value="STM32F072 instead of ATMega32u4"/>
+        <comment number="2" value="Enhanced RGB Underlight"/>
+        <comment number="3" value="Audio Interface"/>
+        <comment number="4" value="I2C and SPI communications networks"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23733</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C77CE24</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C77CEE3</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C77CF13</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C77D011</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LDO-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C83932</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LD1117S33TR_SOT223" description="800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C77EC95</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C77ED4B</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C77F97E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>5k1</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25905</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61334A33</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>5k1</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25905</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61335916</tstamp>
+    </comp>
+    <comp ref="F0">
+      <value>6v 500ma</value>
+      <footprint>Fuse:Fuse_0603_1608Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207011</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171CB11</tstamp>
+    </comp>
+    <comp ref="Z0">
+      <value>EDI Logo</value>
+      <footprint>EDI:EDILogo</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Graphic" part="SYM_Magnet_Small" description="Magnetic field warning symbol, small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61EA0765</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>Mount</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D8FC2A</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>Mount</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D90995</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>Mount</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E29FE5</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>Mount</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E29FEF</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>RESET</value>
+      <footprint>Button_Switch_SMD:SW_SPST_SKQG_WithoutStem</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C116647</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7A3778</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7A37EE</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>LDR</value>
+      <footprint>Button_Switch_SMD:SW_SPST_SKQG_WithoutStem</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C116647</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7A96C8</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7A9861</tstamp>
+    </comp>
+    <comp ref="J0">
+      <value>USB</value>
+      <footprint>Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C165948</field>
+      </fields>
+      <libsource lib="HL-Mk2-rescue" part="USB_C_Receptacle_USB2.0-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C784683</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610C4AF8</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619EB7DC</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Main Drive</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811061539_Diodes-Incorporated-AH49ENTR-G1_C314698.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C314698</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A18992</tstamp>
+    </comp>
+    <comp ref="Z2">
+      <value>DF Logo</value>
+      <footprint>EDI:DF</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Graphic" part="SYM_Magnet_Small" description="Magnetic field warning symbol, small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61785075</tstamp>
+    </comp>
+    <comp ref="U0">
+      <value>STM32F072CxT6</value>
+      <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C81720</field>
+      </fields>
+      <libsource lib="MCU_ST_STM32F0" part="STM32F072CBTx" description="ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, LQFP-48"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6A0E52</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6189CD1B</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6189D302</tstamp>
+    </comp>
+    <comp ref="K3">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6189DC31</tstamp>
+    </comp>
+    <comp ref="K4">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6189E816</tstamp>
+    </comp>
+    <comp ref="K5">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6189E820</tstamp>
+    </comp>
+    <comp ref="K6">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6189E82A</tstamp>
+    </comp>
+    <comp ref="K7">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618AAF27</tstamp>
+    </comp>
+    <comp ref="K8">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618AAF31</tstamp>
+    </comp>
+    <comp ref="K9">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618AAF3B</tstamp>
+    </comp>
+    <comp ref="K10">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618B7720</tstamp>
+    </comp>
+    <comp ref="K11">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618B772A</tstamp>
+    </comp>
+    <comp ref="K12">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618B7734</tstamp>
+    </comp>
+    <comp ref="K13">
+      <value>OmniSwitch</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AB15CD</tstamp>
+    </comp>
+    <comp ref="K14">
+      <value>OmniSwitch</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AB15D7</tstamp>
+    </comp>
+    <comp ref="K15">
+      <value>OmniSwitch</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AB15E1</tstamp>
+    </comp>
+    <comp ref="TX0">
+      <value>Speaker_Crystal</value>
+      <footprint>Buzzer_Beeper:Buzzer_CUI_CPT-9019S-SMT</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C968734</field>
+      </fields>
+      <libsource lib="Device" part="Speaker_Crystal" description="Crystal speaker/transducer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CD2F07</tstamp>
+    </comp>
+    <comp ref="TX1">
+      <value>Speaker_Crystal</value>
+      <footprint>Buzzer_Beeper:Buzzer_CUI_CPT-9019S-SMT</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C968734</field>
+      </fields>
+      <libsource lib="Device" part="Speaker_Crystal" description="Crystal speaker/transducer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CD5514</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>R/T Tuning</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617CA4A3</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6184031D</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618408F8</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61840D93</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61841830</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61841E35</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618425D0</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61842B5D</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618430C4</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6184360F</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61843982</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61843E6F</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618443D8</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61844907</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61844E2C</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2k2</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25879</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616F92A8</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>2k2</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25879</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616FA261</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Display</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6170208F</tstamp>
+    </comp>
+    <comp ref="KG1">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECE64</tstamp>
+    </comp>
+    <comp ref="KG6">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECE6E</tstamp>
+    </comp>
+    <comp ref="KG2">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECE78</tstamp>
+    </comp>
+    <comp ref="KG7">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECE82</tstamp>
+    </comp>
+    <comp ref="KG3">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECE8C</tstamp>
+    </comp>
+    <comp ref="KG8">
+      <value>OmniSwitch</value>
+      <footprint>EDI:OmniSwitch-1U</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECE96</tstamp>
+    </comp>
+    <comp ref="KG4">
+      <value>OmniSwitch</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECEA0</tstamp>
+    </comp>
+    <comp ref="KG9">
+      <value>OmniSwitch</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECEAA</tstamp>
+    </comp>
+    <comp ref="KG5">
+      <value>OmniSwitch</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECEC2</tstamp>
+    </comp>
+    <comp ref="KG10">
+      <value>OmniSwitch</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECECC</tstamp>
+    </comp>
+    <comp ref="DG1">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECE5A</tstamp>
+    </comp>
+    <comp ref="DG6">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECEDB</tstamp>
+    </comp>
+    <comp ref="DG2">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECEE6</tstamp>
+    </comp>
+    <comp ref="DG7">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECEF1</tstamp>
+    </comp>
+    <comp ref="DG3">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECEFC</tstamp>
+    </comp>
+    <comp ref="DG8">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECF07</tstamp>
+    </comp>
+    <comp ref="DG4">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECF12</tstamp>
+    </comp>
+    <comp ref="DG9">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECF1D</tstamp>
+    </comp>
+    <comp ref="DG5">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECF28</tstamp>
+    </comp>
+    <comp ref="DG10">
+      <value>1N4148</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C507292</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618ECF33</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>GripLink</value>
+      <footprint>Connector_JST:JST_PHD_B18B-PHDSS_2x09_P2.00mm_Vertical</footprint>
+      <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
+      <libsource lib="Connector" part="Conn_01x18_Female" description="Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618D1696</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>BaseLink</value>
+      <footprint>Connector_JST:JST_PHD_B18B-PHDSS_2x09_P2.00mm_Vertical</footprint>
+      <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
+      <libsource lib="Connector" part="Conn_01x18_Female" description="Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619577C8</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Sensor Radius</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6199E08E</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Thumbstick</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619A0743</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Subtarget Select</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619ACC7E</tstamp>
+    </comp>
+    <comp ref="Z1">
+      <value>Mission Statement</value>
+      <footprint>EDI:mission_statement</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Graphic" part="SYM_Magnet_Small" description="Magnetic field warning symbol, small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619F3865</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x18_Female">
+      <description>Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x18_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Small">
+      <description>Diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Speaker_Crystal">
+      <aliases>
+        <alias>Speaker_Ultrasound</alias>
+      </aliases>
+      <description>Crystal speaker/transducer</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">Speaker_Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Graphic" part="SYM_Magnet_Small">
+      <description>Magnetic field warning symbol, small</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#SYM</field>
+        <field name="Value">SYM_Magnet_Small</field>
+      </fields>
+    </libpart>
+    <libpart lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts">
+      <fields>
+        <field name="Reference">K?</field>
+        <field name="Value">KEYSW-keyboard_parts</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HL-Mk2-rescue" part="USB_C_Receptacle_USB2.0-Connector">
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0-Connector</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="power_in"/>
+        <pin num="A4" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32F0" part="STM32F072C8Tx">
+      <aliases>
+        <alias>STM32F072CBTx</alias>
+      </aliases>
+      <description>ARM Cortex-M0 MCU, 64KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, LQFP-48</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf</docs>
+      <footprints>
+        <fp>LQFP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F072C8Tx</field>
+        <field name="Footprint">Package_QFP:LQFP-48_7x7mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="PC14" type="BiDi"/>
+        <pin num="4" name="PC15" type="BiDi"/>
+        <pin num="5" name="PF0" type="input"/>
+        <pin num="6" name="PF1" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="VSSA" type="power_in"/>
+        <pin num="9" name="VDDA" type="power_in"/>
+        <pin num="10" name="PA0" type="BiDi"/>
+        <pin num="11" name="PA1" type="BiDi"/>
+        <pin num="12" name="PA2" type="BiDi"/>
+        <pin num="13" name="PA3" type="BiDi"/>
+        <pin num="14" name="PA4" type="BiDi"/>
+        <pin num="15" name="PA5" type="BiDi"/>
+        <pin num="16" name="PA6" type="BiDi"/>
+        <pin num="17" name="PA7" type="BiDi"/>
+        <pin num="18" name="PB0" type="BiDi"/>
+        <pin num="19" name="PB1" type="BiDi"/>
+        <pin num="20" name="PB2" type="BiDi"/>
+        <pin num="21" name="PB10" type="BiDi"/>
+        <pin num="22" name="PB11" type="BiDi"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB12" type="BiDi"/>
+        <pin num="26" name="PB13" type="BiDi"/>
+        <pin num="27" name="PB14" type="BiDi"/>
+        <pin num="28" name="PB15" type="BiDi"/>
+        <pin num="29" name="PA8" type="BiDi"/>
+        <pin num="30" name="PA9" type="BiDi"/>
+        <pin num="31" name="PA10" type="BiDi"/>
+        <pin num="32" name="PA11" type="BiDi"/>
+        <pin num="33" name="PA12" type="BiDi"/>
+        <pin num="34" name="PA13" type="BiDi"/>
+        <pin num="35" name="VSS" type="power_in"/>
+        <pin num="36" name="VDDIO2" type="power_in"/>
+        <pin num="37" name="PA14" type="BiDi"/>
+        <pin num="38" name="PA15" type="BiDi"/>
+        <pin num="39" name="PB3" type="BiDi"/>
+        <pin num="40" name="PB4" type="BiDi"/>
+        <pin num="41" name="PB5" type="BiDi"/>
+        <pin num="42" name="PB6" type="BiDi"/>
+        <pin num="43" name="PB7" type="BiDi"/>
+        <pin num="44" name="BOOT0" type="input"/>
+        <pin num="45" name="PB8" type="BiDi"/>
+        <pin num="46" name="PB9" type="BiDi"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP1117-15">
+      <aliases>
+        <alias>AP1117-18</alias>
+        <alias>AP1117-25</alias>
+        <alias>AP1117-33</alias>
+        <alias>AP1117-50</alias>
+        <alias>LD1117S33TR_SOT223</alias>
+        <alias>LD1117S12TR_SOT223</alias>
+        <alias>LD1117S18TR_SOT223</alias>
+        <alias>LD1117S25TR_SOT223</alias>
+        <alias>LD1117S50TR_SOT223</alias>
+        <alias>NCP1117-12_SOT223</alias>
+        <alias>NCP1117-1.5_SOT223</alias>
+        <alias>NCP1117-1.8_SOT223</alias>
+        <alias>NCP1117-2.0_SOT223</alias>
+        <alias>NCP1117-2.5_SOT223</alias>
+        <alias>NCP1117-2.85_SOT223</alias>
+        <alias>NCP1117-3.3_SOT223</alias>
+        <alias>NCP1117-5.0_SOT223</alias>
+        <alias>AMS1117-1.5</alias>
+        <alias>AMS1117-1.8</alias>
+        <alias>AMS1117-2.5</alias>
+        <alias>AMS1117-2.85</alias>
+        <alias>AMS1117-3.3</alias>
+        <alias>AMS1117-5.0</alias>
+      </aliases>
+      <description>1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223</description>
+      <docs>http://www.diodes.com/datasheets/AP1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP1117-15</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Graphic.lib</uri>
+    </library>
+    <library logical="HL-Mk2-rescue">
+      <uri>A:\Documents\GitHub\hardlight\Arrow/HL-Mk2-rescue.lib</uri>
+    </library>
+    <library logical="MCU_ST_STM32F0">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_ST_STM32F0.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J2" pin="16"/>
+      <node ref="J2" pin="9"/>
+      <node ref="J2" pin="18"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J2" pin="13"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J0" pin="A1"/>
+      <node ref="J0" pin="A12"/>
+      <node ref="C8" pin="2"/>
+      <node ref="S1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J3" pin="18"/>
+      <node ref="J3" pin="16"/>
+      <node ref="J3" pin="13"/>
+      <node ref="J3" pin="9"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="TX0" pin="2"/>
+      <node ref="U0" pin="8"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="TX1" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="H4" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U0" pin="35"/>
+      <node ref="U0" pin="47"/>
+      <node ref="U0" pin="23"/>
+      <node ref="J0" pin="S1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="H3" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J0" pin="B12"/>
+      <node ref="J0" pin="B1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="H2" pin="1"/>
+      <node ref="H1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="2" name="col0">
+      <node ref="KG4" pin="1"/>
+      <node ref="U0" pin="41"/>
+      <node ref="J3" pin="1"/>
+      <node ref="KG3" pin="1"/>
+      <node ref="KG5" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="KG2" pin="1"/>
+      <node ref="KG1" pin="1"/>
+    </net>
+    <net code="3" name="col1">
+      <node ref="KG7" pin="1"/>
+      <node ref="KG6" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="KG10" pin="1"/>
+      <node ref="KG9" pin="1"/>
+      <node ref="KG8" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U0" pin="40"/>
+    </net>
+    <net code="4" name="+3V3">
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="S2" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J2" pin="17"/>
+      <node ref="U0" pin="36"/>
+      <node ref="U0" pin="9"/>
+      <node ref="U0" pin="48"/>
+      <node ref="J6" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U0" pin="24"/>
+      <node ref="J8" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J3" pin="17"/>
+      <node ref="U0" pin="1"/>
+    </net>
+    <net code="5" name="I2C-SDA">
+      <node ref="R5" pin="2"/>
+      <node ref="J5" pin="3"/>
+      <node ref="U0" pin="45"/>
+    </net>
+    <net code="6" name="I2C-SCL">
+      <node ref="R4" pin="1"/>
+      <node ref="U0" pin="43"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="7" name="Net-(DG1-Pad2)">
+      <node ref="KG1" pin="2"/>
+      <node ref="DG1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(DG6-Pad2)">
+      <node ref="KG6" pin="2"/>
+      <node ref="DG6" pin="2"/>
+    </net>
+    <net code="9" name="Net-(DG2-Pad2)">
+      <node ref="KG2" pin="2"/>
+      <node ref="DG2" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="K9" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="K5" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="K6" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="K7" pin="2"/>
+    </net>
+    <net code="14" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="K8" pin="2"/>
+    </net>
+    <net code="15" name="row2">
+      <node ref="J2" pin="6"/>
+      <node ref="D7" pin="1"/>
+      <node ref="DG8" pin="1"/>
+      <node ref="DG3" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="U0" pin="4"/>
+      <node ref="J3" pin="6"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="16" name="row1">
+      <node ref="D6" pin="1"/>
+      <node ref="DG2" pin="1"/>
+      <node ref="U0" pin="3"/>
+      <node ref="DG7" pin="1"/>
+      <node ref="J3" pin="5"/>
+      <node ref="D4" pin="1"/>
+      <node ref="J2" pin="5"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="K10" pin="2"/>
+    </net>
+    <net code="18" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+      <node ref="K11" pin="2"/>
+    </net>
+    <net code="19" name="row3">
+      <node ref="U0" pin="5"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="DG9" pin="1"/>
+      <node ref="J2" pin="7"/>
+      <node ref="DG4" pin="1"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="20" name="Net-(D12-Pad2)">
+      <node ref="K12" pin="2"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="21" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2"/>
+      <node ref="K13" pin="2"/>
+    </net>
+    <net code="22" name="rY">
+      <node ref="J4" pin="2"/>
+      <node ref="U0" pin="16"/>
+    </net>
+    <net code="23" name="row4">
+      <node ref="J2" pin="8"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="J3" pin="8"/>
+      <node ref="U0" pin="6"/>
+      <node ref="D13" pin="1"/>
+      <node ref="DG5" pin="1"/>
+      <node ref="DG10" pin="1"/>
+    </net>
+    <net code="24" name="Net-(D2-Pad2)">
+      <node ref="K2" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="25" name="row0">
+      <node ref="DG6" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="DG1" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="U0" pin="2"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J2" pin="4"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="26" name="Net-(D3-Pad2)">
+      <node ref="K3" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="27" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="K4" pin="2"/>
+    </net>
+    <net code="28" name="col2">
+      <node ref="K7" pin="1"/>
+      <node ref="K1" pin="1"/>
+      <node ref="U0" pin="39"/>
+      <node ref="K13" pin="1"/>
+      <node ref="K10" pin="1"/>
+      <node ref="K4" pin="1"/>
+    </net>
+    <net code="29" name="Net-(D14-Pad2)">
+      <node ref="K14" pin="2"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="30" name="Net-(D15-Pad2)">
+      <node ref="K15" pin="2"/>
+      <node ref="D15" pin="2"/>
+    </net>
+    <net code="31" name="Net-(DG7-Pad2)">
+      <node ref="KG7" pin="2"/>
+      <node ref="DG7" pin="2"/>
+    </net>
+    <net code="32" name="X">
+      <node ref="U0" pin="10"/>
+      <node ref="J8" pin="3"/>
+      <node ref="J2" pin="11"/>
+      <node ref="J3" pin="11"/>
+    </net>
+    <net code="33" name="Y">
+      <node ref="J8" pin="4"/>
+      <node ref="J2" pin="12"/>
+      <node ref="J3" pin="12"/>
+      <node ref="U0" pin="11"/>
+    </net>
+    <net code="34" name="Net-(DG4-Pad2)">
+      <node ref="KG4" pin="2"/>
+      <node ref="DG4" pin="2"/>
+    </net>
+    <net code="35" name="Net-(DG3-Pad2)">
+      <node ref="DG3" pin="2"/>
+      <node ref="KG3" pin="2"/>
+    </net>
+    <net code="36" name="Net-(DG8-Pad2)">
+      <node ref="DG8" pin="2"/>
+      <node ref="KG8" pin="2"/>
+    </net>
+    <net code="37" name="Net-(DG9-Pad2)">
+      <node ref="KG9" pin="2"/>
+      <node ref="DG9" pin="2"/>
+    </net>
+    <net code="38" name="Net-(DG5-Pad2)">
+      <node ref="KG5" pin="2"/>
+      <node ref="DG5" pin="2"/>
+    </net>
+    <net code="39" name="Net-(DG10-Pad2)">
+      <node ref="KG10" pin="2"/>
+      <node ref="DG10" pin="2"/>
+    </net>
+    <net code="40" name="5v">
+      <node ref="F0" pin="1"/>
+      <node ref="J0" pin="B9"/>
+      <node ref="J0" pin="A4"/>
+      <node ref="J0" pin="A9"/>
+      <node ref="J0" pin="B4"/>
+    </net>
+    <net code="41" name="BOOT0">
+      <node ref="U0" pin="44"/>
+      <node ref="S2" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="42" name="Net-(J0-PadB8)">
+      <node ref="J0" pin="B8"/>
+    </net>
+    <net code="43" name="Net-(J0-PadA8)">
+      <node ref="J0" pin="A8"/>
+    </net>
+    <net code="44" name="D+">
+      <node ref="J0" pin="B6"/>
+      <node ref="U0" pin="33"/>
+      <node ref="J0" pin="A6"/>
+    </net>
+    <net code="45" name="D-">
+      <node ref="J0" pin="B7"/>
+      <node ref="U0" pin="32"/>
+      <node ref="J0" pin="A7"/>
+    </net>
+    <net code="46" name="Net-(J0-PadB5)">
+      <node ref="R3" pin="2"/>
+      <node ref="J0" pin="B5"/>
+    </net>
+    <net code="47" name="Net-(J0-PadA5)">
+      <node ref="R2" pin="1"/>
+      <node ref="J0" pin="A5"/>
+    </net>
+    <net code="48" name="VBUS">
+      <node ref="C7" pin="2"/>
+      <node ref="F0" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="49" name="NRST">
+      <node ref="U0" pin="7"/>
+      <node ref="S1" pin="1"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="50" name="Net-(D1-Pad2)">
+      <node ref="K1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="51" name="col3">
+      <node ref="U0" pin="38"/>
+      <node ref="K2" pin="1"/>
+      <node ref="K5" pin="1"/>
+      <node ref="K11" pin="1"/>
+      <node ref="K14" pin="1"/>
+      <node ref="K8" pin="1"/>
+    </net>
+    <net code="52" name="col4">
+      <node ref="K15" pin="1"/>
+      <node ref="K6" pin="1"/>
+      <node ref="K9" pin="1"/>
+      <node ref="U0" pin="37"/>
+      <node ref="K3" pin="1"/>
+      <node ref="K12" pin="1"/>
+    </net>
+    <net code="53" name="AUDIO0">
+      <node ref="TX0" pin="1"/>
+      <node ref="U0" pin="14"/>
+    </net>
+    <net code="54" name="AUDIO1">
+      <node ref="TX1" pin="1"/>
+      <node ref="U0" pin="15"/>
+    </net>
+    <net code="55" name="rX">
+      <node ref="J3" pin="10"/>
+      <node ref="U0" pin="13"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="56" name="Z">
+      <node ref="U0" pin="12"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="57" name="Net-(U0-Pad34)">
+      <node ref="U0" pin="34"/>
+    </net>
+    <net code="58" name="Net-(U0-Pad31)">
+      <node ref="U0" pin="31"/>
+    </net>
+    <net code="59" name="Net-(U0-Pad42)">
+      <node ref="U0" pin="42"/>
+    </net>
+    <net code="60" name="Net-(U0-Pad46)">
+      <node ref="U0" pin="46"/>
+    </net>
+    <net code="61" name="E0A">
+      <node ref="U0" pin="17"/>
+      <node ref="J2" pin="14"/>
+      <node ref="J3" pin="14"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="62" name="E0B">
+      <node ref="J3" pin="15"/>
+      <node ref="J7" pin="1"/>
+      <node ref="U0" pin="18"/>
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="63" name="Net-(U0-Pad19)">
+      <node ref="U0" pin="19"/>
+    </net>
+    <net code="64" name="Net-(U0-Pad20)">
+      <node ref="U0" pin="20"/>
+    </net>
+    <net code="65" name="Net-(U0-Pad21)">
+      <node ref="U0" pin="21"/>
+    </net>
+    <net code="66" name="Net-(U0-Pad22)">
+      <node ref="U0" pin="22"/>
+    </net>
+    <net code="67" name="Net-(U0-Pad25)">
+      <node ref="U0" pin="25"/>
+    </net>
+    <net code="68" name="Net-(U0-Pad26)">
+      <node ref="U0" pin="26"/>
+    </net>
+    <net code="69" name="Net-(U0-Pad27)">
+      <node ref="U0" pin="27"/>
+    </net>
+    <net code="70" name="Net-(U0-Pad28)">
+      <node ref="U0" pin="28"/>
+    </net>
+    <net code="71" name="Net-(U0-Pad29)">
+      <node ref="U0" pin="29"/>
+    </net>
+    <net code="72" name="Net-(U0-Pad30)">
+      <node ref="U0" pin="30"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,1915 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLegal 14000 8500
+encoding utf-8
+Sheet 1 1
+Title "Hard Light"
+Date "2021-07-23"
+Rev "Mark 2 F"
+Comp "Everywhere Defense Industries"
+Comment1 "STM32F072 instead of ATMega32u4"
+Comment2 "Enhanced RGB Underlight"
+Comment3 "Audio Interface"
+Comment4 "I2C and SPI communications networks"
+$EndDescr
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 5C6A1028
+P 6800 5200
+F 0 "#PWR0101" H 6800 5050 50  0001 C CNN
+F 1 "+3V3" H 6815 5373 50  0000 C CNN
+F 2 "" H 6800 5200 50  0001 C CNN
+F 3 "" H 6800 5200 50  0001 C CNN
+	1    6800 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5C6A107D
+P 9800 5250
+F 0 "#PWR0102" H 9800 5000 50  0001 C CNN
+F 1 "GND" H 9805 5077 50  0000 C CNN
+F 2 "" H 9800 5250 50  0001 C CNN
+F 3 "" H 9800 5250 50  0001 C CNN
+	1    9800 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5C77CE24
+P 5850 3000
+F 0 "C1" H 5942 3046 50  0000 L CNN
+F 1 "4.7uF" H 5942 2955 50  0000 L CNN
+F 2 "EDI:Passive_0402_1005Metric" H 5850 3000 50  0001 C CNN
+F 3 "~" H 5850 3000 50  0001 C CNN
+F 4 "C23733" H 5850 3000 50  0001 C CNN "LCSC"
+	1    5850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5C77CEE3
+P 6250 3000
+F 0 "C2" H 6342 3046 50  0000 L CNN
+F 1 "100nF" H 6342 2955 50  0000 L CNN
+F 2 "EDI:Passive_0402_1005Metric" H 6250 3000 50  0001 C CNN
+F 3 "~" H 6250 3000 50  0001 C CNN
+F 4 "C1525" H 6250 3000 50  0001 C CNN "LCSC"
+	1    6250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5C77CF13
+P 6650 3000
+F 0 "C3" H 6742 3046 50  0000 L CNN
+F 1 "100nF" H 6742 2955 50  0000 L CNN
+F 2 "EDI:Passive_0402_1005Metric" H 6650 3000 50  0001 C CNN
+F 3 "~" H 6650 3000 50  0001 C CNN
+F 4 "C1525" H 6650 3000 50  0001 C CNN "LCSC"
+	1    6650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5C77D011
+P 7050 3000
+F 0 "C4" H 7142 3046 50  0000 L CNN
+F 1 "100nF" H 7142 2955 50  0000 L CNN
+F 2 "EDI:Passive_0402_1005Metric" H 7050 3000 50  0001 C CNN
+F 3 "~" H 7050 3000 50  0001 C CNN
+F 4 "C1525" H 7050 3000 50  0001 C CNN "LCSC"
+	1    7050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5C77E16F
+P 6650 3100
+F 0 "#PWR0104" H 6650 2850 50  0001 C CNN
+F 1 "GND" H 6655 2927 50  0000 C CNN
+F 2 "" H 6650 3100 50  0001 C CNN
+F 3 "" H 6650 3100 50  0001 C CNN
+	1    6650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LD1117S33TR_SOT223 U1
+U 1 1 5C77EC95
+P 6100 6200
+F 0 "U1" H 6100 6442 50  0000 C CNN
+F 1 "LDO-3.3" H 6100 6351 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6100 6400 50  0001 C CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 6200 5950 50  0001 C CNN
+F 4 "C83932" H 6100 6200 50  0001 C CNN "LCSC"
+	1    6100 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5C77ED4B
+P 5800 6300
+F 0 "C7" H 5892 6346 50  0000 L CNN
+F 1 "100nF" H 5892 6255 50  0000 L CNN
+F 2 "EDI:Passive_0402_1005Metric" H 5800 6300 50  0001 C CNN
+F 3 "~" H 5800 6300 50  0001 C CNN
+F 4 "C1525" H 5800 6300 50  0001 C CNN "LCSC"
+	1    5800 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5C77F97E
+P 6400 6300
+F 0 "C6" H 6492 6346 50  0000 L CNN
+F 1 "10uF" H 6492 6255 50  0000 L CNN
+F 2 "EDI:Passive_0402_1005Metric" H 6400 6300 50  0001 C CNN
+F 3 "~" H 6400 6300 50  0001 C CNN
+F 4 "C15525" H 6400 6300 50  0001 C CNN "LCSC"
+	1    6400 6300
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5C780E8A
+P 6100 6500
+F 0 "#PWR0105" H 6100 6250 50  0001 C CNN
+F 1 "GND" H 6105 6327 50  0000 C CNN
+F 2 "" H 6100 6500 50  0001 C CNN
+F 3 "" H 6100 6500 50  0001 C CNN
+	1    6100 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 5C780F35
+P 6400 6200
+F 0 "#PWR0106" H 6400 6050 50  0001 C CNN
+F 1 "+3V3" H 6415 6373 50  0000 C CNN
+F 2 "" H 6400 6200 50  0001 C CNN
+F 3 "" H 6400 6200 50  0001 C CNN
+	1    6400 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR0107
+U 1 1 5C781EF4
+P 5800 6200
+F 0 "#PWR0107" H 5800 6050 50  0001 C CNN
+F 1 "VBUS" H 5815 6373 50  0000 C CNN
+F 2 "" H 5800 6200 50  0001 C CNN
+F 3 "" H 5800 6200 50  0001 C CNN
+	1    5800 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5C786695
+P 5750 1450
+F 0 "#PWR0108" H 5750 1200 50  0001 C CNN
+F 1 "GND" H 5755 1277 50  0000 C CNN
+F 2 "" H 5750 1450 50  0001 C CNN
+F 3 "" H 5750 1450 50  0001 C CNN
+	1    5750 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VBUS #PWR0109
+U 1 1 5C787488
+P 7250 2400
+F 0 "#PWR0109" H 7250 2250 50  0001 C CNN
+F 1 "VBUS" H 7265 2573 50  0000 C CNN
+F 2 "" H 7250 2400 50  0001 C CNN
+F 3 "" H 7250 2400 50  0001 C CNN
+	1    7250 2400
+	-1   0    0    1   
+$EndComp
+Text GLabel 6550 2200 3    50   Input ~ 0
+D+
+Text GLabel 6650 2200 3    50   Input ~ 0
+D-
+Text GLabel 7000 5900 3    50   Input ~ 0
+NRST
+Text GLabel 7200 5900 3    50   Input ~ 0
+BOOT0
+Text GLabel 6000 4800 0    50   Input ~ 0
+NRST
+$Comp
+L power:GND #PWR0110
+U 1 1 5C7A837F
+P 6000 5000
+F 0 "#PWR0110" H 6000 4750 50  0001 C CNN
+F 1 "GND" H 6005 4827 50  0000 C CNN
+F 2 "" H 6000 5000 50  0001 C CNN
+F 3 "" H 6000 5000 50  0001 C CNN
+	1    6000 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 9300 4600 1    50   Input ~ 0
+D+
+Text GLabel 9200 4600 1    50   Input ~ 0
+D-
+Text GLabel 8900 4600 1    50   Input ~ 0
+row0
+Text GLabel 9600 5900 3    50   Input ~ 0
+row1
+Text GLabel 8500 5900 3    50   Output ~ 0
+col1
+Text GLabel 8400 5900 3    50   Output ~ 0
+col2
+Text GLabel 9600 4600 1    50   Output ~ 0
+col3
+Text GLabel 9500 4600 1    50   Output ~ 0
+col4
+Text GLabel 8600 5900 3    50   Output ~ 0
+col0
+$Comp
+L Device:R_Small R3
+U 1 1 61334A33
+P 6950 2300
+F 0 "R3" H 6975 2250 50  0000 L CNN
+F 1 "5k1" V 7025 2275 50  0000 L CNN
+F 2 "EDI:Passive_0402_1005Metric" H 6950 2300 50  0001 C CNN
+F 3 "~" H 6950 2300 50  0001 C CNN
+F 4 "C25905" H 6950 2300 50  0001 C CNN "LCSC"
+	1    6950 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 61335916
+P 7050 2300
+F 0 "R2" H 7075 2350 50  0000 L CNN
+F 1 "5k1" V 7125 2175 50  0000 L CNN
+F 2 "EDI:Passive_0402_1005Metric" H 7050 2300 50  0001 C CNN
+F 3 "~" H 7050 2300 50  0001 C CNN
+F 4 "C25905" H 7050 2300 50  0001 C CNN "LCSC"
+	1    7050 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse_Small F0
+U 1 1 6171CB11
+P 7250 2300
+F 0 "F0" H 7318 2346 50  0000 L CNN
+F 1 "6v 500ma" H 7318 2255 50  0000 L CNN
+F 2 "Fuse:Fuse_0603_1608Metric_Castellated" H 7300 2100 50  0001 L CNN
+F 3 "~" H 7250 2300 50  0001 C CNN
+F 4 "C207011" H 7250 2300 50  0001 C CNN "LCSC"
+	1    7250 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 6800 5200
+Connection ~ 9800 5250
+$Comp
+L Graphic:SYM_Magnet_Small Z0
+U 1 1 61EA0765
+P 13350 7500
+F 0 "Z0" H 13350 7775 50  0001 C CNN
+F 1 "EDI Logo" H 13350 7275 50  0001 C CNN
+F 2 "EDI:EDILogo" H 13350 7500 50  0001 C CNN
+F 3 "~" H 13350 7500 50  0001 C CNN
+	1    13350 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 60D8FC2A
+P 7850 1500
+F 0 "H1" V 7804 1650 50  0000 L CNN
+F 1 "Mount" V 7895 1650 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 7850 1500 50  0001 C CNN
+F 3 "~" H 7850 1500 50  0001 C CNN
+	1    7850 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 60D90995
+P 8050 1500
+F 0 "H2" V 8004 1650 50  0000 L CNN
+F 1 "Mount" V 8095 1650 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8050 1500 50  0001 C CNN
+F 3 "~" H 8050 1500 50  0001 C CNN
+	1    8050 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 60E29FE5
+P 8250 1500
+F 0 "H3" V 8204 1650 50  0000 L CNN
+F 1 "Mount" V 8295 1650 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8250 1500 50  0001 C CNN
+F 3 "~" H 8250 1500 50  0001 C CNN
+	1    8250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 60E29FEF
+P 8450 1500
+F 0 "H4" V 8404 1650 50  0000 L CNN
+F 1 "Mount" V 8495 1650 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8450 1500 50  0001 C CNN
+F 3 "~" H 8450 1500 50  0001 C CNN
+	1    8450 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 1600 8050 1600
+Connection ~ 8050 1600
+Wire Wire Line
+	8050 1600 8250 1600
+Connection ~ 8250 1600
+Wire Wire Line
+	8250 1600 8450 1600
+$Comp
+L power:GND #PWR0117
+U 1 1 60E89629
+P 7850 1600
+F 0 "#PWR0117" H 7850 1350 50  0001 C CNN
+F 1 "GND" H 7855 1427 50  0000 C CNN
+F 2 "" H 7850 1600 50  0001 C CNN
+F 3 "" H 7850 1600 50  0001 C CNN
+	1    7850 1600
+	0    1    1    0   
+$EndComp
+Text GLabel 9400 5900 3    50   Input ~ 0
+row3
+Text GLabel 9500 5900 3    50   Input ~ 0
+row2
+Wire Wire Line
+	5850 3100 6250 3100
+Connection ~ 6250 3100
+Connection ~ 6650 3100
+Wire Wire Line
+	6650 3100 7050 3100
+Wire Wire Line
+	7050 2900 6650 2900
+Connection ~ 6250 2900
+Wire Wire Line
+	6250 2900 5850 2900
+Connection ~ 6650 2900
+$Comp
+L Switch:SW_SPST S1
+U 1 1 5C7A3778
+P 6200 4800
+F 0 "S1" H 6200 5035 50  0000 C CNN
+F 1 "RESET" H 6200 4944 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithoutStem" H 6200 4800 50  0001 C CNN
+F 3 "~" H 6200 4800 50  0001 C CNN
+F 4 "C116647" H 6200 4800 50  0001 C CNN "LCSC"
+	1    6200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 5C7A37EE
+P 6000 4900
+F 0 "C8" H 6092 4946 50  0000 L CNN
+F 1 "100nF" H 6092 4855 50  0000 L CNN
+F 2 "EDI:Passive_0402_1005Metric" H 6000 4900 50  0001 C CNN
+F 3 "~" H 6000 4900 50  0001 C CNN
+F 4 "C1525" H 6000 4900 50  0001 C CNN "LCSC"
+	1    6000 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST S2
+U 1 1 5C7A96C8
+P 6200 5500
+F 0 "S2" H 6200 5735 50  0000 C CNN
+F 1 "LDR" H 6200 5644 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithoutStem" H 6200 5500 50  0001 C CNN
+F 3 "~" H 6200 5500 50  0001 C CNN
+F 4 "C116647" H 6200 5500 50  0001 C CNN "LCSC"
+	1    6200 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5C7A9861
+P 6000 5600
+F 0 "R1" H 6059 5646 50  0000 L CNN
+F 1 "10k" H 6059 5555 50  0000 L CNN
+F 2 "EDI:Passive_0402_1005Metric" H 6000 5600 50  0001 C CNN
+F 3 "~" H 6000 5600 50  0001 C CNN
+F 4 "C25744" H 6000 5600 50  0001 C CNN "LCSC"
+	1    6000 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 6000 5500 0    50   Input ~ 0
+BOOT0
+$Comp
+L power:+3V3 #PWR0111
+U 1 1 5C7AD4FE
+P 6400 5500
+F 0 "#PWR0111" H 6400 5350 50  0001 C CNN
+F 1 "+3V3" H 6415 5673 50  0000 C CNN
+F 2 "" H 6400 5500 50  0001 C CNN
+F 3 "" H 6400 5500 50  0001 C CNN
+	1    6400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5C7AD5BF
+P 6000 5700
+F 0 "#PWR0112" H 6000 5450 50  0001 C CNN
+F 1 "GND" V 6005 5527 50  0000 C CNN
+F 2 "" H 6000 5700 50  0001 C CNN
+F 3 "" H 6000 5700 50  0001 C CNN
+	1    6000 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 4800 6400 5000
+Wire Wire Line
+	6400 5000 6000 5000
+Connection ~ 6000 5000
+Connection ~ 6400 6200
+Connection ~ 5800 6200
+Wire Wire Line
+	5800 6500 6100 6500
+Wire Wire Line
+	6400 6500 6400 6400
+Wire Wire Line
+	5800 6400 5800 6500
+Connection ~ 6100 6500
+Wire Wire Line
+	6100 6500 6400 6500
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 616B25EF
+P 6650 2900
+F 0 "#PWR0103" H 6650 2750 50  0001 C CNN
+F 1 "+3V3" H 6665 3073 50  0000 C CNN
+F 2 "" H 6650 2900 50  0001 C CNN
+F 3 "" H 6650 2900 50  0001 C CNN
+	1    6650 2900
+	1    0    0    -1  
+$EndComp
+Text GLabel 8800 6250 3    50   BiDi ~ 0
+I2C-SCL
+Text GLabel 8900 6250 3    50   BiDi ~ 0
+I2C-SDA
+$Comp
+L HL-Mk2-rescue:USB_C_Receptacle_USB2.0-Connector J0
+U 1 1 5C784683
+P 6650 1600
+F 0 "J0" H 6705 2067 50  0000 C CNN
+F 1 "USB" H 6705 1976 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 6800 1550 50  0001 C CNN
+F 3 "~" H 6800 1550 50  0001 C CNN
+F 4 "C165948" H 6650 1600 50  0001 C CNN "LCSC"
+	1    6650 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 1300 5750 1450
+Connection ~ 5750 1450
+Wire Wire Line
+	5750 1450 5750 1600
+NoConn ~ 6050 2200
+NoConn ~ 6150 2200
+Wire Wire Line
+	6450 2200 6550 2200
+Wire Wire Line
+	6650 2200 6750 2200
+Wire Wire Line
+	6950 2400 7000 2400
+$Comp
+L power:GND #PWR0113
+U 1 1 613C6637
+P 7000 2400
+F 0 "#PWR0113" H 7000 2150 50  0001 C CNN
+F 1 "GND" H 7005 2227 50  0000 C CNN
+F 2 "" H 7000 2400 50  0001 C CNN
+F 3 "" H 7000 2400 50  0001 C CNN
+	1    7000 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 2400
+Wire Wire Line
+	7000 2400 7050 2400
+$Comp
+L Device:C_Small C5
+U 1 1 610C4AF8
+P 7450 3000
+F 0 "C5" H 7542 3046 50  0000 L CNN
+F 1 "100nF" H 7542 2955 50  0000 L CNN
+F 2 "EDI:Passive_0402_1005Metric" H 7450 3000 50  0001 C CNN
+F 3 "~" H 7450 3000 50  0001 C CNN
+F 4 "C1525" H 7450 3000 50  0001 C CNN "LCSC"
+	1    7450 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2900 7450 2900
+Connection ~ 7050 2900
+Wire Wire Line
+	7050 3100 7450 3100
+Connection ~ 7050 3100
+Wire Wire Line
+	6250 2900 6650 2900
+Wire Wire Line
+	6250 3100 6650 3100
+$Comp
+L Device:D_Small D?
+U 1 1 619EB7DC
+P 2800 1550
+AR Path="/5C6A120A/619EB7DC" Ref="D?"  Part="1" 
+AR Path="/619EB7DC" Ref="D1"  Part="1" 
+F 0 "D1" H 2850 1500 50  0000 L CNN
+F 1 "1N4148" H 2700 1650 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 2800 1550 50  0001 C CNN
+F 3 "~" V 2800 1550 50  0001 C CNN
+F 4 "C507292" H 2800 1550 50  0001 C CNN "LCSC"
+	1    2800 1550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 61A18992
+P 6750 3950
+F 0 "J1" H 6668 3625 50  0000 C CNN
+F 1 "Main Drive" H 6668 3716 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6750 3950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811061539_Diodes-Incorporated-AH49ENTR-G1_C314698.pdf" H 6750 3950 50  0001 C CNN
+F 4 "" H 6750 3950 50  0001 C CNN "LCSC"
+	1    6750 3950
+	-1   0    0    1   
+$EndComp
+Text GLabel 6950 4050 2    50   Output ~ 0
+Z
+$Comp
+L power:GND #PWR0132
+U 1 1 61B3C0BE
+P 6950 3850
+F 0 "#PWR0132" H 6950 3600 50  0001 C CNN
+F 1 "GND" H 6955 3677 50  0000 C CNN
+F 2 "" H 6950 3850 50  0001 C CNN
+F 3 "" H 6950 3850 50  0001 C CNN
+	1    6950 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0136
+U 1 1 61B76B42
+P 6950 3950
+F 0 "#PWR0136" H 6950 3800 50  0001 C CNN
+F 1 "+3V3" H 6965 4123 50  0000 C CNN
+F 2 "" H 6950 3950 50  0001 C CNN
+F 3 "" H 6950 3950 50  0001 C CNN
+	1    6950 3950
+	0    1    1    0   
+$EndComp
+Text GLabel 8500 4600 1    50   Input ~ 0
+AUDIO0
+Text GLabel 8600 4600 1    50   Input ~ 0
+AUDIO1
+Text GLabel 8100 4600 1    50   Input ~ 0
+X
+Text GLabel 8200 4600 1    50   Input ~ 0
+Y
+Text GLabel 8400 4600 1    50   Input ~ 0
+Z
+Text GLabel 9300 5900 3    50   Input ~ 0
+row4
+$Comp
+L Graphic:SYM_Magnet_Small Z2
+U 1 1 61785075
+P 13050 7500
+F 0 "Z2" H 13050 7775 50  0001 C CNN
+F 1 "DF Logo" H 13050 7275 50  0001 C CNN
+F 2 "EDI:DF" H 13050 7500 50  0001 C CNN
+F 3 "~" H 13050 7500 50  0001 C CNN
+	1    13050 7500
+	1    0    0    -1  
+$EndComp
+Connection ~ 6800 5300
+Connection ~ 6800 5100
+Wire Wire Line
+	6800 5100 6800 5200
+Wire Wire Line
+	6800 5000 6800 5100
+Connection ~ 9800 5300
+Wire Wire Line
+	9800 5300 9800 5400
+Wire Wire Line
+	9800 5250 9800 5300
+Connection ~ 9800 5200
+Wire Wire Line
+	9800 5200 9800 5250
+Wire Wire Line
+	9800 5100 9800 5200
+Wire Wire Line
+	6800 5300 6800 5400
+Wire Wire Line
+	6800 5300 6800 5200
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts K1
+U 1 1 6189CD1B
+P 3100 1450
+AR Path="/6189CD1B" Ref="K1"  Part="1" 
+AR Path="/5C6A120A/6189CD1B" Ref="K?"  Part="1" 
+F 0 "K1" H 3186 1667 60  0000 C CNN
+F 1 "key" H 3186 1593 20  0000 C CNN
+F 2 "EDI:SW_MX" H 3075 1425 60  0001 C CNN
+F 3 "" H 3075 1425 60  0001 C CNN
+	1    3100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts K2
+U 1 1 6189D302
+P 3800 1450
+AR Path="/6189D302" Ref="K2"  Part="1" 
+AR Path="/5C6A120A/6189D302" Ref="K?"  Part="1" 
+F 0 "K2" H 3886 1667 60  0000 C CNN
+F 1 "key" H 3886 1593 20  0000 C CNN
+F 2 "EDI:SW_MX" H 3775 1425 60  0001 C CNN
+F 3 "" H 3775 1425 60  0001 C CNN
+	1    3800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts K3
+U 1 1 6189DC31
+P 4500 1450
+AR Path="/6189DC31" Ref="K3"  Part="1" 
+AR Path="/5C6A120A/6189DC31" Ref="K?"  Part="1" 
+F 0 "K3" H 4586 1667 60  0000 C CNN
+F 1 "key" H 4586 1593 20  0000 C CNN
+F 2 "EDI:SW_MX" H 4475 1425 60  0001 C CNN
+F 3 "" H 4475 1425 60  0001 C CNN
+	1    4500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts K4
+U 1 1 6189E816
+P 3100 1850
+AR Path="/6189E816" Ref="K4"  Part="1" 
+AR Path="/5C6A120A/6189E816" Ref="K?"  Part="1" 
+F 0 "K4" H 3186 2067 60  0000 C CNN
+F 1 "key" H 3186 1993 20  0000 C CNN
+F 2 "EDI:SW_MX" H 3075 1825 60  0001 C CNN
+F 3 "" H 3075 1825 60  0001 C CNN
+	1    3100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts K5
+U 1 1 6189E820
+P 3800 1850
+AR Path="/6189E820" Ref="K5"  Part="1" 
+AR Path="/5C6A120A/6189E820" Ref="K?"  Part="1" 
+F 0 "K5" H 3886 2067 60  0000 C CNN
+F 1 "key" H 3886 1993 20  0000 C CNN
+F 2 "EDI:SW_MX" H 3775 1825 60  0001 C CNN
+F 3 "" H 3775 1825 60  0001 C CNN
+	1    3800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts K6
+U 1 1 6189E82A
+P 4500 1850
+AR Path="/6189E82A" Ref="K6"  Part="1" 
+AR Path="/5C6A120A/6189E82A" Ref="K?"  Part="1" 
+F 0 "K6" H 4586 2067 60  0000 C CNN
+F 1 "key" H 4586 1993 20  0000 C CNN
+F 2 "EDI:SW_MX" H 4475 1825 60  0001 C CNN
+F 3 "" H 4475 1825 60  0001 C CNN
+	1    4500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts K7
+U 1 1 618AAF27
+P 3100 2250
+AR Path="/618AAF27" Ref="K7"  Part="1" 
+AR Path="/5C6A120A/618AAF27" Ref="K?"  Part="1" 
+F 0 "K7" H 3186 2467 60  0000 C CNN
+F 1 "key" H 3186 2393 20  0000 C CNN
+F 2 "EDI:SW_MX" H 3075 2225 60  0001 C CNN
+F 3 "" H 3075 2225 60  0001 C CNN
+	1    3100 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts K8
+U 1 1 618AAF31
+P 3800 2250
+AR Path="/618AAF31" Ref="K8"  Part="1" 
+AR Path="/5C6A120A/618AAF31" Ref="K?"  Part="1" 
+F 0 "K8" H 3886 2467 60  0000 C CNN
+F 1 "key" H 3886 2393 20  0000 C CNN
+F 2 "EDI:SW_MX" H 3775 2225 60  0001 C CNN
+F 3 "" H 3775 2225 60  0001 C CNN
+	1    3800 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts K9
+U 1 1 618AAF3B
+P 4500 2250
+AR Path="/618AAF3B" Ref="K9"  Part="1" 
+AR Path="/5C6A120A/618AAF3B" Ref="K?"  Part="1" 
+F 0 "K9" H 4586 2467 60  0000 C CNN
+F 1 "key" H 4586 2393 20  0000 C CNN
+F 2 "EDI:SW_MX" H 4475 2225 60  0001 C CNN
+F 3 "" H 4475 2225 60  0001 C CNN
+	1    4500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts K10
+U 1 1 618B7720
+P 3100 2650
+AR Path="/618B7720" Ref="K10"  Part="1" 
+AR Path="/5C6A120A/618B7720" Ref="K?"  Part="1" 
+F 0 "K10" H 3186 2867 60  0000 C CNN
+F 1 "key" H 3186 2793 20  0000 C CNN
+F 2 "EDI:SW_MX" H 3075 2625 60  0001 C CNN
+F 3 "" H 3075 2625 60  0001 C CNN
+	1    3100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts K11
+U 1 1 618B772A
+P 3800 2650
+AR Path="/618B772A" Ref="K11"  Part="1" 
+AR Path="/5C6A120A/618B772A" Ref="K?"  Part="1" 
+F 0 "K11" H 3886 2867 60  0000 C CNN
+F 1 "key" H 3886 2793 20  0000 C CNN
+F 2 "EDI:SW_MX" H 3775 2625 60  0001 C CNN
+F 3 "" H 3775 2625 60  0001 C CNN
+	1    3800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts K12
+U 1 1 618B7734
+P 4500 2650
+AR Path="/618B7734" Ref="K12"  Part="1" 
+AR Path="/5C6A120A/618B7734" Ref="K?"  Part="1" 
+F 0 "K12" H 4586 2867 60  0000 C CNN
+F 1 "key" H 4586 2793 20  0000 C CNN
+F 2 "EDI:SW_MX" H 4475 2625 60  0001 C CNN
+F 3 "" H 4475 2625 60  0001 C CNN
+	1    4500 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1200 3400 1450
+Connection ~ 3400 1450
+Wire Wire Line
+	3400 1450 3400 1850
+Connection ~ 3400 1850
+Wire Wire Line
+	3400 1850 3400 2250
+Connection ~ 3400 2250
+Wire Wire Line
+	3400 2250 3400 2650
+Wire Wire Line
+	4100 1200 4100 1450
+Connection ~ 4100 1450
+Wire Wire Line
+	4100 1450 4100 1850
+Connection ~ 4100 1850
+Wire Wire Line
+	4100 1850 4100 2250
+Connection ~ 4100 2250
+Wire Wire Line
+	4100 2250 4100 2650
+Wire Wire Line
+	4800 1200 4800 1450
+Connection ~ 4800 1450
+Wire Wire Line
+	4800 1450 4800 1850
+Connection ~ 4800 1850
+Wire Wire Line
+	4800 1850 4800 2250
+Connection ~ 4800 2250
+Wire Wire Line
+	4800 2250 4800 2650
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts K13
+U 1 1 61AB15CD
+P 3100 3050
+AR Path="/61AB15CD" Ref="K13"  Part="1" 
+AR Path="/5C6A120A/61AB15CD" Ref="K?"  Part="1" 
+F 0 "K13" H 3186 3267 60  0000 C CNN
+F 1 "tog" H 3186 3193 20  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3075 3025 60  0001 C CNN
+F 3 "" H 3075 3025 60  0001 C CNN
+	1    3100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts K14
+U 1 1 61AB15D7
+P 3800 3050
+AR Path="/61AB15D7" Ref="K14"  Part="1" 
+AR Path="/5C6A120A/61AB15D7" Ref="K?"  Part="1" 
+F 0 "K14" H 3886 3267 60  0000 C CNN
+F 1 "tog" H 3886 3193 20  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3775 3025 60  0001 C CNN
+F 3 "" H 3775 3025 60  0001 C CNN
+	1    3800 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts K15
+U 1 1 61AB15E1
+P 4500 3050
+AR Path="/61AB15E1" Ref="K15"  Part="1" 
+AR Path="/5C6A120A/61AB15E1" Ref="K?"  Part="1" 
+F 0 "K15" H 4586 3267 60  0000 C CNN
+F 1 "tog" H 4586 3193 20  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4475 3025 60  0001 C CNN
+F 3 "" H 4475 3025 60  0001 C CNN
+	1    4500 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2650 3400 3050
+Wire Wire Line
+	4100 2650 4100 3050
+Wire Wire Line
+	4800 2650 4800 3050
+Connection ~ 3400 2650
+Connection ~ 4100 2650
+Connection ~ 4800 2650
+$Comp
+L Device:Speaker_Crystal TX0
+U 1 1 61CD2F07
+P 8550 2450
+F 0 "TX0" H 8725 2446 50  0000 L CNN
+F 1 "Speaker_Crystal" H 8725 2355 50  0000 L CNN
+F 2 "Buzzer_Beeper:Buzzer_CUI_CPT-9019S-SMT" H 8515 2400 50  0001 C CNN
+F 3 "~" H 8515 2400 50  0001 C CNN
+F 4 "C968734" H 8550 2450 50  0001 C CNN "LCSC"
+	1    8550 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker_Crystal TX1
+U 1 1 61CD5514
+P 8550 2950
+F 0 "TX1" H 8725 2946 50  0000 L CNN
+F 1 "Speaker_Crystal" H 8725 2855 50  0000 L CNN
+F 2 "Buzzer_Beeper:Buzzer_CUI_CPT-9019S-SMT" H 8515 2900 50  0001 C CNN
+F 3 "~" H 8515 2900 50  0001 C CNN
+F 4 "C968734" H 8550 2950 50  0001 C CNN "LCSC"
+	1    8550 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 8350 2450 0    50   Input ~ 0
+AUDIO0
+Text GLabel 8350 2950 0    50   Input ~ 0
+AUDIO1
+$Comp
+L power:GND #PWR02
+U 1 1 61CD6364
+P 8350 3050
+F 0 "#PWR02" H 8350 2800 50  0001 C CNN
+F 1 "GND" H 8355 2877 50  0000 C CNN
+F 2 "" H 8350 3050 50  0001 C CNN
+F 3 "" H 8350 3050 50  0001 C CNN
+	1    8350 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 61CD6DDC
+P 8350 2550
+F 0 "#PWR01" H 8350 2300 50  0001 C CNN
+F 1 "GND" H 8355 2377 50  0000 C CNN
+F 2 "" H 8350 2550 50  0001 C CNN
+F 3 "" H 8350 2550 50  0001 C CNN
+	1    8350 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J4
+U 1 1 617CA4A3
+P 6250 3950
+F 0 "J4" H 6168 3625 50  0000 C CNN
+F 1 "R/T Tuning" H 6168 3716 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6250 3950 50  0001 C CNN
+F 3 "~" H 6250 3950 50  0001 C CNN
+	1    6250 3950
+	-1   0    0    1   
+$EndComp
+Text GLabel 6450 3950 2    50   Output ~ 0
+rY
+$Comp
+L power:GND #PWR010
+U 1 1 617CA4B9
+P 6450 3850
+F 0 "#PWR010" H 6450 3600 50  0001 C CNN
+F 1 "GND" H 6455 3677 50  0000 C CNN
+F 2 "" H 6450 3850 50  0001 C CNN
+F 3 "" H 6450 3850 50  0001 C CNN
+	1    6450 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR012
+U 1 1 617CA4C3
+P 6450 4050
+F 0 "#PWR012" H 6450 3900 50  0001 C CNN
+F 1 "+3V3" H 6465 4223 50  0000 C CNN
+F 2 "" H 6450 4050 50  0001 C CNN
+F 3 "" H 6450 4050 50  0001 C CNN
+	1    6450 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6184031D
+P 3500 1550
+AR Path="/5C6A120A/6184031D" Ref="D?"  Part="1" 
+AR Path="/6184031D" Ref="D2"  Part="1" 
+F 0 "D2" H 3550 1500 50  0000 L CNN
+F 1 "1N4148" H 3400 1650 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 3500 1550 50  0001 C CNN
+F 3 "~" V 3500 1550 50  0001 C CNN
+F 4 "C507292" H 3500 1550 50  0001 C CNN "LCSC"
+	1    3500 1550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618408F8
+P 4200 1550
+AR Path="/5C6A120A/618408F8" Ref="D?"  Part="1" 
+AR Path="/618408F8" Ref="D3"  Part="1" 
+F 0 "D3" H 4250 1500 50  0000 L CNN
+F 1 "1N4148" H 4100 1650 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 4200 1550 50  0001 C CNN
+F 3 "~" V 4200 1550 50  0001 C CNN
+F 4 "C507292" H 4200 1550 50  0001 C CNN "LCSC"
+	1    4200 1550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61840D93
+P 2800 1950
+AR Path="/5C6A120A/61840D93" Ref="D?"  Part="1" 
+AR Path="/61840D93" Ref="D4"  Part="1" 
+F 0 "D4" H 2850 1900 50  0000 L CNN
+F 1 "1N4148" H 2700 2050 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 2800 1950 50  0001 C CNN
+F 3 "~" V 2800 1950 50  0001 C CNN
+F 4 "C507292" H 2800 1950 50  0001 C CNN "LCSC"
+	1    2800 1950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61841830
+P 3500 1950
+AR Path="/5C6A120A/61841830" Ref="D?"  Part="1" 
+AR Path="/61841830" Ref="D5"  Part="1" 
+F 0 "D5" H 3550 1900 50  0000 L CNN
+F 1 "1N4148" H 3400 2050 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 3500 1950 50  0001 C CNN
+F 3 "~" V 3500 1950 50  0001 C CNN
+F 4 "C507292" H 3500 1950 50  0001 C CNN "LCSC"
+	1    3500 1950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61841E35
+P 4200 1950
+AR Path="/5C6A120A/61841E35" Ref="D?"  Part="1" 
+AR Path="/61841E35" Ref="D6"  Part="1" 
+F 0 "D6" H 4250 1900 50  0000 L CNN
+F 1 "1N4148" H 4100 2050 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 4200 1950 50  0001 C CNN
+F 3 "~" V 4200 1950 50  0001 C CNN
+F 4 "C507292" H 4200 1950 50  0001 C CNN "LCSC"
+	1    4200 1950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618425D0
+P 2800 2350
+AR Path="/5C6A120A/618425D0" Ref="D?"  Part="1" 
+AR Path="/618425D0" Ref="D7"  Part="1" 
+F 0 "D7" H 2850 2300 50  0000 L CNN
+F 1 "1N4148" H 2700 2450 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 2800 2350 50  0001 C CNN
+F 3 "~" V 2800 2350 50  0001 C CNN
+F 4 "C507292" H 2800 2350 50  0001 C CNN "LCSC"
+	1    2800 2350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61842B5D
+P 3500 2350
+AR Path="/5C6A120A/61842B5D" Ref="D?"  Part="1" 
+AR Path="/61842B5D" Ref="D8"  Part="1" 
+F 0 "D8" H 3550 2300 50  0000 L CNN
+F 1 "1N4148" H 3400 2450 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 3500 2350 50  0001 C CNN
+F 3 "~" V 3500 2350 50  0001 C CNN
+F 4 "C507292" H 3500 2350 50  0001 C CNN "LCSC"
+	1    3500 2350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618430C4
+P 4200 2350
+AR Path="/5C6A120A/618430C4" Ref="D?"  Part="1" 
+AR Path="/618430C4" Ref="D9"  Part="1" 
+F 0 "D9" H 4250 2300 50  0000 L CNN
+F 1 "1N4148" H 4100 2450 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 4200 2350 50  0001 C CNN
+F 3 "~" V 4200 2350 50  0001 C CNN
+F 4 "C507292" H 4200 2350 50  0001 C CNN "LCSC"
+	1    4200 2350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6184360F
+P 2800 2750
+AR Path="/5C6A120A/6184360F" Ref="D?"  Part="1" 
+AR Path="/6184360F" Ref="D10"  Part="1" 
+F 0 "D10" H 2850 2700 50  0000 L CNN
+F 1 "1N4148" H 2700 2850 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 2800 2750 50  0001 C CNN
+F 3 "~" V 2800 2750 50  0001 C CNN
+F 4 "C507292" H 2800 2750 50  0001 C CNN "LCSC"
+	1    2800 2750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61843982
+P 3500 2750
+AR Path="/5C6A120A/61843982" Ref="D?"  Part="1" 
+AR Path="/61843982" Ref="D11"  Part="1" 
+F 0 "D11" H 3550 2700 50  0000 L CNN
+F 1 "1N4148" H 3400 2850 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 3500 2750 50  0001 C CNN
+F 3 "~" V 3500 2750 50  0001 C CNN
+F 4 "C507292" H 3500 2750 50  0001 C CNN "LCSC"
+	1    3500 2750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61843E6F
+P 4200 2750
+AR Path="/5C6A120A/61843E6F" Ref="D?"  Part="1" 
+AR Path="/61843E6F" Ref="D12"  Part="1" 
+F 0 "D12" H 4250 2700 50  0000 L CNN
+F 1 "1N4148" H 4100 2850 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 4200 2750 50  0001 C CNN
+F 3 "~" V 4200 2750 50  0001 C CNN
+F 4 "C507292" H 4200 2750 50  0001 C CNN "LCSC"
+	1    4200 2750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618443D8
+P 2800 3150
+AR Path="/5C6A120A/618443D8" Ref="D?"  Part="1" 
+AR Path="/618443D8" Ref="D13"  Part="1" 
+F 0 "D13" H 2850 3100 50  0000 L CNN
+F 1 "1N4148" H 2700 3250 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 2800 3150 50  0001 C CNN
+F 3 "~" V 2800 3150 50  0001 C CNN
+F 4 "C507292" H 2800 3150 50  0001 C CNN "LCSC"
+	1    2800 3150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61844907
+P 3500 3150
+AR Path="/5C6A120A/61844907" Ref="D?"  Part="1" 
+AR Path="/61844907" Ref="D14"  Part="1" 
+F 0 "D14" H 3550 3100 50  0000 L CNN
+F 1 "1N4148" H 3400 3250 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 3500 3150 50  0001 C CNN
+F 3 "~" V 3500 3150 50  0001 C CNN
+F 4 "C507292" H 3500 3150 50  0001 C CNN "LCSC"
+	1    3500 3150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61844E2C
+P 4200 3150
+AR Path="/5C6A120A/61844E2C" Ref="D?"  Part="1" 
+AR Path="/61844E2C" Ref="D15"  Part="1" 
+F 0 "D15" H 4250 3100 50  0000 L CNN
+F 1 "1N4148" H 4100 3250 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 4200 3150 50  0001 C CNN
+F 3 "~" V 4200 3150 50  0001 C CNN
+F 4 "C507292" H 4200 3150 50  0001 C CNN "LCSC"
+	1    4200 3150
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2800 1650 3500 1650
+Connection ~ 3500 1650
+Wire Wire Line
+	3500 1650 4200 1650
+Wire Wire Line
+	2800 2050 3500 2050
+Connection ~ 3500 2050
+Wire Wire Line
+	3500 2050 4200 2050
+Wire Wire Line
+	2800 2450 3500 2450
+Connection ~ 3500 2450
+Wire Wire Line
+	3500 2450 4200 2450
+Wire Wire Line
+	2800 2850 3500 2850
+Connection ~ 3500 2850
+Wire Wire Line
+	3500 2850 4200 2850
+Wire Wire Line
+	2800 3250 3500 3250
+Connection ~ 3500 3250
+Wire Wire Line
+	3500 3250 4200 3250
+Text GLabel 1400 1650 0    50   Output ~ 0
+row0
+Text GLabel 1400 3250 0    50   Output ~ 0
+row4
+Text GLabel 1400 2850 0    50   Output ~ 0
+row3
+Text GLabel 1400 2450 0    50   Output ~ 0
+row2
+Text GLabel 1400 2050 0    50   Output ~ 0
+row1
+Text GLabel 3400 1200 1    50   Input ~ 0
+col2
+Text GLabel 4100 1200 1    50   Input ~ 0
+col3
+Text GLabel 4800 1200 1    50   Input ~ 0
+col4
+Text GLabel 8300 4600 1    50   Input ~ 0
+rX
+Text GLabel 8700 4600 1    50   Output ~ 0
+rY
+Connection ~ 7850 1600
+Text GLabel 7250 2200 2    50   Input ~ 0
+5v
+Text GLabel 8800 4600 1    50   Input ~ 0
+E0A
+Text GLabel 8100 5900 3    50   Input ~ 0
+E0B
+$Comp
+L Device:R_Small R4
+U 1 1 616F92A8
+P 8700 6200
+F 0 "R4" H 8750 6100 50  0000 L CNN
+F 1 "2k2" H 8750 6200 50  0000 L CNN
+F 2 "EDI:Passive_0402_1005Metric" H 8700 6200 50  0001 C CNN
+F 3 "~" H 8700 6200 50  0001 C CNN
+F 4 "C25879" H 8700 6200 50  0001 C CNN "LCSC"
+	1    8700 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 616FA261
+P 9000 6200
+F 0 "R5" H 9050 6300 50  0000 L CNN
+F 1 "2k2" H 9050 6200 50  0000 L CNN
+F 2 "EDI:Passive_0402_1005Metric" H 9000 6200 50  0001 C CNN
+F 3 "~" H 9000 6200 50  0001 C CNN
+F 4 "C25879" H 9000 6200 50  0001 C CNN "LCSC"
+	1    9000 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8800 6250 8800 6200
+Connection ~ 8800 6200
+Wire Wire Line
+	8800 6200 8800 5900
+Wire Wire Line
+	8900 5900 8900 6200
+Connection ~ 8900 6200
+Wire Wire Line
+	8900 6200 8900 6250
+$Comp
+L power:+3V3 #PWR0114
+U 1 1 616FFF5A
+P 8600 6200
+F 0 "#PWR0114" H 8600 6050 50  0001 C CNN
+F 1 "+3V3" H 8615 6373 50  0000 C CNN
+F 2 "" H 8600 6200 50  0001 C CNN
+F 3 "" H 8600 6200 50  0001 C CNN
+	1    8600 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0116
+U 1 1 61700E18
+P 9100 6200
+F 0 "#PWR0116" H 9100 6050 50  0001 C CNN
+F 1 "+3V3" H 9115 6373 50  0000 C CNN
+F 2 "" H 9100 6200 50  0001 C CNN
+F 3 "" H 9100 6200 50  0001 C CNN
+	1    9100 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J5
+U 1 1 6170208F
+P 5450 3950
+F 0 "J5" H 5350 3550 50  0000 C CNN
+F 1 "Display" H 5350 3650 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5450 3950 50  0001 C CNN
+F 3 "~" H 5450 3950 50  0001 C CNN
+	1    5450 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR0118
+U 1 1 617047CF
+P 5650 3950
+F 0 "#PWR0118" H 5650 3800 50  0001 C CNN
+F 1 "+3V3" V 5650 4150 50  0000 C CNN
+F 2 "" H 5650 3950 50  0001 C CNN
+F 3 "" H 5650 3950 50  0001 C CNN
+	1    5650 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 61706ACF
+P 5650 4050
+F 0 "#PWR0120" H 5650 3800 50  0001 C CNN
+F 1 "GND" V 5655 3877 50  0000 C CNN
+F 2 "" H 5650 4050 50  0001 C CNN
+F 3 "" H 5650 4050 50  0001 C CNN
+	1    5650 4050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5650 3750 2    50   BiDi ~ 0
+I2C-SCL
+Text GLabel 5650 3850 2    50   BiDi ~ 0
+I2C-SDA
+Wire Wire Line
+	2000 1200 2000 1450
+Connection ~ 2000 1450
+Wire Wire Line
+	2000 1450 2000 1850
+Connection ~ 2000 1850
+Wire Wire Line
+	2000 1850 2000 2250
+Connection ~ 2000 2250
+Wire Wire Line
+	2000 2250 2000 2650
+Wire Wire Line
+	2700 1200 2700 1450
+Connection ~ 2700 1450
+Wire Wire Line
+	2700 1450 2700 1850
+Connection ~ 2700 1850
+Wire Wire Line
+	2700 1850 2700 2250
+Connection ~ 2700 2250
+Wire Wire Line
+	2700 2250 2700 2650
+Wire Wire Line
+	2000 2650 2000 3050
+Wire Wire Line
+	2700 2650 2700 3050
+Connection ~ 2000 2650
+Connection ~ 2700 2650
+Wire Wire Line
+	1400 1650 2100 1650
+Connection ~ 2100 1650
+Wire Wire Line
+	2100 1650 2800 1650
+Wire Wire Line
+	1400 2050 2100 2050
+Connection ~ 2100 2050
+Wire Wire Line
+	2100 2050 2800 2050
+Wire Wire Line
+	1400 2450 2100 2450
+Connection ~ 2100 2450
+Wire Wire Line
+	2100 2450 2800 2450
+Wire Wire Line
+	1400 2850 2100 2850
+Connection ~ 2100 2850
+Wire Wire Line
+	2100 2850 2800 2850
+Wire Wire Line
+	1400 3250 2100 3250
+Connection ~ 2100 3250
+Wire Wire Line
+	2100 3250 2800 3250
+Text GLabel 2000 1200 1    50   Input ~ 0
+col0
+Text GLabel 2700 1200 1    50   Input ~ 0
+col1
+Connection ~ 2800 1650
+Connection ~ 2800 2050
+Connection ~ 2800 2450
+Connection ~ 2800 2850
+Connection ~ 2800 3250
+$Comp
+L power:+3V3 #PWR011
+U 1 1 617CA4CD
+P 10600 1100
+F 0 "#PWR011" H 10600 950 50  0001 C CNN
+F 1 "+3V3" H 10615 1273 50  0000 C CNN
+F 2 "" H 10600 1100 50  0001 C CNN
+F 3 "" H 10600 1100 50  0001 C CNN
+	1    10600 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts KG1
+U 1 1 618ECE64
+P 1700 1450
+AR Path="/618ECE64" Ref="KG1"  Part="1" 
+AR Path="/5C6A120A/618ECE64" Ref="K?"  Part="1" 
+F 0 "KG1" H 1786 1667 60  0000 C CNN
+F 1 "key" H 1786 1593 20  0000 C CNN
+F 2 "EDI:SW_MX" H 1675 1425 60  0001 C CNN
+F 3 "" H 1675 1425 60  0001 C CNN
+	1    1700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts KG6
+U 1 1 618ECE6E
+P 2400 1450
+AR Path="/618ECE6E" Ref="KG6"  Part="1" 
+AR Path="/5C6A120A/618ECE6E" Ref="K?"  Part="1" 
+F 0 "KG6" H 2486 1667 60  0000 C CNN
+F 1 "key" H 2486 1593 20  0000 C CNN
+F 2 "EDI:SW_MX" H 2375 1425 60  0001 C CNN
+F 3 "" H 2375 1425 60  0001 C CNN
+	1    2400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts KG2
+U 1 1 618ECE78
+P 1700 1850
+AR Path="/618ECE78" Ref="KG2"  Part="1" 
+AR Path="/5C6A120A/618ECE78" Ref="K?"  Part="1" 
+F 0 "KG2" H 1786 2067 60  0000 C CNN
+F 1 "key" H 1786 1993 20  0000 C CNN
+F 2 "EDI:SW_MX" H 1675 1825 60  0001 C CNN
+F 3 "" H 1675 1825 60  0001 C CNN
+	1    1700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts KG7
+U 1 1 618ECE82
+P 2400 1850
+AR Path="/618ECE82" Ref="KG7"  Part="1" 
+AR Path="/5C6A120A/618ECE82" Ref="K?"  Part="1" 
+F 0 "KG7" H 2486 2067 60  0000 C CNN
+F 1 "key" H 2486 1993 20  0000 C CNN
+F 2 "EDI:SW_MX" H 2375 1825 60  0001 C CNN
+F 3 "" H 2375 1825 60  0001 C CNN
+	1    2400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts KG3
+U 1 1 618ECE8C
+P 1700 2250
+AR Path="/618ECE8C" Ref="KG3"  Part="1" 
+AR Path="/5C6A120A/618ECE8C" Ref="K?"  Part="1" 
+F 0 "KG3" H 1786 2467 60  0000 C CNN
+F 1 "key" H 1786 2393 20  0000 C CNN
+F 2 "EDI:SW_MX" H 1675 2225 60  0001 C CNN
+F 3 "" H 1675 2225 60  0001 C CNN
+	1    1700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts KG8
+U 1 1 618ECE96
+P 2400 2250
+AR Path="/618ECE96" Ref="KG8"  Part="1" 
+AR Path="/5C6A120A/618ECE96" Ref="K?"  Part="1" 
+F 0 "KG8" H 2486 2467 60  0000 C CNN
+F 1 "key" H 2486 2393 20  0000 C CNN
+F 2 "EDI:SW_MX" H 2375 2225 60  0001 C CNN
+F 3 "" H 2375 2225 60  0001 C CNN
+	1    2400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts KG4
+U 1 1 618ECEA0
+P 1700 2650
+AR Path="/618ECEA0" Ref="KG4"  Part="1" 
+AR Path="/5C6A120A/618ECEA0" Ref="K?"  Part="1" 
+F 0 "KG4" H 1786 2867 60  0000 C CNN
+F 1 "tog" H 1786 2793 20  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 1675 2625 60  0001 C CNN
+F 3 "" H 1675 2625 60  0001 C CNN
+	1    1700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts KG9
+U 1 1 618ECEAA
+P 2400 2650
+AR Path="/618ECEAA" Ref="KG9"  Part="1" 
+AR Path="/5C6A120A/618ECEAA" Ref="K?"  Part="1" 
+F 0 "KG9" H 2486 2867 60  0000 C CNN
+F 1 "tog" H 2486 2793 20  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 2375 2625 60  0001 C CNN
+F 3 "" H 2375 2625 60  0001 C CNN
+	1    2400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts KG5
+U 1 1 618ECEC2
+P 1700 3050
+AR Path="/618ECEC2" Ref="KG5"  Part="1" 
+AR Path="/5C6A120A/618ECEC2" Ref="K?"  Part="1" 
+F 0 "KG5" H 1786 3267 60  0000 C CNN
+F 1 "tog" H 1786 3193 20  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 1675 3025 60  0001 C CNN
+F 3 "" H 1675 3025 60  0001 C CNN
+	1    1700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L HL-Mk2-rescue:KEYSW-keyboard_parts KG10
+U 1 1 618ECECC
+P 2400 3050
+AR Path="/618ECECC" Ref="KG10"  Part="1" 
+AR Path="/5C6A120A/618ECECC" Ref="K?"  Part="1" 
+F 0 "KG10" H 2486 3267 60  0000 C CNN
+F 1 "tog" H 2486 3193 20  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 2375 3025 60  0001 C CNN
+F 3 "" H 2375 3025 60  0001 C CNN
+	1    2400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618ECE5A
+P 1400 1550
+AR Path="/5C6A120A/618ECE5A" Ref="D?"  Part="1" 
+AR Path="/618ECE5A" Ref="DG1"  Part="1" 
+F 0 "DG1" H 1450 1500 50  0000 L CNN
+F 1 "1N4148" H 1300 1650 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 1400 1550 50  0001 C CNN
+F 3 "~" V 1400 1550 50  0001 C CNN
+F 4 "C507292" H 1400 1550 50  0001 C CNN "LCSC"
+	1    1400 1550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618ECEDB
+P 2100 1550
+AR Path="/5C6A120A/618ECEDB" Ref="D?"  Part="1" 
+AR Path="/618ECEDB" Ref="DG6"  Part="1" 
+F 0 "DG6" H 2150 1500 50  0000 L CNN
+F 1 "1N4148" H 2000 1650 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 2100 1550 50  0001 C CNN
+F 3 "~" V 2100 1550 50  0001 C CNN
+F 4 "C507292" H 2100 1550 50  0001 C CNN "LCSC"
+	1    2100 1550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618ECEE6
+P 1400 1950
+AR Path="/5C6A120A/618ECEE6" Ref="D?"  Part="1" 
+AR Path="/618ECEE6" Ref="DG2"  Part="1" 
+F 0 "DG2" H 1450 1900 50  0000 L CNN
+F 1 "1N4148" H 1300 2050 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 1400 1950 50  0001 C CNN
+F 3 "~" V 1400 1950 50  0001 C CNN
+F 4 "C507292" H 1400 1950 50  0001 C CNN "LCSC"
+	1    1400 1950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618ECEF1
+P 2100 1950
+AR Path="/5C6A120A/618ECEF1" Ref="D?"  Part="1" 
+AR Path="/618ECEF1" Ref="DG7"  Part="1" 
+F 0 "DG7" H 2150 1900 50  0000 L CNN
+F 1 "1N4148" H 2000 2050 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 2100 1950 50  0001 C CNN
+F 3 "~" V 2100 1950 50  0001 C CNN
+F 4 "C507292" H 2100 1950 50  0001 C CNN "LCSC"
+	1    2100 1950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618ECEFC
+P 1400 2350
+AR Path="/5C6A120A/618ECEFC" Ref="D?"  Part="1" 
+AR Path="/618ECEFC" Ref="DG3"  Part="1" 
+F 0 "DG3" H 1450 2300 50  0000 L CNN
+F 1 "1N4148" H 1300 2450 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 1400 2350 50  0001 C CNN
+F 3 "~" V 1400 2350 50  0001 C CNN
+F 4 "C507292" H 1400 2350 50  0001 C CNN "LCSC"
+	1    1400 2350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618ECF07
+P 2100 2350
+AR Path="/5C6A120A/618ECF07" Ref="D?"  Part="1" 
+AR Path="/618ECF07" Ref="DG8"  Part="1" 
+F 0 "DG8" H 2150 2300 50  0000 L CNN
+F 1 "1N4148" H 2000 2450 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 2100 2350 50  0001 C CNN
+F 3 "~" V 2100 2350 50  0001 C CNN
+F 4 "C507292" H 2100 2350 50  0001 C CNN "LCSC"
+	1    2100 2350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618ECF12
+P 1400 2750
+AR Path="/5C6A120A/618ECF12" Ref="D?"  Part="1" 
+AR Path="/618ECF12" Ref="DG4"  Part="1" 
+F 0 "DG4" H 1450 2700 50  0000 L CNN
+F 1 "1N4148" H 1300 2850 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 1400 2750 50  0001 C CNN
+F 3 "~" V 1400 2750 50  0001 C CNN
+F 4 "C507292" H 1400 2750 50  0001 C CNN "LCSC"
+	1    1400 2750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618ECF1D
+P 2100 2750
+AR Path="/5C6A120A/618ECF1D" Ref="D?"  Part="1" 
+AR Path="/618ECF1D" Ref="DG9"  Part="1" 
+F 0 "DG9" H 2150 2700 50  0000 L CNN
+F 1 "1N4148" H 2000 2850 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 2100 2750 50  0001 C CNN
+F 3 "~" V 2100 2750 50  0001 C CNN
+F 4 "C507292" H 2100 2750 50  0001 C CNN "LCSC"
+	1    2100 2750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618ECF28
+P 1400 3150
+AR Path="/5C6A120A/618ECF28" Ref="D?"  Part="1" 
+AR Path="/618ECF28" Ref="DG5"  Part="1" 
+F 0 "DG5" H 1450 3100 50  0000 L CNN
+F 1 "1N4148" H 1300 3250 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 1400 3150 50  0001 C CNN
+F 3 "~" V 1400 3150 50  0001 C CNN
+F 4 "C507292" H 1400 3150 50  0001 C CNN "LCSC"
+	1    1400 3150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618ECF33
+P 2100 3150
+AR Path="/5C6A120A/618ECF33" Ref="D?"  Part="1" 
+AR Path="/618ECF33" Ref="DG10"  Part="1" 
+F 0 "DG10" H 2150 3100 50  0000 L CNN
+F 1 "1N4148" H 2000 3250 39  0000 L CNN
+F 2 "EDI:D_SOD-523" V 2100 3150 50  0001 C CNN
+F 3 "~" V 2100 3150 50  0001 C CNN
+F 4 "C507292" H 2100 3150 50  0001 C CNN "LCSC"
+	1    2100 3150
+	0    1    -1   0   
+$EndComp
+Text GLabel 12400 1500 3    50   Input ~ 0
+col0
+Text GLabel 10900 1500 3    50   Input ~ 0
+col1
+Text GLabel 11000 1500 3    50   Output ~ 0
+row0
+Text GLabel 11400 1500 3    50   Output ~ 0
+row3
+Text GLabel 11300 1500 3    50   Output ~ 0
+row2
+Text GLabel 11100 1500 3    50   Output ~ 0
+rX
+Text GLabel 12300 1500 3    50   Output ~ 0
+X
+Text GLabel 11800 1500 3    50   Input ~ 0
+E0A
+Text GLabel 12000 1500 3    50   Input ~ 0
+E0B
+$Comp
+L Connector_Generic:Conn_01x03 J6
+U 1 1 6199E08E
+P 2750 6950
+F 0 "J6" H 2668 6625 50  0000 C CNN
+F 1 "Sensor Radius" H 2668 6716 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 2750 6950 50  0001 C CNN
+F 3 "~" H 2750 6950 50  0001 C CNN
+	1    2750 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J8
+U 1 1 619A0743
+P 2100 7000
+F 0 "J8" H 2000 6600 50  0000 C CNN
+F 1 "Thumbstick" H 2000 6700 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2100 7000 50  0001 C CNN
+F 3 "~" H 2100 7000 50  0001 C CNN
+	1    2100 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR0125
+U 1 1 619A413C
+P 2300 7000
+F 0 "#PWR0125" H 2300 6850 50  0001 C CNN
+F 1 "+3V3" V 2300 7200 50  0000 C CNN
+F 2 "" H 2300 7000 50  0001 C CNN
+F 3 "" H 2300 7000 50  0001 C CNN
+	1    2300 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 619A4146
+P 2300 7100
+F 0 "#PWR0126" H 2300 6850 50  0001 C CNN
+F 1 "GND" V 2305 6927 50  0000 C CNN
+F 2 "" H 2300 7100 50  0001 C CNN
+F 3 "" H 2300 7100 50  0001 C CNN
+	1    2300 7100
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2300 6900 2    50   Output ~ 0
+X
+Text GLabel 2300 6800 2    50   Output ~ 0
+Y
+Text GLabel 2950 6950 2    50   Output ~ 0
+rX
+$Comp
+L power:GND #PWR0127
+U 1 1 619A8D21
+P 2950 7050
+F 0 "#PWR0127" H 2950 6800 50  0001 C CNN
+F 1 "GND" V 2955 6877 50  0000 C CNN
+F 2 "" H 2950 7050 50  0001 C CNN
+F 3 "" H 2950 7050 50  0001 C CNN
+	1    2950 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0128
+U 1 1 619A932F
+P 2950 6850
+F 0 "#PWR0128" H 2950 6700 50  0001 C CNN
+F 1 "+3V3" V 2950 7050 50  0000 C CNN
+F 2 "" H 2950 6850 50  0001 C CNN
+F 3 "" H 2950 6850 50  0001 C CNN
+	1    2950 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J7
+U 1 1 619ACC7E
+P 3400 6950
+F 0 "J7" H 3318 6625 50  0000 C CNN
+F 1 "Subtarget Select" H 3318 6716 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3400 6950 50  0001 C CNN
+F 3 "~" H 3400 6950 50  0001 C CNN
+	1    3400 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0129
+U 1 1 619AD20B
+P 3600 6950
+F 0 "#PWR0129" H 3600 6700 50  0001 C CNN
+F 1 "GND" V 3605 6777 50  0000 C CNN
+F 2 "" H 3600 6950 50  0001 C CNN
+F 3 "" H 3600 6950 50  0001 C CNN
+	1    3600 6950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3600 6850 2    50   Input ~ 0
+E0A
+Text GLabel 3600 7050 2    50   Input ~ 0
+E0B
+$Comp
+L Graphic:SYM_Magnet_Small Z1
+U 1 1 619F3865
+P 12750 7500
+F 0 "Z1" H 12750 7775 50  0001 C CNN
+F 1 "Mission Statement" H 12750 7275 50  0001 C CNN
+F 2 "EDI:mission_statement" H 12750 7500 50  0001 C CNN
+F 3 "~" H 12750 7500 50  0001 C CNN
+	1    12750 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_ST_STM32F1:STM32F103CBTx U0
+U 1 1 61A462A0
+P 8300 5200
+F 0 "U0" V 8300 5250 50  0000 R CNN
+F 1 "STM32F103CBT6" V 8200 5500 50  0000 R CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 7700 3800 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 8300 5200 50  0001 C CNN
+F 4 "C8304" H 8300 5200 50  0001 C CNN "LCSC"
+	1    8300 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Crystal_Small Y0
+U 1 1 61A3AD90
+P 4800 5600
+F 0 "Y0" H 4800 5825 50  0000 C CNN
+F 1 "DST1610A" H 4800 5734 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm" H 4800 5600 50  0001 C CNN
+F 3 "~" H 4800 5600 50  0001 C CNN
+	1    4800 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CX1
+U 1 1 61A3D3B0
+P 4900 5700
+F 0 "CX1" H 4992 5746 50  0000 L CNN
+F 1 "22pf" H 4992 5655 50  0000 L CNN
+F 2 "EDI:Passive_0402_1005Metric" H 4900 5700 50  0001 C CNN
+F 3 "~" H 4900 5700 50  0001 C CNN
+F 4 "C1525" H 4900 5700 50  0001 C CNN "LCSC"
+	1    4900 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CX0
+U 1 1 61A3C763
+P 4700 5700
+F 0 "CX0" H 4792 5746 50  0000 L CNN
+F 1 "22pf" H 4792 5655 50  0000 L CNN
+F 2 "EDI:Passive_0402_1005Metric" H 4700 5700 50  0001 C CNN
+F 3 "~" H 4700 5700 50  0001 C CNN
+F 4 "C1525" H 4700 5700 50  0001 C CNN "LCSC"
+	1    4700 5700
+	-1   0    0    1   
+$EndComp
+Text GLabel 4700 5600 0    50   Input ~ 0
+CLOCK0
+Text GLabel 7800 5900 3    50   Input ~ 0
+CLOCK0
+Text GLabel 4900 5600 2    50   Input ~ 0
+CLOCK1
+Text GLabel 7900 5900 3    50   Input ~ 0
+CLOCK1
+$Comp
+L power:GND #PWR0130
+U 1 1 61A42020
+P 4700 5800
+F 0 "#PWR0130" H 4700 5550 50  0001 C CNN
+F 1 "GND" V 4705 5627 50  0000 C CNN
+F 2 "" H 4700 5800 50  0001 C CNN
+F 3 "" H 4700 5800 50  0001 C CNN
+	1    4700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0131
+U 1 1 61A429B4
+P 4900 5800
+F 0 "#PWR0131" H 4900 5550 50  0001 C CNN
+F 1 "GND" V 4905 5627 50  0000 C CNN
+F 2 "" H 4900 5800 50  0001 C CNN
+F 3 "" H 4900 5800 50  0001 C CNN
+	1    4900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:HDMI_D_1.4 J2
+U 1 1 61B952DD
+P 11700 1100
+F 0 "J2" V 12267 1100 50  0000 C CNN
+F 1 "GripLink" V 12176 1100 50  0000 C CNN
+F 2 "Connector_HDMI:HDMI_Micro-D_Molex_46765-0x01" H 11725 1100 50  0001 C CNN
+F 3 "http://pinoutguide.com/PortableDevices/micro_hdmi_type_d_pinout.shtml" H 11725 1100 50  0001 C CNN
+F 4 "C585444" H 11700 1100 50  0001 C CNN "LCSC"
+	1    11700 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12800 800  12800 900 
+$Comp
+L power:+3V3 #PWR0115
+U 1 1 61BB1ED3
+P 10600 2600
+F 0 "#PWR0115" H 10600 2450 50  0001 C CNN
+F 1 "+3V3" H 10615 2773 50  0000 C CNN
+F 2 "" H 10600 2600 50  0001 C CNN
+F 3 "" H 10600 2600 50  0001 C CNN
+	1    10600 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 61BB1EE9
+P 12800 2400
+F 0 "#PWR0119" H 12800 2150 50  0001 C CNN
+F 1 "GND" H 12805 2227 50  0000 C CNN
+F 2 "" H 12800 2400 50  0001 C CNN
+F 3 "" H 12800 2400 50  0001 C CNN
+	1    12800 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:HDMI_D_1.4 J3
+U 1 1 61BB1EF3
+P 11700 2600
+F 0 "J3" V 12267 2600 50  0000 C CNN
+F 1 "BaseLink" V 12176 2600 50  0000 C CNN
+F 2 "Connector_HDMI:HDMI_Micro-D_Molex_46765-0x01" H 11725 2600 50  0001 C CNN
+F 3 "http://pinoutguide.com/PortableDevices/micro_hdmi_type_d_pinout.shtml" H 11725 2600 50  0001 C CNN
+F 4 "C585444" H 11700 2600 50  0001 C CNN "LCSC"
+	1    11700 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12800 2300 12800 2400
+Connection ~ 12800 2400
+Text GLabel 12400 3000 3    50   Input ~ 0
+col0
+Text GLabel 10900 3000 3    50   Input ~ 0
+col1
+Text GLabel 11000 3000 3    50   Output ~ 0
+row0
+Text GLabel 11400 3000 3    50   Output ~ 0
+row3
+Text GLabel 11300 3000 3    50   Output ~ 0
+row2
+Text GLabel 11100 3000 3    50   Output ~ 0
+rX
+Text GLabel 12300 3000 3    50   Output ~ 0
+X
+Text GLabel 11800 3000 3    50   Input ~ 0
+E0A
+Text GLabel 12000 3000 3    50   Input ~ 0
+E0B
+Connection ~ 12800 900 
+$Comp
+L power:GND #PWR04
+U 1 1 617C219A
+P 12800 900
+F 0 "#PWR04" H 12800 650 50  0001 C CNN
+F 1 "GND" H 12805 727 50  0000 C CNN
+F 2 "" H 12800 900 50  0001 C CNN
+F 3 "" H 12800 900 50  0001 C CNN
+	1    12800 900 
+	0    -1   -1   0   
+$EndComp
+Text GLabel 12800 1300 2    50   Output ~ 0
+Y
+Text GLabel 12800 1200 2    50   Output ~ 0
+row1
+Text GLabel 12800 1000 2    50   Output ~ 0
+row4
+Text GLabel 12800 2800 2    50   Output ~ 0
+Y
+Text GLabel 12800 2700 2    50   Output ~ 0
+row1
+Text GLabel 12800 2500 2    50   Output ~ 0
+row4
+$EndSCHEMATC
