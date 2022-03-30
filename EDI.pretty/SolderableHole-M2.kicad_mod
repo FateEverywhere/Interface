@@ -1,0 +1,14 @@
+(footprint "SolderableHole-M2" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 6243BDA3)
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9e4c1434-a1c2-4501-82ab-ac5a13f0db2c)
+  )
+  (fp_text value "SolderableHole-M2" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f46e51c7-f709-4157-a23c-bd0607d33a28)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 4.35 4.35) (drill 2.8) (layers *.Cu *.Mask) (tstamp 57fd8381-6e63-402e-ae67-57ac521e9d54))
+)
