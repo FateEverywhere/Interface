@@ -1,4 +1,4 @@
-19891414347811202
+19894713578602085
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51363,7 +51363,7 @@ MX-Choc-Double
 MX-style keyswitch
 MX,cherry,gateron,kailh
 0
-8
+14
 2
 EDI
 MX-Choc-Enc
@@ -51372,6 +51372,20 @@ MX,cherry,gateron,kailh
 0
 12
 5
+EDI
+MX-Choc-Enc-RGB
+MX-style keyswitch
+MX,cherry,gateron,kailh
+0
+12
+5
+EDI
+MX-Choc-RGB
+MX-style keyswitch
+MX,cherry,gateron,kailh
+0
+8
+2
 EDI
 MX-Stab-200
 MXALPS
