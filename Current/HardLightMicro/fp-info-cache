@@ -1,4 +1,4 @@
-19889765582256122
+19896371554433276
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51363,7 +51363,7 @@ MX-Choc-Double
 MX-style keyswitch
 MX,cherry,gateron,kailh
 0
-8
+14
 2
 EDI
 MX-Choc-Enc
@@ -51372,6 +51372,20 @@ MX,cherry,gateron,kailh
 0
 12
 5
+EDI
+MX-Choc-Enc-RGB
+MX-style keyswitch
+MX,cherry,gateron,kailh
+0
+12
+5
+EDI
+MX-Choc-RGB
+MX-style keyswitch
+MX,cherry,gateron,kailh
+0
+8
+2
 EDI
 MX-Stab-200
 MXALPS
@@ -51475,8 +51489,8 @@ SolderableHole-M2
 
 
 0
-0
-0
+1
+1
 EDI
 SunLED-FlipRGB
 3.2mm x 2.8mm PLCC4 LED, https://www.we-online.de/katalog/datasheet/150141M173100.pdf
@@ -51611,6 +51625,13 @@ mk5-sweetbiz
 0
 0
 EDI
+mk5-sweetbiz-rgb
+
+
+0
+0
+0
+EDI
 patches
 
 
@@ -51633,6 +51654,13 @@ sweetbiz
 0
 EDI
 sweethaz
+
+
+0
+0
+0
+EDI
+wish-ender
 
 
 0
