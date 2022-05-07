@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC
+10K,"R0,R1",Passive_0402_1005Metric,C25744
+BSS138,Q0,SOT-23,C78284
+Power,J1,PinSocket_1x02_P2.54mm_Vertical,
+Signals,J0,PinSocket_1x02_P2.54mm_Vertical,

@@ -1,10 +1,10 @@
 (footprint "Passive_0402_1005Metric" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6228B856)
+  (tedit 626C5AC2)
   (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
   (tags "capacitor")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -1.17) (layer "F.SilkS") hide
+  (fp_text reference "REF**" (at -1.5874 -0.7937) (layer "F.SilkS") hide
     (effects (font (size 1.25 1.25) (thickness 0.15)))
     (tstamp c7c2910e-da57-416f-a8c1-da1266186580)
   )
@@ -12,9 +12,9 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cf5bcdde-b78a-4390-8fe2-addd2a0ea00b)
   )
-  (fp_text user "${REFERENCE}" (at 0 -0.7937) (layer "F.SilkS")
-    (effects (font (size 0.25 0.25) (thickness 0.04)))
-    (tstamp 22118e52-409e-4197-8203-c3f5c254b4a8)
+  (fp_text user "REF**" (at -3.1748 0 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 06d27c4b-5a73-43be-9387-ec7a071078dc)
   )
   (fp_line (start -0.93 0.47) (end -0.93 -0.47) (layer "F.CrtYd") (width 0.05) (tstamp 3288488f-52fa-4b11-80cf-bfa08d6d999e))
   (fp_line (start 0.93 0.47) (end -0.93 0.47) (layer "F.CrtYd") (width 0.05) (tstamp 3c2f55c3-e552-49e6-a345-d7b9fdb60171))

@@ -1,0 +1,4083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Documents\GitHub\hardlight\CurrentProjects\HardLight2040\HL-2040.kicad_sch</source>
+    <date>3/19/2022 18:34:12</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Hard Light</title>
+        <company>Everywhere Defense Industries</company>
+        <rev>2040 Mark 1</rev>
+        <date>2021-10-26</date>
+        <source>HL-2040.kicad_sch</source>
+        <comment number="1" value="RP2040 main core"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HL2040-matrix.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uf</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C23733</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C23733"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005c77ce24</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uf</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C52923"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005c77cee3</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005c77cf13</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005c77d011</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000610c4af8</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7203f2e1-6966-44df-a6cb-d7bc0cd5a9b0</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03658601-3f5e-40ee-b677-eb7cde3e9f1b</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4d9f15e-556d-462c-b9be-56555fc42a59</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da33b774-6f57-4203-8aba-cecf3522db53</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1uf</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C52923"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edd64f2d-efdb-470c-9ed1-0e6efea040fc</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf6e5f55-8eae-4813-95a1-39b19660ecf5</tstamps>
+    </comp>
+    <comp ref="CF1">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6d72aff-2828-4ea0-bd7e-d9229db28064</tstamps>
+    </comp>
+    <comp ref="CP1">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005c77ed4b</tstamps>
+    </comp>
+    <comp ref="CP2">
+      <value>10uF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C15525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005c77f97e</tstamps>
+    </comp>
+    <comp ref="CX1">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ecca8010-a456-4268-9731-f1a3cb559a04</tstamps>
+    </comp>
+    <comp ref="CX2">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>495a3d5e-30f0-4560-8b28-62c77b495bc8</tstamps>
+    </comp>
+    <comp ref="F0">
+      <value>6v 500ma</value>
+      <footprint>Fuse:Fuse_0603_1608Metric_Castellated</footprint>
+      <fields>
+        <field name="LCSC">C207011</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse_Small" description=""/>
+      <property name="LCSC" value="C207011"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006171cb11</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>Mount</value>
+      <footprint>EDI:SolderableHole</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060d8fc2a</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>Mount</value>
+      <footprint>EDI:SolderableHole</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060d90995</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>Mount</value>
+      <footprint>EDI:SolderableHole</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060e29fe5</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>Mount</value>
+      <footprint>EDI:SolderableHole</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060e29fef</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>Mount</value>
+      <footprint>EDI:SolderableHole</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060e4988b</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>Mount</value>
+      <footprint>EDI:SolderableHole</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060e49895</tstamps>
+    </comp>
+    <comp ref="J0">
+      <value>USB</value>
+      <footprint>Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <fields>
+        <field name="LCSC">C167321</field>
+      </fields>
+      <libsource lib="HL-Mk2-rescue" part="USB_C_Receptacle_USB2.0-Connector" description=""/>
+      <property name="LCSC" value="C167321"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005c784683</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25905</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="LCSC" value="C25905"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a581c49d-ed21-4170-9a42-a08a51ff25e2</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5k1</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25905</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="LCSC" value="C25905"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061335916</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5k1</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25905</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="LCSC" value="C25905"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061334a33</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>27</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C413051 </field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="LCSC" value="C413051 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de13ba68-4b93-430a-a145-47edb005f7c9</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>27</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C413051 </field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="LCSC" value="C413051 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34a9ce1d-48f0-48f3-b12e-ff94b56eb4e2</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25905</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="LCSC" value="C25905"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68fbc5ab-be17-4998-9fc0-2667a0436748</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25905</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="LCSC" value="C25905"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2006c0e-7a6a-42f7-951d-98e3e51075a1</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>RESET</value>
+      <footprint>EDI:SW_EVPBB4A9B000</footprint>
+      <fields>
+        <field name="LCSC">C140848</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description=""/>
+      <property name="LCSC" value="C140848"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005c7a3778</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>USB BOOT</value>
+      <footprint>EDI:SW_EVPBB4A9B000</footprint>
+      <fields>
+        <field name="LCSC">C140848</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description=""/>
+      <property name="LCSC" value="C140848"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56fde895-d348-4159-9f83-9c9a23662cbb</tstamps>
+    </comp>
+    <comp ref="TX0">
+      <value>Transducer</value>
+      <footprint>Buzzer_Beeper:Buzzer_CUI_CPT-9019S-SMT</footprint>
+      <fields>
+        <field name="LCSC">C391035</field>
+      </fields>
+      <libsource lib="Device" part="Speaker_Crystal" description=""/>
+      <property name="LCSC" value="C391035"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616bd8e4</tstamps>
+    </comp>
+    <comp ref="TX1">
+      <value>Transducer</value>
+      <footprint>Buzzer_Beeper:Buzzer_CUI_CPT-9019S-SMT</footprint>
+      <fields>
+        <field name="LCSC">C391035</field>
+      </fields>
+      <libsource lib="Device" part="Speaker_Crystal" description=""/>
+      <property name="LCSC" value="C391035"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616c5b39</tstamps>
+    </comp>
+    <comp ref="U0">
+      <value>RP2040</value>
+      <footprint>Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm_ThermalVias</footprint>
+      <fields>
+        <field name="LCSC">C2040</field>
+      </fields>
+      <libsource lib="RP2040" part="RP2040" description=""/>
+      <property name="LCSC" value="C2040"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3b5055f-0ec9-48a7-b229-b48a9f42bda4</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LDO-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C83932</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LD1117S33TR_SOT223" description=""/>
+      <property name="LCSC" value="C83932"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005c77ec95</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2827654</field>
+      </fields>
+      <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="LCSC" value="C2827654"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46e11222-3269-4695-86d8-658906707703</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>W25Q128JVS</value>
+      <footprint>Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</footprint>
+      <datasheet>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C97521</field>
+      </fields>
+      <libsource lib="Memory_Flash" part="W25Q128JVS" description="128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="LCSC" value="C97521"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85c250ab-4be4-401c-a2dc-efd252b4b5cc</tstamps>
+    </comp>
+    <comp ref="Y0">
+      <value>12MHz</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="LCSC">C9002</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="LCSC" value="C9002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46b6fcd5-0947-44f0-ab4d-0e5313e0c1b9</tstamps>
+    </comp>
+    <comp ref="Z0">
+      <value>EDI Logo</value>
+      <footprint>EDI:HL2040</footprint>
+      <libsource lib="Graphic" part="SYM_Magnet_Small" description="Magnetic field warning symbol, small"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HL-2040.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ea0765</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>255b26e6-50c5-468e-b17b-bf93ef6f962e</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>62c62b32-e767-4f4b-985b-fa21c65cb942</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>7582d2da-9f0e-4c80-a67c-119b73dbbbf1</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>1af6eaa7-d132-4f96-b0e0-b0c94de66fa7</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>2f1877fa-7ed3-428f-afd8-cf322978e296</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>c56c6594-2afc-498d-a7c4-0e3b7c7d6b9d</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>465f47a2-d8e3-497f-9a5c-c610fd165989</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>53401b8e-3ecb-45eb-986b-c04eed5ece06</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>7e44a366-608c-43f0-96a3-0b105a890e8f</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>3ea8359f-06a4-44be-94b0-8de26cba2662</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>5e642a33-6f07-4b5e-89a2-3290e5d10745</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>1a4aec1d-74ff-406b-a3df-ac59dc4fda73</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>b22db23d-e771-49b6-9e47-b6228339fa91</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>6e3d99ce-9d5a-4f5f-9338-9670b1839292</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>81cb0137-745e-49ba-b6e6-f47f870b1554</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>3f1b699c-1550-401e-80c6-a41fe9d15a7b</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>10e4868a-efba-4b4e-8510-77175944136f</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>f5da526b-c421-4337-af39-a0acfc98cf9d</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>bcee0ca4-ce1f-4f4f-a6e9-907aed2560a3</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>3022579f-b1a2-487e-814c-db193073aa97</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>f605e6e2-f31f-4bb3-a4e5-7b04e128f1c1</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>2c8fd281-8926-4cb2-80cd-1daefca3f8e6</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>132a5b0f-0b3a-457e-97ba-82bb415c2335</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>a5b564db-6bc3-4c1e-92fa-581399439d2c</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>c49a5da5-9970-4a2c-93ac-51823be0b45d</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>fe848d4a-ae15-4e36-ac8d-1826a5d3b770</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>36a27db2-df2b-4cb8-868d-67fdaf52b9be</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>e5f95019-f6bc-43b9-b6a4-502787558394</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>aea734c7-e0cb-4774-8d68-2b2c56b38b83</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>54483c6a-5767-49e9-b9a3-d010ffe327c7</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>3de9508a-e156-4e7c-ab04-396e57cd1eef</tstamps>
+    </comp>
+    <comp ref="D32">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>22462a15-d7ca-4d5a-a779-8854406aa836</tstamps>
+    </comp>
+    <comp ref="D33">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>22b03eac-dcb1-4da5-84ba-e2f201e58a76</tstamps>
+    </comp>
+    <comp ref="D34">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>67b07587-d28c-4d8f-8a7e-127075c375da</tstamps>
+    </comp>
+    <comp ref="D35">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>26c0d7e4-1377-4eb9-9347-d23aa0de3ee4</tstamps>
+    </comp>
+    <comp ref="D36">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>3415406e-dc0d-4a0e-bc80-b1ae13df4647</tstamps>
+    </comp>
+    <comp ref="D37">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>890ff14b-d2b8-4da2-8159-d7070f4e3bdb</tstamps>
+    </comp>
+    <comp ref="D38">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>6cc202ae-5eb9-438e-b4f6-a95e7dc17365</tstamps>
+    </comp>
+    <comp ref="D39">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>307b4a3d-04e8-4382-9a06-80db5a273d78</tstamps>
+    </comp>
+    <comp ref="D40">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>6f3644fe-8ca4-4cb4-9ae3-3abe51241034</tstamps>
+    </comp>
+    <comp ref="D41">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>6af98692-daa7-4e72-a3c8-e4c98835e70e</tstamps>
+    </comp>
+    <comp ref="D42">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>9fcd768c-9ff0-44a5-a79e-85d3b7d0ba95</tstamps>
+    </comp>
+    <comp ref="D43">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>725ee14b-f32a-4c1f-9198-1a39fa195a8d</tstamps>
+    </comp>
+    <comp ref="D44">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>77e275b6-194c-4132-835b-df8f53ccb690</tstamps>
+    </comp>
+    <comp ref="D45">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>8266446d-78ad-4856-a3fc-dbcf634eaf02</tstamps>
+    </comp>
+    <comp ref="D46">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>4840412b-9fda-4512-9708-e7ebd737cb7c</tstamps>
+    </comp>
+    <comp ref="D47">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>82ad27fc-8053-4bb4-ac92-7a773bf68dcc</tstamps>
+    </comp>
+    <comp ref="D48">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>1ea03bbb-40e2-4566-9e47-8bf29447d68c</tstamps>
+    </comp>
+    <comp ref="D49">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>8ad86bd6-4484-4a0b-a42a-19c16fd04fe6</tstamps>
+    </comp>
+    <comp ref="D50">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>570b6a02-5ec0-426d-bc78-4da157f3ebc0</tstamps>
+    </comp>
+    <comp ref="D51">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>99401e6a-80f9-4254-96d5-46cce083cf3e</tstamps>
+    </comp>
+    <comp ref="D52">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>ab41595c-29e1-4d26-81da-5d0eac9f9fd7</tstamps>
+    </comp>
+    <comp ref="D53">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>70287914-5330-413a-a8f4-37e37bdd15c6</tstamps>
+    </comp>
+    <comp ref="D54">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>c556c677-37f6-4b6b-a0d0-3e1c541c7278</tstamps>
+    </comp>
+    <comp ref="D55">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>fbc6f875-5cf0-4135-99db-cf656b5267cb</tstamps>
+    </comp>
+    <comp ref="D56">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>2dcda70f-c8a5-4b92-a6a3-52dae8fe237c</tstamps>
+    </comp>
+    <comp ref="D57">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>2671710a-e345-49b1-b019-34b852abf33f</tstamps>
+    </comp>
+    <comp ref="D58">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>d97abe4c-8be8-44c1-b7c9-3266a9d6fb8b</tstamps>
+    </comp>
+    <comp ref="D59">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>9cf5929c-9533-42e1-9f13-adf4f64c9f53</tstamps>
+    </comp>
+    <comp ref="D60">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>09571006-8e41-448a-859a-1369c3822a00</tstamps>
+    </comp>
+    <comp ref="D61">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>8afc495c-8865-470d-a112-ac6a67e0e5fa</tstamps>
+    </comp>
+    <comp ref="D62">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>f7b86ad0-cb74-46a4-8553-a894b00ba83b</tstamps>
+    </comp>
+    <comp ref="D63">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>40c90a18-29a7-42d9-91e1-5e166fef56a9</tstamps>
+    </comp>
+    <comp ref="D64">
+      <value>1N4148W-T4</value>
+      <footprint>EDI:D_SOD-523</footprint>
+      <fields>
+        <field name="LCSC">C68948</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description=""/>
+      <property name="LCSC" value="C68948"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>ae8e9ac7-e0e9-402f-8e36-ad0869b6fa96</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>76cbd0cd-adaa-44cf-87de-243f674e3652</tstamps>
+    </comp>
+    <comp ref="K2">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>f112ddc0-a195-4340-bae6-3470feecd010</tstamps>
+    </comp>
+    <comp ref="K3">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>367f6dba-70b4-445f-b104-e6d0e9ad71cb</tstamps>
+    </comp>
+    <comp ref="K4">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>e3bb5b0e-01a6-4e80-bd79-308d1a1b9a88</tstamps>
+    </comp>
+    <comp ref="K5">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>4d774893-e908-4aed-959f-a39c12d2b447</tstamps>
+    </comp>
+    <comp ref="K6">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>ed86c819-c991-42c9-ab00-82cd38d6c673</tstamps>
+    </comp>
+    <comp ref="K7">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>4e12eec2-7795-4631-83a0-a98a85398b0c</tstamps>
+    </comp>
+    <comp ref="K8">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>8b2b4f25-0ab5-408d-904f-ec69653c129a</tstamps>
+    </comp>
+    <comp ref="K9">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>21ce70bc-1f57-48da-8a66-6461fa2b2c09</tstamps>
+    </comp>
+    <comp ref="K10">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>4791981b-2fc5-4fc2-947c-f96bd371e11d</tstamps>
+    </comp>
+    <comp ref="K11">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>c446f855-c96c-4560-b08f-2477dccbf233</tstamps>
+    </comp>
+    <comp ref="K12">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>3ca4a1d2-14b6-475c-87a2-714738f919e6</tstamps>
+    </comp>
+    <comp ref="K13">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>5be33dfd-2356-42cc-9cb5-977981cf2e09</tstamps>
+    </comp>
+    <comp ref="K14">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>c6c856f2-8e8c-4a85-9734-df4f06437dfc</tstamps>
+    </comp>
+    <comp ref="K15">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>0fe0b099-2347-4aaf-9e57-5303d56c723a</tstamps>
+    </comp>
+    <comp ref="K16">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>6d542fcc-e15c-4f45-8ebc-3ec5c0e0f3dd</tstamps>
+    </comp>
+    <comp ref="K17">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>2ddb316c-3eb5-4c4d-93f7-046968649e30</tstamps>
+    </comp>
+    <comp ref="K18">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>49a8b8e6-4b32-44cc-9b2f-b93d415d6c98</tstamps>
+    </comp>
+    <comp ref="K19">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>27221c76-18fb-4284-a06e-629d61d7fc29</tstamps>
+    </comp>
+    <comp ref="K20">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>1063796f-c3a7-4dd6-903c-cf82753d1a2e</tstamps>
+    </comp>
+    <comp ref="K21">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>6f67b3b0-023d-4b15-bd9c-bd2673f857e0</tstamps>
+    </comp>
+    <comp ref="K22">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>922d2c77-c72c-4d2a-abcb-56017af9ebe4</tstamps>
+    </comp>
+    <comp ref="K23">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>a0a149d8-b840-4f9c-acc4-684f7449df6a</tstamps>
+    </comp>
+    <comp ref="K24">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>778a640e-16f8-45b4-ba7e-df2e749ee8d4</tstamps>
+    </comp>
+    <comp ref="K25">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>ffd02b25-effa-4354-b521-3c402dee7773</tstamps>
+    </comp>
+    <comp ref="K26">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>4a695da9-73c5-4eda-80d5-d4bc04662a45</tstamps>
+    </comp>
+    <comp ref="K27">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>4c739fa0-f32e-4df4-9b7b-ee3e6afb295f</tstamps>
+    </comp>
+    <comp ref="K28">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>27e04cf7-c1b2-465a-9d8f-872e71060ee9</tstamps>
+    </comp>
+    <comp ref="K29">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>81b4fb76-0903-460e-8cd6-cb8a9f3cad30</tstamps>
+    </comp>
+    <comp ref="K30">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>7924fb7f-e216-4ba9-88ed-2af96363be35</tstamps>
+    </comp>
+    <comp ref="K31">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>6fdb7a63-6401-4aa3-9d84-47716369823a</tstamps>
+    </comp>
+    <comp ref="K32">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>2956d091-2aba-4184-a6c6-bef1558eaf14</tstamps>
+    </comp>
+    <comp ref="K33">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>c0cb625f-c65a-4524-8b1a-33233a4b83e0</tstamps>
+    </comp>
+    <comp ref="K34">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>3aeb039f-b531-4df2-b92e-2c83e604f649</tstamps>
+    </comp>
+    <comp ref="K35">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>165894f0-e29c-4591-af30-6aa95fa14c20</tstamps>
+    </comp>
+    <comp ref="K36">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>a3f6f587-2ffc-494f-9ee8-00a11fd76b97</tstamps>
+    </comp>
+    <comp ref="K37">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>84825544-dfef-43f0-bbf1-31f916bb89c9</tstamps>
+    </comp>
+    <comp ref="K38">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>b91ed9a9-7412-4be5-895f-a8893772546e</tstamps>
+    </comp>
+    <comp ref="K39">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>736a52dd-8dab-4bc1-9e87-8ada4f97c35b</tstamps>
+    </comp>
+    <comp ref="K40">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>fc49b511-c388-4540-826a-ea5b6d6e23a3</tstamps>
+    </comp>
+    <comp ref="K41">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>537f2bf0-c1ef-4b01-a609-ef79ad172560</tstamps>
+    </comp>
+    <comp ref="K42">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>8be08611-7208-4e21-90b4-0a7bd788536a</tstamps>
+    </comp>
+    <comp ref="K43">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>f3f23ec4-64f2-4208-87c2-262219cae425</tstamps>
+    </comp>
+    <comp ref="K44">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>889eff98-a3a9-4db9-8041-629d4426f057</tstamps>
+    </comp>
+    <comp ref="K45">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>6a2f84fe-599a-47a5-8319-b6961e4270c3</tstamps>
+    </comp>
+    <comp ref="K46">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>1ba0590e-ba3c-4005-974a-30d5fd97aa43</tstamps>
+    </comp>
+    <comp ref="K47">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>d67939b1-5daf-4d3f-ad3f-d552567347c3</tstamps>
+    </comp>
+    <comp ref="K48">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>a18bf444-cca8-45ef-b76b-1834ecfdcb2d</tstamps>
+    </comp>
+    <comp ref="K49">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>c8d3e268-b553-4305-9ace-c83c77677a32</tstamps>
+    </comp>
+    <comp ref="K50">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>49e6bb50-3596-4306-8211-4d2d6df8255d</tstamps>
+    </comp>
+    <comp ref="K51">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>61d004ae-a77d-4c74-ae01-6140bfea20c3</tstamps>
+    </comp>
+    <comp ref="K52">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>def7bf34-ff41-4589-819b-69a872bae2f1</tstamps>
+    </comp>
+    <comp ref="K53">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>cb7305fe-6121-4a02-be68-b476a119e2b5</tstamps>
+    </comp>
+    <comp ref="K54">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc-Double</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>ccf9d3ba-be36-4786-a1c9-9a4cea5fa817</tstamps>
+    </comp>
+    <comp ref="K55">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>a1b21796-aff6-40dc-a468-8767ac8ea5cb</tstamps>
+    </comp>
+    <comp ref="K56">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>a2688d18-0bbe-47f6-9af9-6a19ba8a53f5</tstamps>
+    </comp>
+    <comp ref="K57">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>9bc3c3e7-702b-451c-8585-447e4fad9127</tstamps>
+    </comp>
+    <comp ref="K58">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc-Double</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>526412ca-ff2d-4c4c-a6b8-615197795203</tstamps>
+    </comp>
+    <comp ref="K59">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>a2d62633-bf44-4c12-a707-471eac3bf6c6</tstamps>
+    </comp>
+    <comp ref="K60">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>c28f154a-4904-4dcc-8517-bca9e66088af</tstamps>
+    </comp>
+    <comp ref="K61">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>88999d67-3358-4d26-82e3-9679940ba0c5</tstamps>
+    </comp>
+    <comp ref="K62">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>2e370670-2291-4657-8360-03c3bd44e418</tstamps>
+    </comp>
+    <comp ref="K63">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>681fd7f9-0a51-41ee-b732-53f4406467a0</tstamps>
+    </comp>
+    <comp ref="K64">
+      <value>Keyswitch</value>
+      <footprint>EDI:MX-Choc</footprint>
+      <libsource lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>c376f69d-542c-4831-8fe6-510117d3aaf6</tstamps>
+    </comp>
+    <comp ref="LC1">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>f2288a0f-a23b-4895-97cb-265d8e1eb11f</tstamps>
+    </comp>
+    <comp ref="LC2">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>238526c7-f555-4ce0-b311-d60e0694135e</tstamps>
+    </comp>
+    <comp ref="LC3">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>b08dccc3-9a82-41c6-b09d-aaddb715994e</tstamps>
+    </comp>
+    <comp ref="LC4">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>e0d20d04-06ab-40a4-adc6-4e246ac8e8af</tstamps>
+    </comp>
+    <comp ref="LC5">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>e601ab58-3788-4420-a42d-9d90ba5cdd1d</tstamps>
+    </comp>
+    <comp ref="LC6">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>d503936b-054a-47e2-baaf-08d777fd6bc9</tstamps>
+    </comp>
+    <comp ref="LC7">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>e6c59b28-f415-4ee5-9ae8-31121e071fad</tstamps>
+    </comp>
+    <comp ref="LC8">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>ff593088-00fe-411d-8bf3-4075eb3069ec</tstamps>
+    </comp>
+    <comp ref="LC9">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>244a6cb0-e6e7-444c-a537-254752513e00</tstamps>
+    </comp>
+    <comp ref="LC10">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>47ea4a65-7991-43b6-8043-bf9b1e844a81</tstamps>
+    </comp>
+    <comp ref="LC11">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>98d89819-7323-4c28-918d-a1c6a54e4d5c</tstamps>
+    </comp>
+    <comp ref="LC12">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>91e209ea-ba19-4dfb-8b09-62c53d82179c</tstamps>
+    </comp>
+    <comp ref="LC13">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>57267172-a19f-4613-83c0-cf6edb23d822</tstamps>
+    </comp>
+    <comp ref="LC14">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>94d98ed4-fc4c-4ead-897e-09d02a0c5f84</tstamps>
+    </comp>
+    <comp ref="LC15">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>963a59b1-1ed5-4b18-aa7f-473f6a6d2206</tstamps>
+    </comp>
+    <comp ref="LC16">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>9334a651-3737-4be5-992f-1dc126ee02e6</tstamps>
+    </comp>
+    <comp ref="LC17">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>6ded5e0a-17ed-467c-8860-13ffa8605150</tstamps>
+    </comp>
+    <comp ref="LC18">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>8aa3e471-f80f-4717-b561-166cbc8add4f</tstamps>
+    </comp>
+    <comp ref="LC19">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>eda8403d-1a65-4c0e-bdd4-de7209127e57</tstamps>
+    </comp>
+    <comp ref="LC20">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>590f0060-dd7a-4619-aa4d-9a2a77e3a860</tstamps>
+    </comp>
+    <comp ref="LC21">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>61b2faac-40a0-416e-9998-499bc10d008c</tstamps>
+    </comp>
+    <comp ref="LC22">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>031bbb3e-fb0a-4bfe-8105-79df05c19fb1</tstamps>
+    </comp>
+    <comp ref="LC23">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>6524063e-81e7-46a1-9c6c-5cc77a28f66a</tstamps>
+    </comp>
+    <comp ref="LC24">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>93b8b94c-3f13-4bca-93e5-f9fbd21a57b5</tstamps>
+    </comp>
+    <comp ref="LC25">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>e4661748-5fc7-4b38-9669-ce3154a98f2f</tstamps>
+    </comp>
+    <comp ref="LC26">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>4ea041e9-88bb-4d9a-b238-e18e503e1466</tstamps>
+    </comp>
+    <comp ref="LC27">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>2c70aa68-a7ea-4362-b60d-392ae9924b1a</tstamps>
+    </comp>
+    <comp ref="LC28">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>aacc28dc-428d-4b28-a0c2-d0a66af25041</tstamps>
+    </comp>
+    <comp ref="LC29">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>0e5216d3-f40b-4f0c-b3f7-5ee83cb99801</tstamps>
+    </comp>
+    <comp ref="LC30">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>50b65db5-4787-4736-8352-00edab00be97</tstamps>
+    </comp>
+    <comp ref="LC31">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>ad30c648-e1df-40d8-bffa-08c6a702c2fa</tstamps>
+    </comp>
+    <comp ref="LC32">
+      <value>100nF</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description=""/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>e4a3649b-ffa8-40f8-8ab1-c2c53cc5534e</tstamps>
+    </comp>
+    <comp ref="LD1">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>5e59c947-e663-430d-908a-81cb44a0682e</tstamps>
+    </comp>
+    <comp ref="LD2">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>841b9b17-a58a-487e-9dc1-069840ade043</tstamps>
+    </comp>
+    <comp ref="LD3">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>95b6241c-b19c-41d4-b9e5-c276d800af05</tstamps>
+    </comp>
+    <comp ref="LD4">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>397d2711-f297-48f4-8393-8d6266ab2da5</tstamps>
+    </comp>
+    <comp ref="LD5">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>85b9af20-e310-49f6-981c-dd6f88cc084a</tstamps>
+    </comp>
+    <comp ref="LD6">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>2f22d62e-3514-4eb5-86ad-2e06a9cfe65a</tstamps>
+    </comp>
+    <comp ref="LD7">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>939378e6-157c-4bd6-a442-65b40af8dd5e</tstamps>
+    </comp>
+    <comp ref="LD8">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>780daa5f-0411-4a9c-b0be-624b91dadf2d</tstamps>
+    </comp>
+    <comp ref="LD9">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>8404c8ed-cd6d-4798-af57-69617132819b</tstamps>
+    </comp>
+    <comp ref="LD10">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>165ee30f-eb62-4e3b-b0ce-314c5141d26e</tstamps>
+    </comp>
+    <comp ref="LD11">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>99877ac4-45c1-405c-a586-defdb4fb1364</tstamps>
+    </comp>
+    <comp ref="LD12">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>2ab4182e-23c5-4044-b3a7-0246e8d1afeb</tstamps>
+    </comp>
+    <comp ref="LD13">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>8565cc7d-0fe0-482f-ae9b-bad8ae4a5f10</tstamps>
+    </comp>
+    <comp ref="LD14">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>724b98eb-a010-4c07-852e-147b4651fd7e</tstamps>
+    </comp>
+    <comp ref="LD15">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>b7d331dc-3bac-4881-8d2b-bad381eb6bcf</tstamps>
+    </comp>
+    <comp ref="LD16">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>f42dd07b-c39d-4281-a284-44a97c7f3722</tstamps>
+    </comp>
+    <comp ref="LD17">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>3b698a54-a6b6-41c9-96ca-6ff551488a0e</tstamps>
+    </comp>
+    <comp ref="LD18">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>a4c17dce-9fe8-4277-94dd-74a4b8a360cf</tstamps>
+    </comp>
+    <comp ref="LD19">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>4890a7ec-ab92-451a-aa8e-c0345041fa15</tstamps>
+    </comp>
+    <comp ref="LD20">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>1a6d2f47-6fb3-4696-9cb8-dd2df9f762fc</tstamps>
+    </comp>
+    <comp ref="LD21">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>c425a96d-fdbd-4f56-b764-3b4c0648735c</tstamps>
+    </comp>
+    <comp ref="LD22">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>9287f90c-d242-46dd-8b80-d3fd1e66dec2</tstamps>
+    </comp>
+    <comp ref="LD23">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>1ad11d3a-f03a-4cbc-ab6d-7b9f74d5fbdb</tstamps>
+    </comp>
+    <comp ref="LD24">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>78a23fad-515a-4eb7-8640-aeb9da1e70fa</tstamps>
+    </comp>
+    <comp ref="LD25">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>4f61c361-057f-4420-8521-b0efa2865183</tstamps>
+    </comp>
+    <comp ref="LD26">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>602c4493-6619-4c20-b405-8f30e83345cb</tstamps>
+    </comp>
+    <comp ref="LD27">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>df830ebb-0dec-40b3-9d69-1c991e06f686</tstamps>
+    </comp>
+    <comp ref="LD28">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>f2808f67-8ee4-438d-9c57-8270e8df0049</tstamps>
+    </comp>
+    <comp ref="LD29">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>030c91b3-0dc9-4ce1-9cd9-a9d93e85ec88</tstamps>
+    </comp>
+    <comp ref="LD30">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>bd923792-5670-4ad7-bafd-fc9ef9931650</tstamps>
+    </comp>
+    <comp ref="LD31">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>fdf52064-4b7d-465c-a61e-54738a00bde7</tstamps>
+    </comp>
+    <comp ref="LD32">
+      <value>WS2812C-2020</value>
+      <footprint>EDI:WS2812B_2020</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965556</field>
+      </fields>
+      <libsource lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue" description=""/>
+      <property name="LCSC" value="C965556"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>1ccb0f60-4293-4dae-80d0-a8f28fe0b06f</tstamps>
+    </comp>
+    <comp ref="RL1">
+      <value>5k1</value>
+      <footprint>EDI:Passive_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25905</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description=""/>
+      <property name="LCSC" value="C25905"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="HL2040-matrix.kicad_sch"/>
+      <sheetpath names="/Matrix/" tstamps="/ed13ed02-5f67-40c5-b1c5-8981d8f3329e/"/>
+      <tstamps>11bef303-5e82-4d46-8c5a-db3e227ff746</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Small">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Device_C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Small">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Device_D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Device_Polyfuse_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Device_R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Speaker_Crystal">
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">Device_Speaker_Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Graphic" part="SYM_Magnet_Small">
+      <description>Magnetic field warning symbol, small</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#SYM</field>
+        <field name="Value">SYM_Magnet_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="HL-Mk2-rescue" part="KEYSW-keyboard_parts">
+      <fields>
+        <field name="Reference">K?</field>
+        <field name="Value">KEYSW-keyboard_parts</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HL-Mk2-rescue" part="USB_C_Receptacle_USB2.0-Connector">
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0-Connector</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="power_in"/>
+        <pin num="A4" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HL-Mk3-rescue" part="WS2812C-EDI-Audio-HL-Mk2-rescue">
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812C-EDI-Audio-HL-Mk2-rescue</field>
+        <field name="Footprint">EDI:WS2812B_2020</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DOUT" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_Flash" part="W25Q128JVS">
+      <description>128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8</description>
+      <docs>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</docs>
+      <footprints>
+        <fp>SOIC*5.23x5.23mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q128JVS</field>
+        <field name="Footprint">Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</field>
+        <field name="Datasheet">http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="DO(IO1)" type="bidirectional"/>
+        <pin num="3" name="IO2" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="USBLC6-2SC6">
+      <description>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</description>
+      <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="I/O1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RP2040" part="RP2040">
+      <footprints>
+        <fp>IC57_RP2040</fp>
+        <fp>IC57_RP2040-M</fp>
+        <fp>IC57_RP2040-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RP2040</field>
+        <field name="Footprint">IC57_RP2040</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IOVDD" type="power_in"/>
+        <pin num="2" name="GPIO0" type="bidirectional"/>
+        <pin num="3" name="GPIO1" type="bidirectional"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GPIO6" type="bidirectional"/>
+        <pin num="9" name="GPIO7" type="bidirectional"/>
+        <pin num="10" name="IOVDD" type="power_in"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GPIO10" type="bidirectional"/>
+        <pin num="14" name="GPIO11" type="bidirectional"/>
+        <pin num="15" name="GPIO12" type="bidirectional"/>
+        <pin num="16" name="GPIO13" type="bidirectional"/>
+        <pin num="17" name="GPIO14" type="bidirectional"/>
+        <pin num="18" name="GPIO15" type="bidirectional"/>
+        <pin num="19" name="TESTEN" type="unspecified"/>
+        <pin num="20" name="XIN" type="unspecified"/>
+        <pin num="21" name="XOUT" type="output"/>
+        <pin num="22" name="IOVDD" type="power_in"/>
+        <pin num="23" name="DVDD" type="power_in"/>
+        <pin num="24" name="SWCLK" type="unspecified"/>
+        <pin num="25" name="SWDIO" type="unspecified"/>
+        <pin num="26" name="RUN" type="unspecified"/>
+        <pin num="27" name="GPIO16" type="bidirectional"/>
+        <pin num="28" name="GPIO17" type="bidirectional"/>
+        <pin num="29" name="GPIO18" type="bidirectional"/>
+        <pin num="30" name="GPIO19" type="bidirectional"/>
+        <pin num="31" name="GPIO20" type="bidirectional"/>
+        <pin num="32" name="GPIO21" type="bidirectional"/>
+        <pin num="33" name="IOVDD" type="power_in"/>
+        <pin num="34" name="GPIO22" type="bidirectional"/>
+        <pin num="35" name="GPIO23" type="bidirectional"/>
+        <pin num="36" name="GPIO24" type="bidirectional"/>
+        <pin num="37" name="GPIO25" type="bidirectional"/>
+        <pin num="38" name="GPIO26/ADC0" type="bidirectional"/>
+        <pin num="39" name="GPIO27/ADC1" type="bidirectional"/>
+        <pin num="40" name="GPIO28/ADC2" type="bidirectional"/>
+        <pin num="41" name="GPIO29/ADC3" type="bidirectional"/>
+        <pin num="42" name="IOVDD" type="power_in"/>
+        <pin num="43" name="ADC_AVDD" type="power_in"/>
+        <pin num="44" name="VREG_VIN" type="unspecified"/>
+        <pin num="45" name="VREG_VOUT" type="output"/>
+        <pin num="46" name="USB_DM" type="unspecified"/>
+        <pin num="47" name="USB_DP" type="unspecified"/>
+        <pin num="48" name="USB_VDD" type="power_in"/>
+        <pin num="49" name="IOVDD" type="power_in"/>
+        <pin num="50" name="DVDD" type="power_in"/>
+        <pin num="51" name="QSPI_SD3" type="bidirectional"/>
+        <pin num="52" name="QSPI_SCLK" type="unspecified"/>
+        <pin num="53" name="QSPI_SD0" type="bidirectional"/>
+        <pin num="54" name="QSPI_SD2" type="bidirectional"/>
+        <pin num="55" name="QSPI_SD1" type="bidirectional"/>
+        <pin num="56" name="QSPI_SS_N" type="unspecified"/>
+        <pin num="57" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LD1117S33TR_SOT223">
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Regulator_Linear_LD1117S33TR_SOT223</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Switch_SW_SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Graphic.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Memory_Flash">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Memory_Flash.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V1">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="U0" pin="23" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U0" pin="45" pinfunction="VREG_VOUT" pintype="output"/>
+      <node ref="U0" pin="50" pinfunction="DVDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="CF1" pin="1" pintype="passive"/>
+      <node ref="CP2" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U0" pin="1" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U0" pin="10" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U0" pin="22" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U0" pin="33" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U0" pin="42" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U0" pin="43" pinfunction="ADC_AVDD" pintype="power_in"/>
+      <node ref="U0" pin="44" pinfunction="VREG_VIN" pintype="unspecified"/>
+      <node ref="U0" pin="48" pinfunction="USB_VDD" pintype="power_in"/>
+      <node ref="U0" pin="49" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U3" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="0">
+      <node ref="K16" pin="1" pintype="passive"/>
+      <node ref="K32" pin="1" pintype="passive"/>
+      <node ref="K48" pin="1" pintype="passive"/>
+      <node ref="K64" pin="1" pintype="passive"/>
+      <node ref="U0" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="1">
+      <node ref="K15" pin="1" pintype="passive"/>
+      <node ref="K31" pin="1" pintype="passive"/>
+      <node ref="K47" pin="1" pintype="passive"/>
+      <node ref="K63" pin="1" pintype="passive"/>
+      <node ref="U0" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="2">
+      <node ref="K14" pin="1" pintype="passive"/>
+      <node ref="K30" pin="1" pintype="passive"/>
+      <node ref="K46" pin="1" pintype="passive"/>
+      <node ref="K62" pin="1" pintype="passive"/>
+      <node ref="U0" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="3">
+      <node ref="K13" pin="1" pintype="passive"/>
+      <node ref="K29" pin="1" pintype="passive"/>
+      <node ref="K45" pin="1" pintype="passive"/>
+      <node ref="K61" pin="1" pintype="passive"/>
+      <node ref="U0" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="4">
+      <node ref="K12" pin="1" pintype="passive"/>
+      <node ref="K28" pin="1" pintype="passive"/>
+      <node ref="K44" pin="1" pintype="passive"/>
+      <node ref="K60" pin="1" pintype="passive"/>
+      <node ref="U0" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="5">
+      <node ref="K11" pin="1" pintype="passive"/>
+      <node ref="K27" pin="1" pintype="passive"/>
+      <node ref="K43" pin="1" pintype="passive"/>
+      <node ref="K59" pin="1" pintype="passive"/>
+      <node ref="U0" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="6">
+      <node ref="K10" pin="1" pintype="passive"/>
+      <node ref="K26" pin="1" pintype="passive"/>
+      <node ref="K42" pin="1" pintype="passive"/>
+      <node ref="K58" pin="1" pintype="passive"/>
+      <node ref="U0" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="7">
+      <node ref="K25" pin="1" pintype="passive"/>
+      <node ref="K41" pin="1" pintype="passive"/>
+      <node ref="K57" pin="1" pintype="passive"/>
+      <node ref="K9" pin="1" pintype="passive"/>
+      <node ref="U0" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="8">
+      <node ref="K24" pin="1" pintype="passive"/>
+      <node ref="K40" pin="1" pintype="passive"/>
+      <node ref="K56" pin="1" pintype="passive"/>
+      <node ref="K8" pin="1" pintype="passive"/>
+      <node ref="U0" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="9">
+      <node ref="K23" pin="1" pintype="passive"/>
+      <node ref="K39" pin="1" pintype="passive"/>
+      <node ref="K55" pin="1" pintype="passive"/>
+      <node ref="K7" pin="1" pintype="passive"/>
+      <node ref="U0" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="10">
+      <node ref="K22" pin="1" pintype="passive"/>
+      <node ref="K38" pin="1" pintype="passive"/>
+      <node ref="K54" pin="1" pintype="passive"/>
+      <node ref="K6" pin="1" pintype="passive"/>
+      <node ref="U0" pin="13" pinfunction="GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="11">
+      <node ref="K21" pin="1" pintype="passive"/>
+      <node ref="K37" pin="1" pintype="passive"/>
+      <node ref="K5" pin="1" pintype="passive"/>
+      <node ref="K53" pin="1" pintype="passive"/>
+      <node ref="U0" pin="14" pinfunction="GPIO11" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="12">
+      <node ref="K20" pin="1" pintype="passive"/>
+      <node ref="K36" pin="1" pintype="passive"/>
+      <node ref="K4" pin="1" pintype="passive"/>
+      <node ref="K52" pin="1" pintype="passive"/>
+      <node ref="U0" pin="15" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="13">
+      <node ref="U0" pin="16" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="14">
+      <node ref="U0" pin="17" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="15">
+      <node ref="U0" pin="18" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="16">
+      <node ref="U0" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="17">
+      <node ref="U0" pin="28" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="18">
+      <node ref="U0" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="19">
+      <node ref="K19" pin="1" pintype="passive"/>
+      <node ref="K3" pin="1" pintype="passive"/>
+      <node ref="K35" pin="1" pintype="passive"/>
+      <node ref="K51" pin="1" pintype="passive"/>
+      <node ref="U0" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="20">
+      <node ref="K18" pin="1" pintype="passive"/>
+      <node ref="K2" pin="1" pintype="passive"/>
+      <node ref="K34" pin="1" pintype="passive"/>
+      <node ref="K50" pin="1" pintype="passive"/>
+      <node ref="U0" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="21">
+      <node ref="K1" pin="1" pintype="passive"/>
+      <node ref="K17" pin="1" pintype="passive"/>
+      <node ref="K33" pin="1" pintype="passive"/>
+      <node ref="K49" pin="1" pintype="passive"/>
+      <node ref="U0" pin="32" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="22">
+      <node ref="D49" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D50" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D51" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D52" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D53" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D54" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D55" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D56" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D57" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D58" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D59" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D60" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D61" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D62" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D63" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D64" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U0" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="23">
+      <node ref="D33" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D34" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D35" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D36" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D37" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D38" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D39" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D40" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D41" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D42" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D43" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D44" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D45" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D46" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D47" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D48" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U0" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="24">
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D30" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D32" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U0" pin="36" pinfunction="GPIO24" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="25">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U0" pin="37" pinfunction="GPIO25" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="26{slash}A0">
+      <node ref="TX0" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U0" pin="38" pinfunction="GPIO26/ADC0" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="27{slash}A1">
+      <node ref="TX1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U0" pin="39" pinfunction="GPIO27/ADC1" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="28{slash}A2">
+      <node ref="LD1" pin="3" pinfunction="DIN" pintype="input"/>
+      <node ref="RL1" pin="1" pintype="passive"/>
+      <node ref="U0" pin="40" pinfunction="GPIO28/ADC2" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="29{slash}A3">
+      <node ref="U0" pin="41" pinfunction="GPIO29/ADC3" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="CLOCK">
+      <node ref="U0" pin="52" pinfunction="QSPI_SCLK" pintype="unspecified"/>
+      <node ref="U3" pin="6" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="34" name="CS">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U0" pin="56" pinfunction="QSPI_SS_N" pintype="unspecified"/>
+      <node ref="U3" pin="1" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="35" name="D+">
+      <node ref="J0" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J0" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="I/O1" pintype="passive"/>
+    </net>
+    <net code="36" name="D-">
+      <node ref="J0" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J0" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="I/O2" pintype="passive"/>
+    </net>
+    <net code="37" name="DAT">
+      <node ref="LD16" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD17" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="38" name="DAT2">
+      <node ref="LD32" pin="1" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="39" name="DB+">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="I/O1" pintype="passive"/>
+    </net>
+    <net code="40" name="DB-">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="I/O2" pintype="passive"/>
+    </net>
+    <net code="41" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="CF1" pin="2" pintype="passive"/>
+      <node ref="CP1" pin="1" pintype="passive"/>
+      <node ref="CP2" pin="1" pintype="passive"/>
+      <node ref="CX1" pin="2" pintype="passive"/>
+      <node ref="CX2" pin="1" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H5" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H6" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J0" pin="A1" pinfunction="GND" pintype="power_in"/>
+      <node ref="J0" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J0" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J0" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J0" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="LC1" pin="1" pintype="passive"/>
+      <node ref="LC10" pin="1" pintype="passive"/>
+      <node ref="LC11" pin="1" pintype="passive"/>
+      <node ref="LC12" pin="1" pintype="passive"/>
+      <node ref="LC13" pin="1" pintype="passive"/>
+      <node ref="LC14" pin="1" pintype="passive"/>
+      <node ref="LC15" pin="1" pintype="passive"/>
+      <node ref="LC16" pin="1" pintype="passive"/>
+      <node ref="LC17" pin="1" pintype="passive"/>
+      <node ref="LC18" pin="1" pintype="passive"/>
+      <node ref="LC19" pin="1" pintype="passive"/>
+      <node ref="LC2" pin="1" pintype="passive"/>
+      <node ref="LC20" pin="1" pintype="passive"/>
+      <node ref="LC21" pin="1" pintype="passive"/>
+      <node ref="LC22" pin="1" pintype="passive"/>
+      <node ref="LC23" pin="1" pintype="passive"/>
+      <node ref="LC24" pin="1" pintype="passive"/>
+      <node ref="LC25" pin="1" pintype="passive"/>
+      <node ref="LC26" pin="1" pintype="passive"/>
+      <node ref="LC27" pin="1" pintype="passive"/>
+      <node ref="LC28" pin="1" pintype="passive"/>
+      <node ref="LC29" pin="1" pintype="passive"/>
+      <node ref="LC3" pin="1" pintype="passive"/>
+      <node ref="LC30" pin="1" pintype="passive"/>
+      <node ref="LC31" pin="1" pintype="passive"/>
+      <node ref="LC32" pin="1" pintype="passive"/>
+      <node ref="LC4" pin="1" pintype="passive"/>
+      <node ref="LC5" pin="1" pintype="passive"/>
+      <node ref="LC6" pin="1" pintype="passive"/>
+      <node ref="LC7" pin="1" pintype="passive"/>
+      <node ref="LC8" pin="1" pintype="passive"/>
+      <node ref="LC9" pin="1" pintype="passive"/>
+      <node ref="LD1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD10" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD11" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD12" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD13" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD14" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD15" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD16" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD17" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD18" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD19" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD20" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD21" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD22" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD23" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD24" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD25" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD26" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD27" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD28" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD29" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD30" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD31" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD32" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD6" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD7" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD8" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD9" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="S1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="S2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="TX0" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="TX1" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U0" pin="19" pinfunction="TESTEN" pintype="unspecified"/>
+      <node ref="U0" pin="57" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y0" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y0" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(CX2-Pad2)">
+      <node ref="CX2" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="Y0" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K1" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K2" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K3" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K4" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K5" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K6" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K7" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K8" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K9" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K10" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K11" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K12" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K13" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K14" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K15" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K16" pin="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K17" pin="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K18" pin="2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K19" pin="2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(D20-Pad2)">
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K20" pin="2" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(D21-Pad2)">
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K21" pin="2" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K22" pin="2" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(D23-Pad2)">
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K23" pin="2" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K24" pin="2" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K25" pin="2" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(D26-Pad2)">
+      <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K26" pin="2" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K27" pin="2" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(D28-Pad2)">
+      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K28" pin="2" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(D29-Pad2)">
+      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K29" pin="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(D30-Pad2)">
+      <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K30" pin="2" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(D31-Pad2)">
+      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K31" pin="2" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(D32-Pad2)">
+      <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K32" pin="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(D33-Pad2)">
+      <node ref="D33" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K33" pin="2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(D34-Pad2)">
+      <node ref="D34" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K34" pin="2" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(D35-Pad2)">
+      <node ref="D35" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K35" pin="2" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(D36-Pad2)">
+      <node ref="D36" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K36" pin="2" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(D37-Pad2)">
+      <node ref="D37" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K37" pin="2" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(D38-Pad2)">
+      <node ref="D38" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K38" pin="2" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(D39-Pad2)">
+      <node ref="D39" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K39" pin="2" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(D40-Pad2)">
+      <node ref="D40" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K40" pin="2" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(D41-Pad2)">
+      <node ref="D41" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K41" pin="2" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(D42-Pad2)">
+      <node ref="D42" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K42" pin="2" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(D43-Pad2)">
+      <node ref="D43" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K43" pin="2" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(D44-Pad2)">
+      <node ref="D44" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K44" pin="2" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(D45-Pad2)">
+      <node ref="D45" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K45" pin="2" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(D46-Pad2)">
+      <node ref="D46" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K46" pin="2" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(D47-Pad2)">
+      <node ref="D47" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K47" pin="2" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(D48-Pad2)">
+      <node ref="D48" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K48" pin="2" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(D49-Pad2)">
+      <node ref="D49" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K49" pin="2" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(D50-Pad2)">
+      <node ref="D50" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K50" pin="2" pintype="passive"/>
+    </net>
+    <net code="93" name="Net-(D51-Pad2)">
+      <node ref="D51" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K51" pin="2" pintype="passive"/>
+    </net>
+    <net code="94" name="Net-(D52-Pad2)">
+      <node ref="D52" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K52" pin="2" pintype="passive"/>
+    </net>
+    <net code="95" name="Net-(D53-Pad2)">
+      <node ref="D53" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K53" pin="2" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(D54-Pad2)">
+      <node ref="D54" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K54" pin="2" pintype="passive"/>
+    </net>
+    <net code="97" name="Net-(D55-Pad2)">
+      <node ref="D55" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K55" pin="2" pintype="passive"/>
+    </net>
+    <net code="98" name="Net-(D56-Pad2)">
+      <node ref="D56" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K56" pin="2" pintype="passive"/>
+    </net>
+    <net code="99" name="Net-(D57-Pad2)">
+      <node ref="D57" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K57" pin="2" pintype="passive"/>
+    </net>
+    <net code="100" name="Net-(D58-Pad2)">
+      <node ref="D58" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K58" pin="2" pintype="passive"/>
+    </net>
+    <net code="101" name="Net-(D59-Pad2)">
+      <node ref="D59" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K59" pin="2" pintype="passive"/>
+    </net>
+    <net code="102" name="Net-(D60-Pad2)">
+      <node ref="D60" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K60" pin="2" pintype="passive"/>
+    </net>
+    <net code="103" name="Net-(D61-Pad2)">
+      <node ref="D61" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K61" pin="2" pintype="passive"/>
+    </net>
+    <net code="104" name="Net-(D62-Pad2)">
+      <node ref="D62" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K62" pin="2" pintype="passive"/>
+    </net>
+    <net code="105" name="Net-(D63-Pad2)">
+      <node ref="D63" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K63" pin="2" pintype="passive"/>
+    </net>
+    <net code="106" name="Net-(D64-Pad2)">
+      <node ref="D64" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K64" pin="2" pintype="passive"/>
+    </net>
+    <net code="107" name="Net-(J0-PadA5)">
+      <node ref="J0" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="108" name="Net-(J0-PadB5)">
+      <node ref="J0" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="109" name="Net-(LD1-Pad1)">
+      <node ref="LD1" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD2" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="110" name="Net-(LD2-Pad1)">
+      <node ref="LD2" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD3" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="111" name="Net-(LD3-Pad1)">
+      <node ref="LD3" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD4" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="112" name="Net-(LD4-Pad1)">
+      <node ref="LD4" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD5" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="113" name="Net-(LD5-Pad1)">
+      <node ref="LD5" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD6" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="114" name="Net-(LD6-Pad1)">
+      <node ref="LD6" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD7" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="115" name="Net-(LD7-Pad1)">
+      <node ref="LD7" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD8" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="116" name="Net-(LD8-Pad1)">
+      <node ref="LD8" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD9" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="117" name="Net-(LD10-Pad1)">
+      <node ref="LD10" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD11" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="118" name="Net-(LD10-Pad3)">
+      <node ref="LD10" pin="3" pinfunction="DIN" pintype="input"/>
+      <node ref="LD9" pin="1" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="119" name="Net-(LD11-Pad1)">
+      <node ref="LD11" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD12" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="120" name="Net-(LD12-Pad1)">
+      <node ref="LD12" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD13" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="121" name="Net-(LD13-Pad1)">
+      <node ref="LD13" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD14" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="122" name="Net-(LD14-Pad1)">
+      <node ref="LD14" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD15" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="123" name="Net-(LD15-Pad1)">
+      <node ref="LD15" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD16" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="124" name="Net-(LD17-Pad1)">
+      <node ref="LD17" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD18" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="125" name="Net-(LD18-Pad1)">
+      <node ref="LD18" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD19" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="126" name="Net-(LD19-Pad1)">
+      <node ref="LD19" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD20" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="127" name="Net-(LD20-Pad1)">
+      <node ref="LD20" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD21" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="128" name="Net-(LD21-Pad1)">
+      <node ref="LD21" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD22" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="129" name="Net-(LD22-Pad1)">
+      <node ref="LD22" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD23" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="130" name="Net-(LD23-Pad1)">
+      <node ref="LD23" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD24" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="131" name="Net-(LD24-Pad1)">
+      <node ref="LD24" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD25" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="132" name="Net-(LD25-Pad1)">
+      <node ref="LD25" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD26" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="133" name="Net-(LD26-Pad1)">
+      <node ref="LD26" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD27" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="134" name="Net-(LD27-Pad1)">
+      <node ref="LD27" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD28" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="135" name="Net-(LD28-Pad1)">
+      <node ref="LD28" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD29" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="136" name="Net-(LD29-Pad1)">
+      <node ref="LD29" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD30" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="137" name="Net-(LD30-Pad1)">
+      <node ref="LD30" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD31" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="138" name="Net-(LD31-Pad1)">
+      <node ref="LD31" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="LD32" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="139" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="S2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="140" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U0" pin="47" pinfunction="USB_DP" pintype="unspecified"/>
+    </net>
+    <net code="141" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U0" pin="46" pinfunction="USB_DM" pintype="unspecified"/>
+    </net>
+    <net code="142" name="SD0">
+      <node ref="U0" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
+      <node ref="U3" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
+    </net>
+    <net code="143" name="SD1">
+      <node ref="U0" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
+    </net>
+    <net code="144" name="SD2">
+      <node ref="U0" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
+      <node ref="U3" pin="3" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="145" name="SD3">
+      <node ref="U0" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
+      <node ref="U3" pin="7" pinfunction="IO3" pintype="bidirectional"/>
+    </net>
+    <net code="146" name="VBUS">
+      <node ref="CP1" pin="2" pintype="passive"/>
+      <node ref="F0" pin="2" pintype="passive"/>
+      <node ref="LC1" pin="2" pintype="passive"/>
+      <node ref="LC10" pin="2" pintype="passive"/>
+      <node ref="LC11" pin="2" pintype="passive"/>
+      <node ref="LC12" pin="2" pintype="passive"/>
+      <node ref="LC13" pin="2" pintype="passive"/>
+      <node ref="LC14" pin="2" pintype="passive"/>
+      <node ref="LC15" pin="2" pintype="passive"/>
+      <node ref="LC16" pin="2" pintype="passive"/>
+      <node ref="LC17" pin="2" pintype="passive"/>
+      <node ref="LC18" pin="2" pintype="passive"/>
+      <node ref="LC19" pin="2" pintype="passive"/>
+      <node ref="LC2" pin="2" pintype="passive"/>
+      <node ref="LC20" pin="2" pintype="passive"/>
+      <node ref="LC21" pin="2" pintype="passive"/>
+      <node ref="LC22" pin="2" pintype="passive"/>
+      <node ref="LC23" pin="2" pintype="passive"/>
+      <node ref="LC24" pin="2" pintype="passive"/>
+      <node ref="LC25" pin="2" pintype="passive"/>
+      <node ref="LC26" pin="2" pintype="passive"/>
+      <node ref="LC27" pin="2" pintype="passive"/>
+      <node ref="LC28" pin="2" pintype="passive"/>
+      <node ref="LC29" pin="2" pintype="passive"/>
+      <node ref="LC3" pin="2" pintype="passive"/>
+      <node ref="LC30" pin="2" pintype="passive"/>
+      <node ref="LC31" pin="2" pintype="passive"/>
+      <node ref="LC32" pin="2" pintype="passive"/>
+      <node ref="LC4" pin="2" pintype="passive"/>
+      <node ref="LC5" pin="2" pintype="passive"/>
+      <node ref="LC6" pin="2" pintype="passive"/>
+      <node ref="LC7" pin="2" pintype="passive"/>
+      <node ref="LC8" pin="2" pintype="passive"/>
+      <node ref="LC9" pin="2" pintype="passive"/>
+      <node ref="LD1" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD10" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD11" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD12" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD13" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD14" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD15" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD16" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD17" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD18" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD19" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD2" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD20" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD21" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD22" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD23" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD24" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD25" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD26" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD27" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD28" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD29" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD3" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD30" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD31" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD32" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD4" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD5" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD6" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD7" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD8" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LD9" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="RL1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="147" name="XTAL+">
+      <node ref="CX1" pin="1" pintype="passive"/>
+      <node ref="U0" pin="21" pinfunction="XOUT" pintype="output"/>
+      <node ref="Y0" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="148" name="XTAL-">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U0" pin="20" pinfunction="XIN" pintype="unspecified"/>
+    </net>
+    <net code="149" name="unconnected-(J0-PadA8)">
+      <node ref="J0" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(J0-PadB8)">
+      <node ref="J0" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(U0-Pad24)">
+      <node ref="U0" pin="24" pinfunction="SWCLK" pintype="unspecified"/>
+    </net>
+    <net code="152" name="unconnected-(U0-Pad25)">
+      <node ref="U0" pin="25" pinfunction="SWDIO" pintype="unspecified"/>
+    </net>
+    <net code="153" name="vUSB">
+      <node ref="F0" pin="1" pintype="passive"/>
+      <node ref="J0" pin="A4" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J0" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J0" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J0" pin="B9" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="154" name="~{RESET}">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="S1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U0" pin="26" pinfunction="RUN" pintype="unspecified"/>
+    </net>
+  </nets>
+</export>

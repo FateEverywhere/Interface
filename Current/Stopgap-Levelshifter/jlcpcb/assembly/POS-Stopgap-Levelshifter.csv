@@ -1,0 +1,4 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+Q0,BSS138,SOT-23,142.0,-61.11875,90.0,top
+R0,10K,Passive_0402_1005Metric,142.0,-63.6,0.0,top
+R1,10K,Passive_0402_1005Metric,142.0,-58.65,0.0,top
