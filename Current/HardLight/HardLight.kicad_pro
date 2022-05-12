@@ -359,7 +359,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HL-2040.kicad_pro",
+    "filename": "HardLight.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -463,8 +463,8 @@
       ""
     ],
     [
-      "ed13ed02-5f67-40c5-b1c5-8981d8f3329e",
-      "Matrix"
+      "d11e887e-141e-4a35-8ed8-fe9106a38088",
+      "User Interface Element"
     ]
   ],
   "text_variables": {}
