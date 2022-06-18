@@ -1,4 +1,4 @@
-19896375265947219
+19909595291650564
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51338,6 +51338,20 @@ LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED
 4
 4
 EDI
+LED_WS2812C_PLCC4_5.0x5.0mm_P3.2mm
+https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel
+0
+4
+4
+EDI
+LevelShifter-THT
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+EDI
 MC-Logo
 
 
@@ -51422,6 +51436,20 @@ MX-led
 2
 2
 EDI
+MicroCon-2
+
+
+0
+2
+2
+EDI
+MicroCon-3
+
+
+0
+3
+3
+EDI
 MountingHole_2.2mm_M2_Pad_Via
 Mounting Hole 2.2mm, M2
 mounting hole 2.2mm m2
@@ -51435,6 +51463,20 @@ capacitor
 0
 2
 2
+EDI
+QFN-56-RP2040
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+71
+57
+EDI
+RP2040
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+66
+57
 EDI
 RPi2040
 QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -51583,6 +51625,13 @@ hlmk3
 0
 0
 EDI
+hlmk7
+
+
+0
+0
+0
+EDI
 jlcpcb_fid
 
 
@@ -51640,6 +51689,13 @@ patches
 0
 EDI
 qmk
+
+
+0
+0
+0
+EDI
+qwiic
 
 
 0
