@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.3,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -121,6 +121,7 @@
       },
       "track_widths": [
         0.0,
+        0.153,
         0.2,
         0.3,
         0.5,
@@ -391,9 +392,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "3v3",
-        "nets": [
-          "+3V3"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
@@ -411,9 +410,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "5v",
-        "nets": [
-          "+5V"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,

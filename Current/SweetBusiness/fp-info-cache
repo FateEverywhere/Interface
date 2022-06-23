@@ -1,4 +1,4 @@
-19894715668090102
+19898029194462984
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51436,6 +51436,13 @@ capacitor
 2
 2
 EDI
+QFN-56-RP2040
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+71
+57
+EDI
 RPi2040
 QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
@@ -51654,6 +51661,13 @@ sweetbiz
 0
 EDI
 sweethaz
+
+
+0
+0
+0
+EDI
+wish-ender
 
 
 0

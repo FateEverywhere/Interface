@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0)*%
-%TF.CreationDate,2022-05-21T11:05:54-04:00*%
+%TF.CreationDate,2022-06-19T19:00:55-04:00*%
 %TF.ProjectId,HardLight,48617264-4c69-4676-9874-2e6b69636164,Mark 2 Rev F*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.0)) date 2022-05-21 11:05:54*
+G04 Created by KiCad (PCBNEW (6.0.0)) date 2022-06-19 19:00:55*
 %MOMM*%
 %LPD*%
 G01*
@@ -15,7 +15,7 @@ G04 APERTURE LIST*
 %ADD11O,2.150000X1.750000*%
 %ADD12C,2.032000*%
 %ADD13C,2.286000*%
-%ADD14C,3.500000*%
+%ADD14C,3.200000*%
 %ADD15C,0.650000*%
 %ADD16O,1.000000X1.600000*%
 %ADD17O,1.000000X2.100000*%

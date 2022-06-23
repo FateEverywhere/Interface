@@ -14,9 +14,9 @@ WS2812C,"LD1,LD10,LD11,LD12,LD13,LD14,LD15,LD16,LD17,LD18,LD19,LD2,LD20,LD21,LD2
 Transducer,"TX0,TX1",Buzzer_CUI_CPT-9019S-SMT,C391035
 13pf,"CX1,CX2",Passive_0402_1005Metric,C48936
 1uf,"C1,C11,CP0,CP1",Passive_0402_1005Metric,C52923
-12MHz,Y0,Crystal_SMD_2520-4Pin_2.5x2.0mm,C655058
 1N4148W-T4,"D1,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D2,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D3,D30,D31,D32,D33,D34,D35,D36,D37,D38,D39,D4,D40,D41,D42,D43,D44,D45,D46,D47,D48,D49,D5,D50,D51,D52,D53,D54,D55,D56,D57,D58,D59,D6,D60,D61,D62,D63,D64,D7,D8,D9",D_SOD-523,C68948
 LDO-3.3,U1,SOT-23,C83932
+2TJ412000NYGBC 12MHz,Y0,Crystal_SMD_2520-4Pin_2.5x2.0mm,C90603
 Keyswitch,K2,MX-Choc,
 Keyswitch,K3,MX-Choc,
 Keyswitch,K6,MX-Choc,
@@ -77,19 +77,19 @@ Keyswitch,K62,MX-Choc,
 Keyswitch,K63,MX-Choc,
 Keyswitch,K64,MX-Choc,
 Keyswitch,K1,MX-Choc,
-Mount,H1,MountingHole_2.2mm_M2_ISO7380_Pad,
-Mount,H2,MountingHole_2.2mm_M2_ISO7380_Pad,
-Mount,H3,MountingHole_2.2mm_M2_ISO7380_Pad,
-Mount,H4,MountingHole_2.2mm_M2_ISO7380_Pad,
-Mount,H5,MountingHole_2.2mm_M2_ISO7380_Pad,
-Mount,H6,MountingHole_2.2mm_M2_ISO7380_Pad,
+Mount,H1,MountingHole_3.2mm_M3,
+Mount,H2,MountingHole_3.2mm_M3,
+Mount,H3,MountingHole_3.2mm_M3,
+Mount,H4,MountingHole_3.2mm_M3,
+Mount,H5,MountingHole_3.2mm_M3,
+Mount,H6,MountingHole_3.2mm_M3,
 Keyswitch,K4,MX-Choc,
 Keyswitch,K5,MX-Choc,
 Keyswitch,K21,MX-Choc,
 Keyswitch,K20,MX-Choc,
 Keyswitch,K54.1,MX-Choc,
-Mount,H7,MountingHole_2.2mm_M2_ISO7380_Pad,
-Mount,H8,MountingHole_2.2mm_M2_ISO7380_Pad,
+Mount,H7,MountingHole_3.2mm_M3,
+Mount,H8,MountingHole_3.2mm_M3,
 Keyswitch,K58.1,MX-Choc,
 EDI Logo,Z0,hlmk7,
 MicroCon,J3,MicroCon-3,
