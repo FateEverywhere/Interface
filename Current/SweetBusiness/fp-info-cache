@@ -1,4 +1,4 @@
-19898029194462984
+19932879933993918
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51240,6 +51240,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 EDI
+1N4148
+
+
+0
+2
+2
+EDI
 2tail
 
 
@@ -51260,6 +51267,34 @@ BusinessTime
 0
 0
 0
+EDI
+CastellatedEdges
+Through hole straight socket strip, 1x10, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x10 2.54mm single row
+0
+10
+10
+EDI
+CastellatedEdges-15
+Through hole straight socket strip, 1x10, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x10 2.54mm single row
+0
+15
+15
+EDI
+CastellatedEdges-18
+Through hole straight socket strip, 1x10, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x10 2.54mm single row
+0
+18
+18
+EDI
+Cherry-MX_Plate-Mounted
+
+
+0
+2
+2
 EDI
 DF
 
@@ -51310,6 +51345,20 @@ HL2040
 0
 0
 EDI
+HRO_TYPE-C-31-M-12
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+20
+17
+EDI
+HRO_TYPE-C-31-M-23
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+20
+17
+EDI
 Hard_Light_Production
 
 
@@ -51331,12 +51380,40 @@ KeyToggle
 2
 2
 EDI
+KeyToggle-SPDT
+
+
+0
+3
+3
+EDI
 LED_D5.0mm-4_RGB_Wide_Pins
 LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf
 LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED
 0
 4
 4
+EDI
+LED_WS2812C_PLCC4_5.0x5.0mm_P3.2mm
+https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel
+0
+4
+4
+EDI
+LTST-A683CEGBW
+
+
+0
+4
+4
+EDI
+LevelShifter-THT
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
 EDI
 MC-Logo
 
@@ -51356,7 +51433,7 @@ MX-Choc
 MX-style keyswitch
 MX,cherry,gateron,kailh
 0
-8
+6
 2
 EDI
 MX-Choc-Double
@@ -51422,6 +51499,20 @@ MX-led
 2
 2
 EDI
+MicroCon-2
+
+
+0
+2
+2
+EDI
+MicroCon-3
+
+
+0
+3
+3
+EDI
 MountingHole_2.2mm_M2_Pad_Via
 Mounting Hole 2.2mm, M2
 mounting hole 2.2mm m2
@@ -51443,6 +51534,13 @@ QFN NoLead
 71
 57
 EDI
+RP2040
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+66
+57
+EDI
 RPi2040
 QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
@@ -51456,6 +51554,13 @@ SB-MCU2x
 0
 164
 100
+EDI
+SOIC127P1030X265-28N
+
+
+0
+28
+28
 EDI
 SW_EVPBB4A9B000
 
@@ -51477,6 +51582,13 @@ kailh,choc
 0
 2
 2
+EDI
+SW_SKQUCAA010
+
+
+0
+6
+6
 EDI
 SW_SPST_SKQG
 ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, Without stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAEE010.html
@@ -51541,6 +51653,13 @@ WS2812 2020
 4
 4
 EDI
+WS2812C_2020_Flip
+2.0mm x 2.0mm PLCC4 LED, http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/HB/Data-Sheets/CLMVBFKA.pdf
+WS2812 2020
+0
+4
+4
+EDI
 Wurth-156125M173000
 
 
@@ -51569,6 +51688,20 @@ crimes
 0
 0
 EDI
+eot
+
+
+0
+0
+0
+EDI
+hackpgh
+
+
+0
+0
+0
+EDI
 haz
 
 
@@ -51584,6 +51717,13 @@ hlmicro-front
 0
 EDI
 hlmk3
+
+
+0
+0
+0
+EDI
+hlmk7
 
 
 0
@@ -51647,6 +51787,13 @@ patches
 0
 EDI
 qmk
+
+
+0
+0
+0
+EDI
+qwiic
 
 
 0

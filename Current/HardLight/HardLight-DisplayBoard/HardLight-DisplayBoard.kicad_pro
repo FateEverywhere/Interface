@@ -367,7 +367,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "C:/Users/fate/Desktop/HardLight-DisplayBoard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -410,6 +410,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "bd065eaf-e495-4837-bdb3-129934de1fc7",
+      ""
+    ]
+  ],
   "text_variables": {}
 }
