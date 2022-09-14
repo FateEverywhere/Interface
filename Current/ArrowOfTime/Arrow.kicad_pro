@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
+          "45_degree_only": false,
           "min_clearance": 0.508
         }
       },
@@ -416,7 +416,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": -1,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
@@ -457,6 +457,10 @@
     [
       "7f52d787-caa3-4a92-b1b2-19d554dc29a4",
       ""
+    ],
+    [
+      "e94e3d37-8569-40f7-a86b-d08f1f6046fa",
+      "Interface"
     ]
   ],
   "text_variables": {}
