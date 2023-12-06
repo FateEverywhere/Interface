@@ -5020,7 +5020,7 @@
     (property "Datasheet" "~" (at 99.06 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C44893" (at 99.06 176.53 90)
+    (property "LCSC" "C5189958" (at 99.06 176.53 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0a779488-3f1a-40d4-aacb-ec24d1a54ddb))
