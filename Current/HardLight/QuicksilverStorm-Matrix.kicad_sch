@@ -3043,7 +3043,7 @@
           (reference "LC32") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC64") (unit 1)
         )
@@ -3077,7 +3077,7 @@
           (reference "LC26") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC26") (unit 1)
         )
@@ -3111,7 +3111,7 @@
           (reference "D60") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D60") (unit 1)
         )
@@ -3145,7 +3145,7 @@
           (reference "LC12") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC44") (unit 1)
         )
@@ -3162,7 +3162,7 @@
     (property "Value" "WS2812C" (at 114.3 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 113.03 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 113.03 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 114.3 167.005 0)
@@ -3181,7 +3181,7 @@
           (reference "LD4") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD36") (unit 1)
         )
@@ -3198,7 +3198,7 @@
     (property "Value" "Keyswitch" (at 306.3494 30.0228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 303.53 34.29 0)
+    (property "Footprint" "EDI:MX-Choc" (at 303.53 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 303.53 34.29 0)
@@ -3212,7 +3212,7 @@
           (reference "K15") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K15") (unit 1)
         )
@@ -3246,7 +3246,7 @@
           (reference "LC25") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC25") (unit 1)
         )
@@ -3263,7 +3263,7 @@
     (property "Value" "Keyswitch" (at 96.7994 45.2628 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 93.98 49.53 0)
+    (property "Footprint" "EDI:MX-Choc" (at 93.98 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 93.98 49.53 0)
@@ -3277,7 +3277,7 @@
           (reference "K20") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K20") (unit 1)
         )
@@ -3311,7 +3311,7 @@
           (reference "D17") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D17") (unit 1)
         )
@@ -3345,7 +3345,7 @@
           (reference "D23") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D23") (unit 1)
         )
@@ -3362,7 +3362,7 @@
     (property "Value" "Keyswitch" (at 77.7494 60.5028 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 74.93 64.77 0)
+    (property "Footprint" "EDI:MX-Choc" (at 74.93 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 74.93 64.77 0)
@@ -3376,7 +3376,7 @@
           (reference "K35") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K35") (unit 1)
         )
@@ -3393,7 +3393,7 @@
     (property "Value" "WS2812C" (at 205.74 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 204.47 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 204.47 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 205.74 125.73 0)
@@ -3412,7 +3412,7 @@
           (reference "LD10") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD10") (unit 1)
         )
@@ -3446,7 +3446,7 @@
           (reference "LC6") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC38") (unit 1)
         )
@@ -3480,7 +3480,7 @@
           (reference "LC16") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC48") (unit 1)
         )
@@ -3497,7 +3497,7 @@
     (property "Value" "WS2812C" (at 297.18 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 295.91 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 295.91 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 297.18 167.005 0)
@@ -3516,7 +3516,7 @@
           (reference "LD16") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD48") (unit 1)
         )
@@ -3550,7 +3550,7 @@
           (reference "D12") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D12") (unit 1)
         )
@@ -3584,7 +3584,7 @@
           (reference "D4") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D4") (unit 1)
         )
@@ -3601,7 +3601,7 @@
     (property "Value" "Keyswitch" (at 287.2994 60.5028 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 284.48 64.77 0)
+    (property "Footprint" "EDI:MX-Choc" (at 284.48 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 284.48 64.77 0)
@@ -3615,7 +3615,7 @@
           (reference "K46") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K46") (unit 1)
         )
@@ -3649,7 +3649,7 @@
           (reference "LC32") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC32") (unit 1)
         )
@@ -3683,7 +3683,7 @@
           (reference "D48") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D48") (unit 1)
         )
@@ -3713,7 +3713,7 @@
           (reference "#PWR01") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "#PWR01") (unit 1)
         )
@@ -3747,7 +3747,7 @@
           (reference "LC4") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC36") (unit 1)
         )
@@ -3764,7 +3764,7 @@
     (property "Value" "Keyswitch" (at 192.0494 30.0228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 189.23 34.29 0)
+    (property "Footprint" "EDI:MX-Choc" (at 189.23 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 189.23 34.29 0)
@@ -3778,7 +3778,7 @@
           (reference "K9") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K9") (unit 1)
         )
@@ -3812,7 +3812,7 @@
           (reference "D32") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D32") (unit 1)
         )
@@ -3846,7 +3846,7 @@
           (reference "LC26") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC58") (unit 1)
         )
@@ -3880,7 +3880,7 @@
           (reference "D33") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D33") (unit 1)
         )
@@ -3914,7 +3914,7 @@
           (reference "LC2") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC2") (unit 1)
         )
@@ -3948,7 +3948,7 @@
           (reference "LC9") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC9") (unit 1)
         )
@@ -3982,7 +3982,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D1") (unit 1)
         )
@@ -4016,7 +4016,7 @@
           (reference "D57") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D57") (unit 1)
         )
@@ -4050,7 +4050,7 @@
           (reference "D35") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D35") (unit 1)
         )
@@ -4067,7 +4067,7 @@
     (property "Value" "Keyswitch" (at 77.7494 45.2628 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 74.93 49.53 0)
+    (property "Footprint" "EDI:MX-Choc" (at 74.93 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 74.93 49.53 0)
@@ -4081,7 +4081,7 @@
           (reference "K19") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K19") (unit 1)
         )
@@ -4098,7 +4098,7 @@
     (property "Value" "Keyswitch" (at 249.1994 45.2628 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 246.38 49.53 0)
+    (property "Footprint" "EDI:MX-Choc" (at 246.38 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 246.38 49.53 0)
@@ -4112,7 +4112,7 @@
           (reference "K28") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K28") (unit 1)
         )
@@ -4129,7 +4129,7 @@
     (property "Value" "Keyswitch" (at 325.3994 45.2628 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 322.58 49.53 0)
+    (property "Footprint" "EDI:MX-Choc" (at 322.58 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 322.58 49.53 0)
@@ -4143,7 +4143,7 @@
           (reference "K32") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K32") (unit 1)
         )
@@ -4160,7 +4160,7 @@
     (property "Value" "WS2812C" (at 236.22 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 234.95 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 234.95 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 236.22 125.73 0)
@@ -4179,7 +4179,7 @@
           (reference "LD12") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD12") (unit 1)
         )
@@ -4196,7 +4196,7 @@
     (property "Value" "WS2812C" (at 276.86 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 278.13 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 278.13 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 276.86 163.195 0)
@@ -4215,7 +4215,7 @@
           (reference "LD31") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD63") (unit 1)
         )
@@ -4232,7 +4232,7 @@
     (property "Value" "WS2812C" (at 215.9 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 217.17 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 217.17 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 215.9 121.92 0)
@@ -4251,7 +4251,7 @@
           (reference "LD27") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD27") (unit 1)
         )
@@ -4285,7 +4285,7 @@
           (reference "D22") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D22") (unit 1)
         )
@@ -4319,7 +4319,7 @@
           (reference "D56") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D56") (unit 1)
         )
@@ -4336,7 +4336,7 @@
     (property "Value" "Keyswitch" (at 39.6494 45.2628 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 36.83 49.53 0)
+    (property "Footprint" "EDI:MX-Choc" (at 36.83 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 36.83 49.53 0)
@@ -4350,7 +4350,7 @@
           (reference "K17") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K17") (unit 1)
         )
@@ -4367,7 +4367,7 @@
     (property "Value" "Keyswitch" (at 287.2994 77.0128 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 284.48 81.28 0)
+    (property "Footprint" "EDI:MX-Choc" (at 284.48 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 284.48 81.28 0)
@@ -4381,7 +4381,7 @@
           (reference "K62") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K62") (unit 1)
         )
@@ -4415,7 +4415,7 @@
           (reference "D5") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D5") (unit 1)
         )
@@ -4432,7 +4432,7 @@
     (property "Value" "WS2812C" (at 144.78 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 143.51 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 143.51 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 144.78 125.73 0)
@@ -4451,7 +4451,7 @@
           (reference "LD6") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD6") (unit 1)
         )
@@ -4485,7 +4485,7 @@
           (reference "D20") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D20") (unit 1)
         )
@@ -4502,7 +4502,7 @@
     (property "Value" "WS2812C" (at 78.74 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 80.01 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 80.01 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 78.74 163.195 0)
@@ -4521,7 +4521,7 @@
           (reference "LD18") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD50") (unit 1)
         )
@@ -4555,7 +4555,7 @@
           (reference "D39") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D39") (unit 1)
         )
@@ -4572,7 +4572,7 @@
     (property "Value" "WS2812C" (at 68.58 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 67.31 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 67.31 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 68.58 167.005 0)
@@ -4591,7 +4591,7 @@
           (reference "LD1") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD33") (unit 1)
         )
@@ -4625,7 +4625,7 @@
           (reference "D36") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D36") (unit 1)
         )
@@ -4659,7 +4659,7 @@
           (reference "LC11") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC43") (unit 1)
         )
@@ -4676,7 +4676,7 @@
     (property "Value" "Keyswitch" (at 77.7494 30.0228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 74.93 34.29 0)
+    (property "Footprint" "EDI:MX-Choc" (at 74.93 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 74.93 34.29 0)
@@ -4690,7 +4690,7 @@
           (reference "K3") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K3") (unit 1)
         )
@@ -4724,7 +4724,7 @@
           (reference "D27") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D27") (unit 1)
         )
@@ -4758,7 +4758,7 @@
           (reference "LC15") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC47") (unit 1)
         )
@@ -4775,7 +4775,7 @@
     (property "Value" "WS2812C" (at 114.3 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 113.03 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 113.03 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 114.3 125.73 0)
@@ -4794,7 +4794,7 @@
           (reference "LD4") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD4") (unit 1)
         )
@@ -4828,7 +4828,7 @@
           (reference "LC20") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC52") (unit 1)
         )
@@ -4845,7 +4845,7 @@
     (property "Value" "Keyswitch" (at 58.6994 60.5028 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 55.88 64.77 0)
+    (property "Footprint" "EDI:MX-Choc" (at 55.88 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 55.88 64.77 0)
@@ -4859,7 +4859,7 @@
           (reference "K34") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K34") (unit 1)
         )
@@ -4893,7 +4893,7 @@
           (reference "LC28") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC60") (unit 1)
         )
@@ -4910,7 +4910,7 @@
     (property "Value" "Keyswitch" (at 249.1994 30.0228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 246.38 34.29 0)
+    (property "Footprint" "EDI:MX-Choc" (at 246.38 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 246.38 34.29 0)
@@ -4924,7 +4924,7 @@
           (reference "K12") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K12") (unit 1)
         )
@@ -4941,7 +4941,7 @@
     (property "Value" "WS2812C" (at 231.14 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 232.41 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 232.41 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 231.14 163.195 0)
@@ -4960,7 +4960,7 @@
           (reference "LD28") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD60") (unit 1)
         )
@@ -4994,7 +4994,7 @@
           (reference "LC17") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC49") (unit 1)
         )
@@ -5028,7 +5028,7 @@
           (reference "D31") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D31") (unit 1)
         )
@@ -5045,7 +5045,7 @@
     (property "Value" "WS2812C" (at 83.82 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 82.55 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 82.55 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 83.82 167.005 0)
@@ -5064,7 +5064,7 @@
           (reference "LD2") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD34") (unit 1)
         )
@@ -5098,7 +5098,7 @@
           (reference "D10") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D10") (unit 1)
         )
@@ -5132,7 +5132,7 @@
           (reference "D16") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D16") (unit 1)
         )
@@ -5166,7 +5166,7 @@
           (reference "D63") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D63") (unit 1)
         )
@@ -5200,7 +5200,7 @@
           (reference "LC30") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC30") (unit 1)
         )
@@ -5217,7 +5217,7 @@
     (property "Value" "WS2812C" (at 246.38 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 247.65 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 247.65 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 246.38 163.195 0)
@@ -5236,7 +5236,7 @@
           (reference "LD29") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD61") (unit 1)
         )
@@ -5270,7 +5270,7 @@
           (reference "D7") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D7") (unit 1)
         )
@@ -5287,7 +5287,7 @@
     (property "Value" "Keyswitch" (at 211.0994 30.0228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 208.28 34.29 0)
+    (property "Footprint" "EDI:MX-Choc" (at 208.28 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 208.28 34.29 0)
@@ -5301,7 +5301,7 @@
           (reference "K10") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K10") (unit 1)
         )
@@ -5335,7 +5335,7 @@
           (reference "LC10") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC10") (unit 1)
         )
@@ -5369,7 +5369,7 @@
           (reference "D46") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D46") (unit 1)
         )
@@ -5403,7 +5403,7 @@
           (reference "LC31") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC31") (unit 1)
         )
@@ -5420,7 +5420,7 @@
     (property "Value" "Keyswitch" (at 58.6994 45.2628 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 55.88 49.53 0)
+    (property "Footprint" "EDI:MX-Choc" (at 55.88 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 55.88 49.53 0)
@@ -5434,7 +5434,7 @@
           (reference "K18") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K18") (unit 1)
         )
@@ -5451,7 +5451,7 @@
     (property "Value" "Keyswitch" (at 58.6994 77.0128 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 55.88 81.28 0)
+    (property "Footprint" "EDI:MX-Choc" (at 55.88 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 55.88 81.28 0)
@@ -5465,7 +5465,7 @@
           (reference "K50") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K50") (unit 1)
         )
@@ -5482,7 +5482,7 @@
     (property "Value" "Keyswitch" (at 211.0994 45.2628 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 208.28 49.53 0)
+    (property "Footprint" "EDI:MX-Choc" (at 208.28 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 208.28 49.53 0)
@@ -5496,7 +5496,7 @@
           (reference "K26") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K26") (unit 1)
         )
@@ -5513,7 +5513,7 @@
     (property "Value" "WS2812C" (at 292.1 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 293.37 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 293.37 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 292.1 163.195 0)
@@ -5532,7 +5532,7 @@
           (reference "LD32") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD64") (unit 1)
         )
@@ -5549,7 +5549,7 @@
     (property "Value" "WS2812C" (at 93.98 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 95.25 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 95.25 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 93.98 121.92 0)
@@ -5568,7 +5568,7 @@
           (reference "LD19") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD19") (unit 1)
         )
@@ -5585,7 +5585,7 @@
     (property "Value" "Keyswitch" (at 230.1494 45.2628 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 227.33 49.53 0)
+    (property "Footprint" "EDI:MX-Choc" (at 227.33 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 227.33 49.53 0)
@@ -5599,7 +5599,7 @@
           (reference "K27") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K27") (unit 1)
         )
@@ -5633,7 +5633,7 @@
           (reference "LC23") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC23") (unit 1)
         )
@@ -5650,7 +5650,7 @@
     (property "Value" "Keyswitch" (at 115.8494 30.0228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 113.03 34.29 0)
+    (property "Footprint" "EDI:MX-Choc" (at 113.03 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 113.03 34.29 0)
@@ -5664,7 +5664,7 @@
           (reference "K5") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K5") (unit 1)
         )
@@ -5681,7 +5681,7 @@
     (property "Value" "Keyswitch" (at 153.9494 30.0228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 151.13 34.29 0)
+    (property "Footprint" "EDI:MX-Choc" (at 151.13 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 151.13 34.29 0)
@@ -5695,7 +5695,7 @@
           (reference "K7") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K7") (unit 1)
         )
@@ -5712,7 +5712,7 @@
     (property "Value" "WS2812C" (at 190.5 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 189.23 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 189.23 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 190.5 167.005 0)
@@ -5731,7 +5731,7 @@
           (reference "LD9") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD41") (unit 1)
         )
@@ -5748,7 +5748,7 @@
     (property "Value" "WS2812C" (at 99.06 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 97.79 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 97.79 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 99.06 167.005 0)
@@ -5767,7 +5767,7 @@
           (reference "LD3") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD35") (unit 1)
         )
@@ -5784,7 +5784,7 @@
     (property "Value" "Keyswitch" (at 211.0994 77.0128 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 208.28 81.28 0)
+    (property "Footprint" "EDI:MX-Choc" (at 208.28 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 208.28 81.28 0)
@@ -5798,7 +5798,7 @@
           (reference "K58") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K58") (unit 1)
         )
@@ -5832,7 +5832,7 @@
           (reference "D8") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D8") (unit 1)
         )
@@ -5849,7 +5849,7 @@
     (property "Value" "Keyswitch" (at 192.0494 60.5028 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 189.23 64.77 0)
+    (property "Footprint" "EDI:MX-Choc" (at 189.23 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 189.23 64.77 0)
@@ -5863,7 +5863,7 @@
           (reference "K41") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K41") (unit 1)
         )
@@ -5897,7 +5897,7 @@
           (reference "D30") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D30") (unit 1)
         )
@@ -5914,7 +5914,7 @@
     (property "Value" "WS2812C" (at 292.1 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 293.37 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 293.37 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 292.1 121.92 0)
@@ -5933,7 +5933,7 @@
           (reference "LD32") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD32") (unit 1)
         )
@@ -5967,7 +5967,7 @@
           (reference "LC28") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC28") (unit 1)
         )
@@ -6001,7 +6001,7 @@
           (reference "D50") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D50") (unit 1)
         )
@@ -6035,7 +6035,7 @@
           (reference "LC13") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC13") (unit 1)
         )
@@ -6052,7 +6052,7 @@
     (property "Value" "WS2812C" (at 236.22 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 234.95 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 234.95 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 236.22 167.005 0)
@@ -6071,7 +6071,7 @@
           (reference "LD12") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD44") (unit 1)
         )
@@ -6105,7 +6105,7 @@
           (reference "LC31") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC63") (unit 1)
         )
@@ -6130,7 +6130,7 @@
     )
     (pin "1" (uuid cce8bd20-029d-469a-9f8e-a70b8d51e2ec))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "#PWR012") (unit 1)
         )
@@ -6147,7 +6147,7 @@
     (property "Value" "Keyswitch" (at 268.2494 30.0228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 265.43 34.29 0)
+    (property "Footprint" "EDI:MX-Choc" (at 265.43 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 265.43 34.29 0)
@@ -6161,7 +6161,7 @@
           (reference "K13") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K13") (unit 1)
         )
@@ -6178,7 +6178,7 @@
     (property "Value" "WS2812C" (at 276.86 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 278.13 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 278.13 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 276.86 121.92 0)
@@ -6197,7 +6197,7 @@
           (reference "LD31") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD31") (unit 1)
         )
@@ -6214,7 +6214,7 @@
     (property "Value" "WS2812C" (at 68.58 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 67.31 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 67.31 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 68.58 125.73 0)
@@ -6233,7 +6233,7 @@
           (reference "LD1") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD1") (unit 1)
         )
@@ -6267,7 +6267,7 @@
           (reference "D11") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D11") (unit 1)
         )
@@ -6284,7 +6284,7 @@
     (property "Value" "Keyswitch" (at 77.7494 77.0128 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 74.93 81.28 0)
+    (property "Footprint" "EDI:MX-Choc" (at 74.93 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 74.93 81.28 0)
@@ -6298,7 +6298,7 @@
           (reference "K51") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K51") (unit 1)
         )
@@ -6332,7 +6332,7 @@
           (reference "D2") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D2") (unit 1)
         )
@@ -6366,7 +6366,7 @@
           (reference "LC27") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC59") (unit 1)
         )
@@ -6400,7 +6400,7 @@
           (reference "LC18") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC50") (unit 1)
         )
@@ -6417,7 +6417,7 @@
     (property "Value" "WS2812C" (at 160.02 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 158.75 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 158.75 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 160.02 167.005 0)
@@ -6436,7 +6436,7 @@
           (reference "LD7") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD39") (unit 1)
         )
@@ -6470,7 +6470,7 @@
           (reference "LC30") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC62") (unit 1)
         )
@@ -6504,7 +6504,7 @@
           (reference "LC7") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC39") (unit 1)
         )
@@ -6538,7 +6538,7 @@
           (reference "D34") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D34") (unit 1)
         )
@@ -6555,7 +6555,7 @@
     (property "Value" "WS2812C" (at 251.46 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 250.19 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 250.19 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 251.46 167.005 0)
@@ -6574,7 +6574,7 @@
           (reference "LD13") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD45") (unit 1)
         )
@@ -6591,7 +6591,7 @@
     (property "Value" "Keyswitch" (at 306.3494 77.0128 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 303.53 81.28 0)
+    (property "Footprint" "EDI:MX-Choc" (at 303.53 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 303.53 81.28 0)
@@ -6605,7 +6605,7 @@
           (reference "K63") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K63") (unit 1)
         )
@@ -6622,7 +6622,7 @@
     (property "Value" "Keyswitch" (at 268.2494 60.5028 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 265.43 64.77 0)
+    (property "Footprint" "EDI:MX-Choc" (at 265.43 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 265.43 64.77 0)
@@ -6636,7 +6636,7 @@
           (reference "K45") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K45") (unit 1)
         )
@@ -6670,7 +6670,7 @@
           (reference "D41") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D41") (unit 1)
         )
@@ -6687,7 +6687,7 @@
     (property "Value" "WS2812C" (at 93.98 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 95.25 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 95.25 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 93.98 163.195 0)
@@ -6706,7 +6706,7 @@
           (reference "LD19") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD51") (unit 1)
         )
@@ -6740,7 +6740,7 @@
           (reference "D38") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D38") (unit 1)
         )
@@ -6757,7 +6757,7 @@
     (property "Value" "Keyswitch" (at 325.3994 30.0228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 322.58 34.29 0)
+    (property "Footprint" "EDI:MX-Choc" (at 322.58 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 322.58 34.29 0)
@@ -6771,7 +6771,7 @@
           (reference "K16") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K16") (unit 1)
         )
@@ -6805,7 +6805,7 @@
           (reference "D14") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D14") (unit 1)
         )
@@ -6822,7 +6822,7 @@
     (property "Value" "WS2812C" (at 124.46 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 125.73 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 125.73 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 124.46 163.195 0)
@@ -6841,7 +6841,7 @@
           (reference "LD21") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD53") (unit 1)
         )
@@ -6875,7 +6875,7 @@
           (reference "D40") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D40") (unit 1)
         )
@@ -6892,7 +6892,7 @@
     (property "Value" "Keyswitch" (at 115.8494 45.2628 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 113.03 49.53 0)
+    (property "Footprint" "EDI:MX-Choc" (at 113.03 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 113.03 49.53 0)
@@ -6906,7 +6906,7 @@
           (reference "K21") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K21") (unit 1)
         )
@@ -6923,7 +6923,7 @@
     (property "Value" "Keyswitch" (at 306.3494 45.2628 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 303.53 49.53 0)
+    (property "Footprint" "EDI:MX-Choc" (at 303.53 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 303.53 49.53 0)
@@ -6937,7 +6937,7 @@
           (reference "K31") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K31") (unit 1)
         )
@@ -6971,7 +6971,7 @@
           (reference "D53") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D53") (unit 1)
         )
@@ -6988,7 +6988,7 @@
     (property "Value" "WS2812C" (at 266.7 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 265.43 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 265.43 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 266.7 125.73 0)
@@ -7007,7 +7007,7 @@
           (reference "LD14") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD14") (unit 1)
         )
@@ -7041,7 +7041,7 @@
           (reference "D43") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D43") (unit 1)
         )
@@ -7058,7 +7058,7 @@
     (property "Value" "Keyswitch" (at 153.9494 60.5028 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 151.13 64.77 0)
+    (property "Footprint" "EDI:MX-Choc" (at 151.13 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 151.13 64.77 0)
@@ -7072,7 +7072,7 @@
           (reference "K39") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K39") (unit 1)
         )
@@ -7106,7 +7106,7 @@
           (reference "LC22") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC22") (unit 1)
         )
@@ -7140,7 +7140,7 @@
           (reference "D3") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D3") (unit 1)
         )
@@ -7174,7 +7174,7 @@
           (reference "LC21") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC53") (unit 1)
         )
@@ -7191,7 +7191,7 @@
     (property "Value" "Keyswitch" (at 39.6494 30.0228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 36.83 34.29 0)
+    (property "Footprint" "EDI:MX-Choc" (at 36.83 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 36.83 34.29 0)
@@ -7205,7 +7205,7 @@
           (reference "K1") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K1") (unit 1)
         )
@@ -7222,7 +7222,7 @@
     (property "Value" "Keyswitch" (at 172.9994 45.2628 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 170.18 49.53 0)
+    (property "Footprint" "EDI:MX-Choc" (at 170.18 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 170.18 49.53 0)
@@ -7236,7 +7236,7 @@
           (reference "K24") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K24") (unit 1)
         )
@@ -7270,7 +7270,7 @@
           (reference "LC2") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC34") (unit 1)
         )
@@ -7304,7 +7304,7 @@
           (reference "D44") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D44") (unit 1)
         )
@@ -7321,7 +7321,7 @@
     (property "Value" "WS2812C" (at 175.26 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 173.99 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 173.99 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 175.26 125.73 0)
@@ -7340,7 +7340,7 @@
           (reference "LD8") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD8") (unit 1)
         )
@@ -7357,7 +7357,7 @@
     (property "Value" "Keyswitch" (at 287.2994 45.2628 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 284.48 49.53 0)
+    (property "Footprint" "EDI:MX-Choc" (at 284.48 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 284.48 49.53 0)
@@ -7371,7 +7371,7 @@
           (reference "K30") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K30") (unit 1)
         )
@@ -7405,7 +7405,7 @@
           (reference "LC23") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC55") (unit 1)
         )
@@ -7439,7 +7439,7 @@
           (reference "D9") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D9") (unit 1)
         )
@@ -7473,7 +7473,7 @@
           (reference "LC17") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC17") (unit 1)
         )
@@ -7490,7 +7490,7 @@
     (property "Value" "Keyswitch" (at 268.2494 45.2628 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 265.43 49.53 0)
+    (property "Footprint" "EDI:MX-Choc" (at 265.43 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 265.43 49.53 0)
@@ -7504,7 +7504,7 @@
           (reference "K29") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K29") (unit 1)
         )
@@ -7538,7 +7538,7 @@
           (reference "D15") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D15") (unit 1)
         )
@@ -7572,7 +7572,7 @@
           (reference "D45") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D45") (unit 1)
         )
@@ -7606,7 +7606,7 @@
           (reference "D47") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D47") (unit 1)
         )
@@ -7623,7 +7623,7 @@
     (property "Value" "WS2812C" (at 190.5 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 189.23 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 189.23 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 190.5 125.73 0)
@@ -7642,7 +7642,7 @@
           (reference "LD9") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD9") (unit 1)
         )
@@ -7659,7 +7659,7 @@
     (property "Value" "WS2812C" (at 83.82 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 82.55 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 82.55 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 83.82 125.73 0)
@@ -7678,7 +7678,7 @@
           (reference "LD2") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD2") (unit 1)
         )
@@ -7695,7 +7695,7 @@
     (property "Value" "Keyswitch" (at 115.8494 60.5028 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 113.03 64.77 0)
+    (property "Footprint" "EDI:MX-Choc" (at 113.03 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 113.03 64.77 0)
@@ -7709,7 +7709,7 @@
           (reference "K37") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K37") (unit 1)
         )
@@ -7726,7 +7726,7 @@
     (property "Value" "WS2812C" (at 251.46 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 250.19 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 250.19 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 251.46 125.73 0)
@@ -7745,7 +7745,7 @@
           (reference "LD13") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD13") (unit 1)
         )
@@ -7762,7 +7762,7 @@
     (property "Value" "WS2812C" (at 139.7 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 140.97 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 140.97 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 139.7 121.92 0)
@@ -7781,7 +7781,7 @@
           (reference "LD22") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD22") (unit 1)
         )
@@ -7798,7 +7798,7 @@
     (property "Value" "WS2812C" (at 129.54 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 128.27 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 128.27 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 129.54 125.73 0)
@@ -7817,7 +7817,7 @@
           (reference "LD5") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD5") (unit 1)
         )
@@ -7834,7 +7834,7 @@
     (property "Value" "WS2812C" (at 205.74 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 204.47 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 204.47 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 205.74 167.005 0)
@@ -7853,7 +7853,7 @@
           (reference "LD10") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD42") (unit 1)
         )
@@ -7870,7 +7870,7 @@
     (property "Value" "Keyswitch" (at 268.2494 77.0128 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 265.43 81.28 0)
+    (property "Footprint" "EDI:MX-Choc" (at 265.43 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 265.43 81.28 0)
@@ -7884,7 +7884,7 @@
           (reference "K61") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K61") (unit 1)
         )
@@ -7901,7 +7901,7 @@
     (property "Value" "Keyswitch" (at 249.1994 60.5028 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 246.38 64.77 0)
+    (property "Footprint" "EDI:MX-Choc" (at 246.38 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 246.38 64.77 0)
@@ -7915,7 +7915,7 @@
           (reference "K44") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K44") (unit 1)
         )
@@ -7949,7 +7949,7 @@
           (reference "D37") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D37") (unit 1)
         )
@@ -7983,7 +7983,7 @@
           (reference "LC8") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC40") (unit 1)
         )
@@ -8017,7 +8017,7 @@
           (reference "D49") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D49") (unit 1)
         )
@@ -8051,7 +8051,7 @@
           (reference "D61") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D61") (unit 1)
         )
@@ -8068,7 +8068,7 @@
     (property "Value" "Keyswitch" (at 172.9994 30.0228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 170.18 34.29 0)
+    (property "Footprint" "EDI:MX-Choc" (at 170.18 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 170.18 34.29 0)
@@ -8082,7 +8082,7 @@
           (reference "K8") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K8") (unit 1)
         )
@@ -8099,7 +8099,7 @@
     (property "Value" "Keyswitch" (at 211.0994 60.5028 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 208.28 64.77 0)
+    (property "Footprint" "EDI:MX-Choc" (at 208.28 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 208.28 64.77 0)
@@ -8113,7 +8113,7 @@
           (reference "K42") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K42") (unit 1)
         )
@@ -8130,7 +8130,7 @@
     (property "Value" "WS2812C" (at 154.94 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 156.21 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 156.21 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 154.94 163.195 0)
@@ -8149,7 +8149,7 @@
           (reference "LD23") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD55") (unit 1)
         )
@@ -8183,7 +8183,7 @@
           (reference "LC29") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC61") (unit 1)
         )
@@ -8217,7 +8217,7 @@
           (reference "LC24") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC56") (unit 1)
         )
@@ -8251,7 +8251,7 @@
           (reference "LC27") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC27") (unit 1)
         )
@@ -8285,7 +8285,7 @@
           (reference "LC12") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC12") (unit 1)
         )
@@ -8302,7 +8302,7 @@
     (property "Value" "Keyswitch" (at 134.8994 45.2628 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 132.08 49.53 0)
+    (property "Footprint" "EDI:MX-Choc" (at 132.08 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 132.08 49.53 0)
@@ -8316,7 +8316,7 @@
           (reference "K22") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K22") (unit 1)
         )
@@ -8350,7 +8350,7 @@
           (reference "LC16") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC16") (unit 1)
         )
@@ -8367,7 +8367,7 @@
     (property "Value" "WS2812C" (at 160.02 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 158.75 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 158.75 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 160.02 125.73 0)
@@ -8386,7 +8386,7 @@
           (reference "LD7") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD7") (unit 1)
         )
@@ -8403,7 +8403,7 @@
     (property "Value" "WS2812C" (at 129.54 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 128.27 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 128.27 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 129.54 167.005 0)
@@ -8422,7 +8422,7 @@
           (reference "LD5") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD37") (unit 1)
         )
@@ -8439,7 +8439,7 @@
     (property "Value" "WS2812C" (at 200.66 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 201.93 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 201.93 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 200.66 163.195 0)
@@ -8458,7 +8458,7 @@
           (reference "LD26") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD58") (unit 1)
         )
@@ -8492,7 +8492,7 @@
           (reference "LC14") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC14") (unit 1)
         )
@@ -8509,7 +8509,7 @@
     (property "Value" "WS2812C" (at 266.7 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 265.43 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 265.43 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 266.7 167.005 0)
@@ -8528,7 +8528,7 @@
           (reference "LD14") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD46") (unit 1)
         )
@@ -8545,7 +8545,7 @@
     (property "Value" "WS2812C" (at 281.94 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 280.67 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 280.67 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 281.94 167.005 0)
@@ -8564,7 +8564,7 @@
           (reference "LD15") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD47") (unit 1)
         )
@@ -8581,7 +8581,7 @@
     (property "Value" "WS2812C" (at 99.06 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 97.79 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 97.79 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 99.06 125.73 0)
@@ -8600,7 +8600,7 @@
           (reference "LD3") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD3") (unit 1)
         )
@@ -8634,7 +8634,7 @@
           (reference "LC15") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC15") (unit 1)
         )
@@ -8651,7 +8651,7 @@
     (property "Value" "WS2812C" (at 109.22 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 110.49 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 110.49 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 109.22 163.195 0)
@@ -8670,7 +8670,7 @@
           (reference "LD20") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD52") (unit 1)
         )
@@ -8704,7 +8704,7 @@
           (reference "LC11") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC11") (unit 1)
         )
@@ -8738,7 +8738,7 @@
           (reference "D51") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D51") (unit 1)
         )
@@ -8772,7 +8772,7 @@
           (reference "LC20") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC20") (unit 1)
         )
@@ -8789,7 +8789,7 @@
     (property "Value" "WS2812C" (at 220.98 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 219.71 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 219.71 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 220.98 125.73 0)
@@ -8808,7 +8808,7 @@
           (reference "LD11") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD11") (unit 1)
         )
@@ -8825,7 +8825,7 @@
     (property "Value" "WS2812C" (at 185.42 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 186.69 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 186.69 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 185.42 163.195 0)
@@ -8844,7 +8844,7 @@
           (reference "LD25") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD57") (unit 1)
         )
@@ -8861,7 +8861,7 @@
     (property "Value" "Keyswitch" (at 192.0494 77.0128 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 189.23 81.28 0)
+    (property "Footprint" "EDI:MX-Choc" (at 189.23 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 189.23 81.28 0)
@@ -8875,7 +8875,7 @@
           (reference "K57") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K57") (unit 1)
         )
@@ -8909,7 +8909,7 @@
           (reference "D59") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D59") (unit 1)
         )
@@ -8943,7 +8943,7 @@
           (reference "LC19") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC19") (unit 1)
         )
@@ -8960,7 +8960,7 @@
     (property "Value" "WS2812C" (at 139.7 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 140.97 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 140.97 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 139.7 163.195 0)
@@ -8979,7 +8979,7 @@
           (reference "LD22") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD54") (unit 1)
         )
@@ -8996,7 +8996,7 @@
     (property "Value" "WS2812C" (at 109.22 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 110.49 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 110.49 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 109.22 121.92 0)
@@ -9015,7 +9015,7 @@
           (reference "LD20") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD20") (unit 1)
         )
@@ -9049,7 +9049,7 @@
           (reference "LC29") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC29") (unit 1)
         )
@@ -9083,7 +9083,7 @@
           (reference "D42") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D42") (unit 1)
         )
@@ -9100,7 +9100,7 @@
     (property "Value" "WS2812C" (at 261.62 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 262.89 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 262.89 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 261.62 163.195 0)
@@ -9119,7 +9119,7 @@
           (reference "LD30") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD62") (unit 1)
         )
@@ -9136,7 +9136,7 @@
     (property "Value" "Keyswitch" (at 153.9494 45.2628 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 151.13 49.53 0)
+    (property "Footprint" "EDI:MX-Choc" (at 151.13 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 151.13 49.53 0)
@@ -9150,7 +9150,7 @@
           (reference "K23") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K23") (unit 1)
         )
@@ -9184,7 +9184,7 @@
           (reference "LC25") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC57") (unit 1)
         )
@@ -9218,7 +9218,7 @@
           (reference "LC1") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC33") (unit 1)
         )
@@ -9235,7 +9235,7 @@
     (property "Value" "Keyswitch" (at 325.3994 60.5028 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 322.58 64.77 0)
+    (property "Footprint" "EDI:MX-Choc" (at 322.58 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 322.58 64.77 0)
@@ -9249,7 +9249,7 @@
           (reference "K48") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K48") (unit 1)
         )
@@ -9266,7 +9266,7 @@
     (property "Value" "Keyswitch" (at 153.9494 77.0128 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 151.13 81.28 0)
+    (property "Footprint" "EDI:MX-Choc" (at 151.13 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 151.13 81.28 0)
@@ -9280,7 +9280,7 @@
           (reference "K55") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K55") (unit 1)
         )
@@ -9297,7 +9297,7 @@
     (property "Value" "Keyswitch" (at 172.9994 77.0128 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 170.18 81.28 0)
+    (property "Footprint" "EDI:MX-Choc" (at 170.18 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 170.18 81.28 0)
@@ -9311,7 +9311,7 @@
           (reference "K56") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K56") (unit 1)
         )
@@ -9328,7 +9328,7 @@
     (property "Value" "Keyswitch" (at 230.1494 77.0128 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 227.33 81.28 0)
+    (property "Footprint" "EDI:MX-Choc" (at 227.33 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 227.33 81.28 0)
@@ -9342,7 +9342,7 @@
           (reference "K59") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K59") (unit 1)
         )
@@ -9359,7 +9359,7 @@
     (property "Value" "Keyswitch" (at 96.7994 60.5028 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 93.98 64.77 0)
+    (property "Footprint" "EDI:MX-Choc" (at 93.98 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 93.98 64.77 0)
@@ -9373,7 +9373,7 @@
           (reference "K36") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K36") (unit 1)
         )
@@ -9390,7 +9390,7 @@
     (property "Value" "WS2812C" (at 170.18 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 171.45 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 171.45 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 170.18 121.92 0)
@@ -9409,7 +9409,7 @@
           (reference "LD24") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD24") (unit 1)
         )
@@ -9443,7 +9443,7 @@
           (reference "D24") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D24") (unit 1)
         )
@@ -9460,7 +9460,7 @@
     (property "Value" "WS2812C" (at 63.5 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 64.77 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 64.77 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 63.5 121.92 0)
@@ -9479,7 +9479,7 @@
           (reference "LD17") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD17") (unit 1)
         )
@@ -9513,7 +9513,7 @@
           (reference "D52") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D52") (unit 1)
         )
@@ -9530,7 +9530,7 @@
     (property "Value" "WS2812C" (at 78.74 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 80.01 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 80.01 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 78.74 121.92 0)
@@ -9549,7 +9549,7 @@
           (reference "LD18") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD18") (unit 1)
         )
@@ -9583,7 +9583,7 @@
           (reference "LC22") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC54") (unit 1)
         )
@@ -9617,7 +9617,7 @@
           (reference "LC19") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC51") (unit 1)
         )
@@ -9651,7 +9651,7 @@
           (reference "D64") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D64") (unit 1)
         )
@@ -9685,7 +9685,7 @@
           (reference "D29") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D29") (unit 1)
         )
@@ -9719,7 +9719,7 @@
           (reference "LC3") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC3") (unit 1)
         )
@@ -9753,7 +9753,7 @@
           (reference "D13") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D13") (unit 1)
         )
@@ -9770,7 +9770,7 @@
     (property "Value" "WS2812C" (at 246.38 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 247.65 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 247.65 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 246.38 121.92 0)
@@ -9789,7 +9789,7 @@
           (reference "LD29") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD29") (unit 1)
         )
@@ -9806,7 +9806,7 @@
     (property "Value" "WS2812C" (at 281.94 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 280.67 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 280.67 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 281.94 125.73 0)
@@ -9825,7 +9825,7 @@
           (reference "LD15") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD15") (unit 1)
         )
@@ -9842,7 +9842,7 @@
     (property "Value" "Keyswitch" (at 134.8994 60.5028 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 132.08 64.77 0)
+    (property "Footprint" "EDI:MX-Choc" (at 132.08 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 132.08 64.77 0)
@@ -9856,7 +9856,7 @@
           (reference "K38") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K38") (unit 1)
         )
@@ -9890,7 +9890,7 @@
           (reference "D19") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D19") (unit 1)
         )
@@ -9924,7 +9924,7 @@
           (reference "LC13") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC45") (unit 1)
         )
@@ -9941,7 +9941,7 @@
     (property "Value" "WS2812C" (at 124.46 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 125.73 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 125.73 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 124.46 121.92 0)
@@ -9960,7 +9960,7 @@
           (reference "LD21") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD21") (unit 1)
         )
@@ -9977,7 +9977,7 @@
     (property "Value" "Keyswitch" (at 39.6494 60.5028 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 36.83 64.77 0)
+    (property "Footprint" "EDI:MX-Choc" (at 36.83 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 36.83 64.77 0)
@@ -9991,7 +9991,7 @@
           (reference "K33") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K33") (unit 1)
         )
@@ -10025,7 +10025,7 @@
           (reference "LC10") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC42") (unit 1)
         )
@@ -10042,7 +10042,7 @@
     (property "Value" "Keyswitch" (at 249.1994 77.0128 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 246.38 81.28 0)
+    (property "Footprint" "EDI:MX-Choc" (at 246.38 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 246.38 81.28 0)
@@ -10056,7 +10056,7 @@
           (reference "K60") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K60") (unit 1)
         )
@@ -10073,7 +10073,7 @@
     (property "Value" "WS2812C" (at 144.78 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 143.51 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 143.51 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 144.78 167.005 0)
@@ -10092,7 +10092,7 @@
           (reference "LD6") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD38") (unit 1)
         )
@@ -10109,7 +10109,7 @@
     (property "Value" "Keyswitch" (at 325.3994 77.0128 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 322.58 81.28 0)
+    (property "Footprint" "EDI:MX-Choc" (at 322.58 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 322.58 81.28 0)
@@ -10123,7 +10123,7 @@
           (reference "K64") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K64") (unit 1)
         )
@@ -10140,7 +10140,7 @@
     (property "Value" "Keyswitch" (at 230.1494 30.0228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 227.33 34.29 0)
+    (property "Footprint" "EDI:MX-Choc" (at 227.33 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 227.33 34.29 0)
@@ -10154,7 +10154,7 @@
           (reference "K11") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K11") (unit 1)
         )
@@ -10188,7 +10188,7 @@
           (reference "D25") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D25") (unit 1)
         )
@@ -10222,7 +10222,7 @@
           (reference "D54") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D54") (unit 1)
         )
@@ -10256,7 +10256,7 @@
           (reference "D6") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D6") (unit 1)
         )
@@ -10290,7 +10290,7 @@
           (reference "LC9") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC41") (unit 1)
         )
@@ -10324,7 +10324,7 @@
           (reference "LC14") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC46") (unit 1)
         )
@@ -10341,7 +10341,7 @@
     (property "Value" "Keyswitch" (at 287.2994 30.0228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 284.48 34.29 0)
+    (property "Footprint" "EDI:MX-Choc" (at 284.48 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 284.48 34.29 0)
@@ -10355,7 +10355,7 @@
           (reference "K14") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K14") (unit 1)
         )
@@ -10372,7 +10372,7 @@
     (property "Value" "Keyswitch" (at 39.6494 77.0128 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 36.83 81.28 0)
+    (property "Footprint" "EDI:MX-Choc" (at 36.83 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 36.83 81.28 0)
@@ -10386,7 +10386,7 @@
           (reference "K49") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K49") (unit 1)
         )
@@ -10403,7 +10403,7 @@
     (property "Value" "WS2812C" (at 63.5 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 64.77 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 64.77 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 63.5 163.195 0)
@@ -10422,7 +10422,7 @@
           (reference "LD17") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD49") (unit 1)
         )
@@ -10439,7 +10439,7 @@
     (property "Value" "Keyswitch" (at 115.8494 77.0128 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 113.03 81.28 0)
+    (property "Footprint" "EDI:MX-Choc" (at 113.03 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 113.03 81.28 0)
@@ -10453,7 +10453,7 @@
           (reference "K53") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K53") (unit 1)
         )
@@ -10470,7 +10470,7 @@
     (property "Value" "Keyswitch" (at 134.8994 77.0128 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 132.08 81.28 0)
+    (property "Footprint" "EDI:MX-Choc" (at 132.08 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 132.08 81.28 0)
@@ -10484,7 +10484,7 @@
           (reference "K54") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K54") (unit 1)
         )
@@ -10518,7 +10518,7 @@
           (reference "LC18") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC18") (unit 1)
         )
@@ -10535,7 +10535,7 @@
     (property "Value" "WS2812C" (at 175.26 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 173.99 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 173.99 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 175.26 167.005 0)
@@ -10554,7 +10554,7 @@
           (reference "LD8") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD40") (unit 1)
         )
@@ -10588,7 +10588,7 @@
           (reference "LC6") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC6") (unit 1)
         )
@@ -10605,7 +10605,7 @@
     (property "Value" "Keyswitch" (at 306.3494 60.5028 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 303.53 64.77 0)
+    (property "Footprint" "EDI:MX-Choc" (at 303.53 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 303.53 64.77 0)
@@ -10619,7 +10619,7 @@
           (reference "K47") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K47") (unit 1)
         )
@@ -10636,7 +10636,7 @@
     (property "Value" "Keyswitch" (at 211.0994 93.5228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 208.28 97.79 0)
+    (property "Footprint" "EDI:MX-Choc" (at 208.28 97.79 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 208.28 97.79 0)
@@ -10650,7 +10650,7 @@
           (reference "K58.1") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K58.1") (unit 1)
         )
@@ -10667,7 +10667,7 @@
     (property "Value" "WS2812C" (at 200.66 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 201.93 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 201.93 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 200.66 121.92 0)
@@ -10686,7 +10686,7 @@
           (reference "LD26") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD26") (unit 1)
         )
@@ -10720,7 +10720,7 @@
           (reference "D58") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D58") (unit 1)
         )
@@ -10754,7 +10754,7 @@
           (reference "LC24") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC24") (unit 1)
         )
@@ -10788,7 +10788,7 @@
           (reference "LC21") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC21") (unit 1)
         )
@@ -10805,7 +10805,7 @@
     (property "Value" "Keyswitch" (at 96.7994 77.0128 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 93.98 81.28 0)
+    (property "Footprint" "EDI:MX-Choc" (at 93.98 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 93.98 81.28 0)
@@ -10819,7 +10819,7 @@
           (reference "K52") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K52") (unit 1)
         )
@@ -10853,7 +10853,7 @@
           (reference "LC3") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC35") (unit 1)
         )
@@ -10887,7 +10887,7 @@
           (reference "LC4") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC4") (unit 1)
         )
@@ -10904,7 +10904,7 @@
     (property "Value" "WS2812C" (at 185.42 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 186.69 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 186.69 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 185.42 121.92 0)
@@ -10923,7 +10923,7 @@
           (reference "LD25") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD25") (unit 1)
         )
@@ -10940,7 +10940,7 @@
     (property "Value" "Keyswitch" (at 96.7994 30.0228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 93.98 34.29 0)
+    (property "Footprint" "EDI:MX-Choc" (at 93.98 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 93.98 34.29 0)
@@ -10954,7 +10954,7 @@
           (reference "K4") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K4") (unit 1)
         )
@@ -10988,7 +10988,7 @@
           (reference "D28") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D28") (unit 1)
         )
@@ -11022,7 +11022,7 @@
           (reference "LC5") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC5") (unit 1)
         )
@@ -11056,7 +11056,7 @@
           (reference "LC7") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC7") (unit 1)
         )
@@ -11073,7 +11073,7 @@
     (property "Value" "WS2812C" (at 261.62 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 262.89 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 262.89 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 261.62 121.92 0)
@@ -11092,7 +11092,7 @@
           (reference "LD30") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD30") (unit 1)
         )
@@ -11109,7 +11109,7 @@
     (property "Value" "WS2812C" (at 154.94 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 156.21 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 156.21 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 154.94 121.92 0)
@@ -11128,7 +11128,7 @@
           (reference "LD23") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD23") (unit 1)
         )
@@ -11145,7 +11145,7 @@
     (property "Value" "WS2812C" (at 231.14 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 232.41 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 232.41 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 231.14 121.92 0)
@@ -11164,7 +11164,7 @@
           (reference "LD28") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD28") (unit 1)
         )
@@ -11181,7 +11181,7 @@
     (property "Value" "Keyswitch" (at 134.8994 93.5228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 132.08 97.79 0)
+    (property "Footprint" "EDI:MX-Choc" (at 132.08 97.79 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 132.08 97.79 0)
@@ -11195,7 +11195,7 @@
           (reference "K54.1") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K54.1") (unit 1)
         )
@@ -11212,7 +11212,7 @@
     (property "Value" "Keyswitch" (at 134.8994 30.0228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 132.08 34.29 0)
+    (property "Footprint" "EDI:MX-Choc" (at 132.08 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 132.08 34.29 0)
@@ -11226,7 +11226,7 @@
           (reference "K6") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K6") (unit 1)
         )
@@ -11243,7 +11243,7 @@
     (property "Value" "Keyswitch" (at 58.6994 30.0228 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 55.88 34.29 0)
+    (property "Footprint" "EDI:MX-Choc" (at 55.88 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 55.88 34.29 0)
@@ -11257,7 +11257,7 @@
           (reference "K2") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K2") (unit 1)
         )
@@ -11274,7 +11274,7 @@
     (property "Value" "WS2812C" (at 170.18 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 171.45 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 171.45 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 170.18 163.195 0)
@@ -11293,7 +11293,7 @@
           (reference "LD24") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD56") (unit 1)
         )
@@ -11327,7 +11327,7 @@
           (reference "LC1") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC1") (unit 1)
         )
@@ -11344,7 +11344,7 @@
     (property "Value" "Keyswitch" (at 230.1494 60.5028 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 227.33 64.77 0)
+    (property "Footprint" "EDI:MX-Choc" (at 227.33 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 227.33 64.77 0)
@@ -11358,7 +11358,7 @@
           (reference "K43") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K43") (unit 1)
         )
@@ -11375,7 +11375,7 @@
     (property "Value" "WS2812C" (at 297.18 122.555 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 295.91 123.825 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 295.91 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 297.18 125.73 0)
@@ -11394,7 +11394,7 @@
           (reference "LD16") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD16") (unit 1)
         )
@@ -11428,7 +11428,7 @@
           (reference "D18") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D18") (unit 1)
         )
@@ -11462,7 +11462,7 @@
           (reference "D21") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D21") (unit 1)
         )
@@ -11496,7 +11496,7 @@
           (reference "LC5") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC37") (unit 1)
         )
@@ -11530,7 +11530,7 @@
           (reference "D62") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D62") (unit 1)
         )
@@ -11547,7 +11547,7 @@
     (property "Value" "WS2812C" (at 215.9 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 217.17 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 217.17 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 215.9 163.195 0)
@@ -11566,7 +11566,7 @@
           (reference "LD27") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD59") (unit 1)
         )
@@ -11583,7 +11583,7 @@
     (property "Value" "WS2812C" (at 220.98 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EDI:WS2812B_2020" (at 219.71 165.1 0)
+    (property "Footprint" "EDI:WS2812C_2020" (at 219.71 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 220.98 167.005 0)
@@ -11602,7 +11602,7 @@
           (reference "LD11") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LD43") (unit 1)
         )
@@ -11636,7 +11636,7 @@
           (reference "D55") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D55") (unit 1)
         )
@@ -11653,7 +11653,7 @@
     (property "Value" "Keyswitch" (at 172.9994 60.5028 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 170.18 64.77 0)
+    (property "Footprint" "EDI:MX-Choc" (at 170.18 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 170.18 64.77 0)
@@ -11667,7 +11667,7 @@
           (reference "K40") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K40") (unit 1)
         )
@@ -11701,7 +11701,7 @@
           (reference "D26") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "D26") (unit 1)
         )
@@ -11735,7 +11735,7 @@
           (reference "LC8") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "LC8") (unit 1)
         )
@@ -11752,7 +11752,7 @@
     (property "Value" "Keyswitch" (at 192.0494 45.2628 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "EDI:SW_PG1350" (at 189.23 49.53 0)
+    (property "Footprint" "EDI:MX-Choc" (at 189.23 49.53 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 189.23 49.53 0)
@@ -11766,7 +11766,7 @@
           (reference "K25") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7/d11e887e-141e-4a35-8ed8-fe9106a38088"
           (reference "K25") (unit 1)
         )

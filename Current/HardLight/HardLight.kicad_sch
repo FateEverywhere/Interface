@@ -3424,7 +3424,7 @@
     )
     (pin "1" (uuid 57a07bfe-e0c8-4178-9efc-c658d0aa0c5b))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0102") (unit 1)
         )
@@ -3453,7 +3453,7 @@
     (pin "1" (uuid 5f4676ff-2597-415d-a32e-98d53038f432))
     (pin "2" (uuid ea7f95ca-1368-4ccc-b3c5-17a85c05a2dd))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "C1") (unit 1)
         )
@@ -3482,7 +3482,7 @@
     (pin "1" (uuid 471f517c-6d52-459f-9d7a-aedf176fc9e0))
     (pin "2" (uuid bc007755-47dc-4b01-a9a3-8f34e8741895))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "C3") (unit 1)
         )
@@ -3511,7 +3511,7 @@
     (pin "1" (uuid ffe6d5f3-f9a5-48a9-88db-d2d7822b944f))
     (pin "2" (uuid 77f65cef-2bce-414e-8b99-31f9cd0b59b0))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "C4") (unit 1)
         )
@@ -3536,7 +3536,7 @@
     )
     (pin "1" (uuid 666dc23c-d707-448f-841d-377a6e08a250))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0104") (unit 1)
         )
@@ -3580,7 +3580,7 @@
     (pin "B9" (uuid 52da99c6-c348-4007-8828-51a963a2879f))
     (pin "S1" (uuid e2743b78-cc59-458c-8fb0-4238f348a49f))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "J0") (unit 1)
         )
@@ -3605,7 +3605,7 @@
     )
     (pin "1" (uuid a65cad0c-0ef1-4ea5-a965-4eae7ac1f6af))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0108") (unit 1)
         )
@@ -3630,7 +3630,7 @@
     )
     (pin "1" (uuid 18a9dea8-caa6-40a3-962a-7699d9146e17))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0109") (unit 1)
         )
@@ -3654,7 +3654,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "H1") (unit 1)
         )
@@ -3678,7 +3678,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "H2") (unit 1)
         )
@@ -3702,7 +3702,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "H3") (unit 1)
         )
@@ -3726,7 +3726,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "H4") (unit 1)
         )
@@ -3750,7 +3750,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "H5") (unit 1)
         )
@@ -3774,7 +3774,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "H6") (unit 1)
         )
@@ -3803,7 +3803,7 @@
     (pin "1" (uuid 3834130c-65dd-40f7-94b2-4c0e44ecd63c))
     (pin "2" (uuid 2f9c4e12-0101-4393-8a50-030440ea6a07))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "C5") (unit 1)
         )
@@ -3832,7 +3832,7 @@
     (pin "1" (uuid d76ec66c-d0c1-4040-8259-8685c076073a))
     (pin "2" (uuid fb7b20d7-70ea-48e6-baf1-01a0d3c92377))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "RC2") (unit 1)
         )
@@ -3861,7 +3861,7 @@
     (pin "1" (uuid 86c73e16-9c05-4385-b59b-206056f7ac90))
     (pin "2" (uuid b034f82f-3ce9-4423-89ad-7ecf03d348d0))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "RC1") (unit 1)
         )
@@ -3886,7 +3886,7 @@
     )
     (pin "1" (uuid 1509b6e6-a266-4bd3-bef6-1700f12ad930))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0113") (unit 1)
         )
@@ -3911,7 +3911,7 @@
     )
     (pin "1" (uuid e5e10b7e-d4e1-472a-acd2-b7ba1a3292f0))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0103") (unit 1)
         )
@@ -3940,7 +3940,7 @@
     (pin "1" (uuid e0937f55-5a21-4b1f-aa30-aba62e4969e5))
     (pin "2" (uuid e44b0081-5f25-4984-8fb5-ea876fb2fc1c))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "TX0") (unit 1)
         )
@@ -3965,7 +3965,7 @@
     )
     (pin "1" (uuid 0f99d31f-3e61-45ba-a78c-4a282f861613))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0115") (unit 1)
         )
@@ -3994,7 +3994,7 @@
     (pin "1" (uuid f21d4058-0da2-4512-b5f5-f906032f560a))
     (pin "2" (uuid cb9ac0e7-73b9-4ed2-8689-9778cfd89978))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "TX1") (unit 1)
         )
@@ -4019,7 +4019,7 @@
     )
     (pin "1" (uuid 411f21c0-dcce-4bff-ac0e-7c5571730a65))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0119") (unit 1)
         )
@@ -4048,7 +4048,7 @@
     (pin "1" (uuid b6ceb85d-46f8-42e1-9c68-672660fbaf7c))
     (pin "2" (uuid 198642f2-8db4-475b-ac24-9da65c994a3a))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "F0") (unit 1)
         )
@@ -4073,7 +4073,7 @@
     )
     (pin "1" (uuid 4f53da47-344e-4d5e-b9a0-9e3886d7c2e3))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0111") (unit 1)
         )
@@ -4102,7 +4102,7 @@
     (pin "1" (uuid c9084fe3-40f1-4f21-96b1-0c92f32c27e9))
     (pin "2" (uuid fc77608e-c722-426c-bee1-66ddfd47cf55))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "C7") (unit 1)
         )
@@ -4134,7 +4134,7 @@
     (pin "4" (uuid b60fe886-a720-4b5e-9b65-76e197c4e7fe))
     (pin "MP" (uuid 19884641-534d-430d-bbfa-9f3d08745673))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "J1") (unit 1)
         )
@@ -4159,7 +4159,7 @@
     )
     (pin "1" (uuid 216ca7bd-3aca-4f51-86ff-16347f5fa475))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR09") (unit 1)
         )
@@ -4179,7 +4179,7 @@
     (property "Footprint" "EDI:Passive_0402_1005Metric" (at 114.935 192.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 114.935 192.405 0)
+    (property "Datasheet" "C3845593" (at 114.935 192.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C415703" (at 114.935 192.405 0)
@@ -4193,7 +4193,7 @@
           (reference "CP15") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CP16") (unit 1)
         )
@@ -4213,7 +4213,7 @@
     (property "Footprint" "EDI:Passive_0402_1005Metric" (at 35.56 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 35.56 190.5 0)
+    (property "Datasheet" "C3845593" (at 35.56 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C415703" (at 35.56 190.5 0)
@@ -4227,7 +4227,7 @@
           (reference "CP4") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CP11") (unit 1)
         )
@@ -4247,7 +4247,7 @@
     (property "Footprint" "EDI:Passive_0402_1005Metric" (at 99.695 192.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 99.695 192.405 0)
+    (property "Datasheet" "C3845593" (at 99.695 192.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C415703" (at 99.695 192.405 0)
@@ -4261,7 +4261,7 @@
           (reference "CP17") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CP14") (unit 1)
         )
@@ -4291,7 +4291,7 @@
     (pin "2" (uuid 71e1a595-9cf3-4047-8ef3-5e8c37ca3a8e))
     (pin "3" (uuid b700575f-c677-4e64-81ca-d0f423d78591))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "Y0") (unit 1)
         )
@@ -4316,7 +4316,7 @@
     )
     (pin "1" (uuid 10ba9788-9dfa-44e5-95fa-4b3150610b5d))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR03") (unit 1)
         )
@@ -4346,7 +4346,7 @@
           (reference "#PWR0106") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR06") (unit 1)
         )
@@ -4371,7 +4371,7 @@
     )
     (pin "1" (uuid 8b0a9dd7-a953-4b69-b08b-7c3519d04fe8))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0127") (unit 1)
         )
@@ -4401,7 +4401,7 @@
           (reference "#PWR0105") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR08") (unit 1)
         )
@@ -4435,7 +4435,7 @@
           (reference "CP1") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CP1") (unit 1)
         )
@@ -4464,7 +4464,7 @@
     (pin "1" (uuid c422cda9-2db2-4a6c-ad53-1b67c680bebd))
     (pin "2" (uuid aedb6c0e-4456-4433-9345-82d23ae243f0))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "RD0") (unit 1)
         )
@@ -4489,7 +4489,7 @@
     )
     (pin "1" (uuid 014c1ada-bc35-4262-a0d0-472a792e896a))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0101") (unit 1)
         )
@@ -4509,7 +4509,7 @@
     (property "Footprint" "EDI:Passive_0402_1005Metric" (at 46.99 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 46.99 185.42 0)
+    (property "Datasheet" "C3845593" (at 46.99 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C415703" (at 46.99 185.42 0)
@@ -4523,7 +4523,7 @@
           (reference "CP8") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CP4") (unit 1)
         )
@@ -4552,7 +4552,7 @@
     (pin "1" (uuid 65c0af8a-869a-4a00-a966-a25be0dab800))
     (pin "2" (uuid 467f215c-36f1-45a9-8a48-76ed02f818f5))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "C11") (unit 1)
         )
@@ -4577,7 +4577,7 @@
     )
     (pin "1" (uuid b6e5df32-a236-4cf7-9b25-64f1632637f8))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0124") (unit 1)
         )
@@ -4602,7 +4602,7 @@
     )
     (pin "1" (uuid cfb4f996-6ff8-406d-b4e5-a8958084f4d8))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0112") (unit 1)
         )
@@ -4635,7 +4635,7 @@
     (pin "5" (uuid 86d35f47-300a-42fd-bfa5-14d244e39187))
     (pin "6" (uuid dc4176ff-47de-4b94-b1a0-74c034375f1f))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "U2") (unit 1)
         )
@@ -4664,7 +4664,7 @@
     (pin "1" (uuid f09af54a-d7e0-4bf5-8543-f7e9d9fef570))
     (pin "2" (uuid 8bb287f7-d5f6-4aa2-bb04-1117ab9ae6d1))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "S1") (unit 1)
         )
@@ -4684,7 +4684,7 @@
     (property "Footprint" "EDI:Passive_0402_1005Metric" (at 31.75 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 31.75 185.42 0)
+    (property "Datasheet" "C3845593" (at 31.75 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C415703" (at 31.75 185.42 0)
@@ -4698,7 +4698,7 @@
           (reference "CP6") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CP2") (unit 1)
         )
@@ -4723,7 +4723,7 @@
     )
     (pin "1" (uuid 9bdeec83-97f7-497d-897d-52a0a3ada256))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0120") (unit 1)
         )
@@ -4752,7 +4752,7 @@
     (pin "1" (uuid 6445a89c-cfcf-452b-bcaa-5312b947c1b1))
     (pin "2" (uuid d5b42f58-2bdd-4357-92cf-21845bc3f16a))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "C9") (unit 1)
         )
@@ -4790,7 +4790,7 @@
           (reference "U1") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "U1") (unit 1)
         )
@@ -4824,7 +4824,7 @@
           (reference "RP1") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "RP1") (unit 1)
         )
@@ -4844,7 +4844,7 @@
     (property "Footprint" "EDI:Passive_0402_1005Metric" (at 27.94 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 27.94 190.5 0)
+    (property "Datasheet" "C3845593" (at 27.94 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C415703" (at 27.94 190.5 0)
@@ -4858,7 +4858,7 @@
           (reference "CP5") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CP10") (unit 1)
         )
@@ -4887,7 +4887,7 @@
     (pin "1" (uuid 9f98a13d-a2b0-4027-b9e9-6a7b5473f718))
     (pin "2" (uuid f161a0de-7f12-489c-8b57-9f9d9c37bb61))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "RF2") (unit 1)
         )
@@ -4912,7 +4912,7 @@
     )
     (pin "1" (uuid 01baf923-7c49-4f1e-a955-4792e0e7734e))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0118") (unit 1)
         )
@@ -4937,7 +4937,7 @@
     )
     (pin "1" (uuid 252d5f48-3268-4957-b9dd-e1fc93611647))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0122") (unit 1)
         )
@@ -4971,7 +4971,7 @@
           (reference "RP2") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "RP2") (unit 1)
         )
@@ -4996,7 +4996,7 @@
     )
     (pin "1" (uuid b4975cb8-f945-4d16-935a-83a6336d8727))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR04") (unit 1)
         )
@@ -5016,7 +5016,7 @@
     (property "Footprint" "EDI:Passive_0402_1005Metric" (at 111.76 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 111.76 187.325 0)
+    (property "Datasheet" "C3845593" (at 111.76 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C415703" (at 111.76 187.325 0)
@@ -5030,7 +5030,7 @@
           (reference "CP12") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CP8") (unit 1)
         )
@@ -5059,7 +5059,7 @@
     (pin "1" (uuid d934dabd-ab96-4f1f-bdb9-df152dd680b0))
     (pin "2" (uuid 4c6d3e81-bcff-4e8c-92d6-f63fc3ac6b61))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "RR1") (unit 1)
         )
@@ -5084,7 +5084,7 @@
     )
     (pin "1" (uuid 5f9b1201-a1a1-4145-b7c7-ffcb07d95a4b))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR010") (unit 1)
         )
@@ -5118,7 +5118,7 @@
           (reference "LP1") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "LP1") (unit 1)
         )
@@ -5138,7 +5138,7 @@
     (property "Footprint" "EDI:Passive_0402_1005Metric" (at 122.555 192.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 122.555 192.405 0)
+    (property "Datasheet" "C3845593" (at 122.555 192.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C415703" (at 122.555 192.405 0)
@@ -5152,7 +5152,7 @@
           (reference "CP14") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CP17") (unit 1)
         )
@@ -5181,7 +5181,7 @@
     (pin "1" (uuid a1a6a124-033e-49b9-8998-3b80d94cf5c5))
     (pin "2" (uuid c27e403b-cee2-451d-a9a5-e7c97b5c73f7))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "C6") (unit 1)
         )
@@ -5206,7 +5206,7 @@
     )
     (pin "1" (uuid 968a2d8e-f91b-4dc3-b08e-148b33a2007d))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0125") (unit 1)
         )
@@ -5231,7 +5231,7 @@
     )
     (pin "1" (uuid d7657071-0785-4370-9a07-ac7805416ee1))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0130") (unit 1)
         )
@@ -5256,7 +5256,7 @@
     )
     (pin "1" (uuid ada8390a-6408-4b8b-8cd1-cb97e8aa523a))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR014") (unit 1)
         )
@@ -5286,7 +5286,7 @@
           (reference "#PWR0107") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR02") (unit 1)
         )
@@ -5322,7 +5322,7 @@
     (pin "8" (uuid 0b6ac905-15c4-4223-9744-999581accc4c))
     (pin "9" (uuid 9ea8840a-0b82-405a-a097-01bc2a3a0597))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "U3") (unit 1)
         )
@@ -5342,7 +5342,7 @@
     (property "Footprint" "EDI:Passive_0402_1005Metric" (at 95.885 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 95.885 187.325 0)
+    (property "Datasheet" "C3845593" (at 95.885 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C415703" (at 95.885 187.325 0)
@@ -5356,7 +5356,7 @@
           (reference "CP10") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CP6") (unit 1)
         )
@@ -5376,7 +5376,7 @@
     (property "Footprint" "EDI:Passive_0402_1005Metric" (at 54.61 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 54.61 185.42 0)
+    (property "Datasheet" "C3845593" (at 54.61 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C415703" (at 54.61 185.42 0)
@@ -5390,7 +5390,7 @@
           (reference "CP9") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CP5") (unit 1)
         )
@@ -5415,7 +5415,7 @@
     )
     (pin "1" (uuid 3e8c3a50-2ba7-4d2b-a885-2ea74929c453))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0117") (unit 1)
         )
@@ -5440,7 +5440,7 @@
     )
     (pin "1" (uuid 1b317699-cd4e-46c4-b3f6-ee90d4e13250))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0131") (unit 1)
         )
@@ -5465,7 +5465,7 @@
     )
     (pin "1" (uuid faf0d0cd-d792-4a8f-96b0-132fe123e8ca))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0110") (unit 1)
         )
@@ -5490,7 +5490,7 @@
     )
     (pin "1" (uuid 79b4c78e-50ea-4ab0-9f5f-b2806838230a))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR011") (unit 1)
         )
@@ -5515,7 +5515,7 @@
     )
     (pin "1" (uuid ac7cf5a6-89ff-4166-9f2e-309e0e8fc5f6))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR05") (unit 1)
         )
@@ -5599,7 +5599,7 @@
     (pin "8" (uuid 42980def-59ff-4236-a9bd-4f3730b59907))
     (pin "9" (uuid 7b549478-ba80-4ee7-8e6d-4e7b14a7cdce))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "U0") (unit 1)
         )
@@ -5619,7 +5619,7 @@
     (property "Footprint" "EDI:Passive_0402_1005Metric" (at 50.8 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 50.8 190.5 0)
+    (property "Datasheet" "C3845593" (at 50.8 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C415703" (at 50.8 190.5 0)
@@ -5633,7 +5633,7 @@
           (reference "CP2") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CP13") (unit 1)
         )
@@ -5658,7 +5658,7 @@
     )
     (pin "1" (uuid d37bab9d-35da-42f8-8d88-9356c57b990c))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR013") (unit 1)
         )
@@ -5687,7 +5687,7 @@
     (pin "1" (uuid a8eb2e6c-dbfe-494a-b862-f2f9a91cabac))
     (pin "2" (uuid e5d0b555-529c-4e93-a684-da267d162a14))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "RX1") (unit 1)
         )
@@ -5707,7 +5707,7 @@
     (property "Footprint" "EDI:Passive_0402_1005Metric" (at 119.38 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 119.38 187.325 0)
+    (property "Datasheet" "C3845593" (at 119.38 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C415703" (at 119.38 187.325 0)
@@ -5721,7 +5721,7 @@
           (reference "CP13") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CP9") (unit 1)
         )
@@ -5741,7 +5741,7 @@
     (property "Footprint" "EDI:Passive_0402_1005Metric" (at 107.315 192.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 107.315 192.405 0)
+    (property "Datasheet" "C3845593" (at 107.315 192.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C415703" (at 107.315 192.405 0)
@@ -5755,7 +5755,7 @@
           (reference "CP16") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CP15") (unit 1)
         )
@@ -5784,7 +5784,7 @@
     (pin "1" (uuid 537de23f-0953-4910-9e05-9c3b7a46f9bb))
     (pin "2" (uuid 388a896a-0d05-46a0-9b9d-5993dc41345c))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "C10") (unit 1)
         )
@@ -5813,7 +5813,7 @@
     (pin "1" (uuid 798c2670-edae-4c64-aa79-e42eb0789ce8))
     (pin "2" (uuid 8afc5b6c-d25b-4009-80ae-7c12a7ec2592))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "C2") (unit 1)
         )
@@ -5838,7 +5838,7 @@
     )
     (pin "1" (uuid 9508eff7-fd54-41ac-91a5-25a342564e73))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR07") (unit 1)
         )
@@ -5867,7 +5867,7 @@
     (pin "1" (uuid 65ed6814-27f0-4a2e-a1f9-f708cfb0ad11))
     (pin "2" (uuid ef406fa0-d456-45bd-815a-e708afef14fa))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CF1") (unit 1)
         )
@@ -5887,7 +5887,7 @@
     (property "Footprint" "EDI:Passive_0402_1005Metric" (at 39.37 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 39.37 185.42 0)
+    (property "Datasheet" "C3845593" (at 39.37 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C415703" (at 39.37 185.42 0)
@@ -5901,7 +5901,7 @@
           (reference "CP7") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CP3") (unit 1)
         )
@@ -5925,7 +5925,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "H8") (unit 1)
         )
@@ -5950,7 +5950,7 @@
     )
     (pin "1" (uuid 03c55134-6d6b-4ed8-be94-2a5f564e2508))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0116") (unit 1)
         )
@@ -5970,7 +5970,7 @@
     (property "Footprint" "EDI:Passive_0402_1005Metric" (at 104.14 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 104.14 187.325 0)
+    (property "Datasheet" "C3845593" (at 104.14 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C415703" (at 104.14 187.325 0)
@@ -5984,7 +5984,7 @@
           (reference "CP11") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CP7") (unit 1)
         )
@@ -6009,7 +6009,7 @@
     )
     (pin "1" (uuid e3e6c834-5a83-4a78-99cf-e54d2359523e))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0121") (unit 1)
         )
@@ -6033,7 +6033,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "H7") (unit 1)
         )
@@ -6058,7 +6058,7 @@
     )
     (pin "1" (uuid 7582f3cd-84fc-413e-b998-49221fed8462))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0114") (unit 1)
         )
@@ -6087,7 +6087,7 @@
     (pin "1" (uuid 0bfe02da-2262-4530-87cf-dbd73c7bc76a))
     (pin "2" (uuid 84cbad1c-89e3-4cb6-a240-f1cf4e1b372e))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "RD1") (unit 1)
         )
@@ -6116,7 +6116,7 @@
     (pin "1" (uuid 1de0734b-0639-4669-abe1-2389069ccd39))
     (pin "2" (uuid 91321a10-6419-4446-b723-dc21fb8b6e52))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "C8") (unit 1)
         )
@@ -6133,7 +6133,7 @@
     (property "Value" "Expansion" (at 236.22 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" (at 233.045 154.305 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" (at 233.045 154.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 233.045 154.305 0)
@@ -6146,7 +6146,7 @@
     (pin "5" (uuid e0e5053a-6e4c-44a7-8b16-59401d46c83a))
     (pin "6" (uuid e3962751-cdba-4d24-904c-8ae78ac4fd84))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "J2") (unit 1)
         )
@@ -6171,7 +6171,7 @@
     )
     (pin "1" (uuid 033582ca-ff09-4e77-993b-9b994f4e80fc))
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "#PWR0123") (unit 1)
         )
@@ -6191,7 +6191,7 @@
     (property "Footprint" "EDI:Passive_0402_1005Metric" (at 43.18 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 43.18 190.5 0)
+    (property "Datasheet" "C3845593" (at 43.18 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C415703" (at 43.18 190.5 0)
@@ -6205,7 +6205,7 @@
           (reference "CP3") (unit 1)
         )
       )
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7"
           (reference "CP12") (unit 1)
         )
@@ -6224,7 +6224,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "QuicksilverStorm"
+      (project "HardLight"
         (path "/bd065eaf-e495-4837-bdb3-129934de1fc7" (page "2"))
       )
     )
