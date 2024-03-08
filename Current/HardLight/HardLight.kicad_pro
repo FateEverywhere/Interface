@@ -422,7 +422,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "QuicksilverStorm.kicad_pro",
+    "filename": "HardLight.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -484,7 +484,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "C:/Users/fate/Desktop/QSS0.step",
+      "step": "../../../../../Desktop/HL7.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
